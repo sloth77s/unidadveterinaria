@@ -1,0 +1,34 @@
+# Cloudflare Pages _redirects for clean URLs
+# This file handles clean URL routing for static HTML files
+
+# Root pages
+/index.html / 301
+/contacto-y-ubicacion.html /contacto-y-ubicacion 301
+/preguntas-frecuentes.html /preguntas-frecuentes 301
+/aviso-legal.html /aviso-legal 301
+/politica-de-privacidad.html /politica-de-privacidad 301
+/politica-de-cookies.html /politica-de-cookies 301
+
+# Servicios pages
+/servicios/cardiologia-veterinaria.html /servicios/cardiologia-veterinaria 301
+/servicios/citopatologia-veterinaria.html /servicios/citopatologia-veterinaria 301
+/servicios/dermatologia-veterinaria.html /servicios/dermatologia-veterinaria 301
+/servicios/gastroenterologia-veterinaria.html /servicios/gastroenterologia-veterinaria 301
+/servicios/medicina-interna-veterinaria.html /servicios/medicina-interna-veterinaria 301
+/servicios/nefrologia-veterinaria.html /servicios/nefrologia-veterinaria 301
+/servicios/neurologia-veterinaria.html /servicios/neurologia-veterinaria 301
+/servicios/nutricion-veterinaria.html /servicios/nutricion-veterinaria 301
+/servicios/oncologia-veterinaria.html /servicios/oncologia-veterinaria 301
+/servicios/ortopedia-veterinaria.html /servicios/ortopedia-veterinaria 301
+/servicios/radiologia-veterinaria.html /servicios/radiologia-veterinaria 301
+/servicios/dermatologia-veterinaria.html /servicios/dermatologia-veterinaria 301
+
+# Handle trailing slashes
+/servicios/ /servicios/ 200
+/servicios/* /servicios/:splat 301
+
+# Root
+/index.html / 301
+
+# SPA fallback (if needed)
+/* /index.html 200
