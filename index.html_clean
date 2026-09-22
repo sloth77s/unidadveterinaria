@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
     <meta name="theme-color" content="#0D3880">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unidad Veterinaria David Aguilar | Clínica de Especialidades en Villavicencio</title>
-  <meta name="description" content="Clínica veterinaria de alta complejidad y cuidados intensivos en Villavicencio, Meta.>
-  <meta name="keywords" content="Unidad Veterinaria David Aguilar, Dr. David Aguilar, Villavicencio, Meta, cardiología veterinaria, nefrología veterinaria, neurología veterinaria, citopatología veterinaria, cuidados intensivos veterinarios">
+  <title>Unidad Veterinaria David Aguilar | ClÃ­nica de Especialidades en Villavicencio</title>
+  <meta name="description" content="ClÃ­nica veterinaria de alta complejidad y cuidados intensivos en Villavicencio, Meta.>
+  <meta name="keywords" content="Unidad Veterinaria David Aguilar, Dr. David Aguilar, Villavicencio, Meta, cardiologÃ­a veterinaria, nefrologÃ­a veterinaria, neurologÃ­a veterinaria, citopatologÃ­a veterinaria, cuidados intensivos veterinarios">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://unidadveterinaria.com/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Unidad Veterinaria David Aguilar | Clínica de Especialidades en Villavicencio">
-  <meta property="og:description" content="Clínica veterinaria de alta complejidad y cuidados intensivos en Villavicencio, Meta. Consulta externa por especialidad exclusivamente con cita previa.">
+  <meta property="og:title" content="Unidad Veterinaria David Aguilar | ClÃ­nica de Especialidades en Villavicencio">
+  <meta property="og:description" content="ClÃ­nica veterinaria de alta complejidad y cuidados intensivos en Villavicencio, Meta. Consulta externa por especialidad exclusivamente con cita previa.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://unidadveterinaria.com/">
   <meta property="og:locale" content="es_CO">
@@ -29,7 +29,7 @@
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     "name": "Unidad Veterinaria David Aguilar",
-    "description": "Centro médico veterinario de alta especialización y cuidados intensivos en Villavicencio, Meta. Consulta externa por especialidad únicamente con cita previa.",
+    "description": "Centro mÃ©dico veterinario de alta especializaciÃ³n y cuidados intensivos en Villavicencio, Meta. Consulta externa por especialidad Ãºnicamente con cita previa.",
     "image": "https://unidadveterinaria.com/img/logo-sin-fondo-uci.webp",
     "telephone": "+573219930949",
     "address": {
@@ -95,17 +95,17 @@
             </button>
 
             <div class="absolute top-full left-0 w-72 bg-brand-deepNavy rounded-xl shadow-xl border border-brand-gold/30 py-3 hidden group-hover:block transition-all opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0">
-              <a href="servicios/citopatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Citopatología Veterinaria</a>
-              <a href="servicios/cardiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Cardiología Veterinaria</a>
-              <a href="servicios/nefrologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Nefrología Veterinaria</a>
-              <a href="servicios/gastroenterologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Gastroenterología Veterinaria</a>
-              <a href="servicios/neurologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Neurología Veterinaria</a>
+              <a href="servicios/citopatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">CitopatologÃ­a Veterinaria</a>
+              <a href="servicios/cardiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">CardiologÃ­a Veterinaria</a>
+              <a href="servicios/nefrologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NefrologÃ­a Veterinaria</a>
+              <a href="servicios/gastroenterologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">GastroenterologÃ­a Veterinaria</a>
+              <a href="servicios/neurologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NeurologÃ­a Veterinaria</a>
               <a href="servicios/medicina-interna-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Medicina Interna Veterinaria</a>
-              <a href="servicios/nutricion-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Nutrición Clínica Veterinaria</a>
-              <a href="servicios/ortopedia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Ortopedia y Traumatología</a>
-              <a href="servicios/oncologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Oncología Veterinaria</a>
-              <a href="servicios/radiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Radiología y Diagnóstico</a>
-              <a href="servicios/dermatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Dermatología Veterinaria</a>
+              <a href="servicios/nutricion-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NutriciÃ³n ClÃ­nica Veterinaria</a>
+              <a href="servicios/ortopedia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Ortopedia y TraumatologÃ­a</a>
+              <a href="servicios/oncologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">OncologÃ­a Veterinaria</a>
+              <a href="servicios/radiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">RadiologÃ­a y DiagnÃ³stico</a>
+              <a href="servicios/dermatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">DermatologÃ­a Veterinaria</a>
             </div>
           </div>
 
@@ -138,17 +138,17 @@
           <svg id="mobileSpecArrow" class="w-4 h-4 text-brand-gold transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div id="mobileSpecList" class="hidden pl-3 border-l-2 border-brand-gold space-y-1 pb-2 mt-1">
-          <a href="servicios/citopatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Citopatología</a>
-          <a href="servicios/cardiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Cardiología</a>
-          <a href="servicios/nefrologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Nefrología</a>
-          <a href="servicios/gastroenterologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Gastroenterología</a>
-          <a href="servicios/neurologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Neurología</a>
+          <a href="servicios/citopatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">CitopatologÃ­a</a>
+          <a href="servicios/cardiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">CardiologÃ­a</a>
+          <a href="servicios/nefrologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NefrologÃ­a</a>
+          <a href="servicios/gastroenterologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">GastroenterologÃ­a</a>
+          <a href="servicios/neurologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NeurologÃ­a</a>
           <a href="servicios/medicina-interna-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Medicina Interna</a>
-          <a href="servicios/nutricion-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Nutrición Clínica</a>
+          <a href="servicios/nutricion-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NutriciÃ³n ClÃ­nica</a>
           <a href="servicios/ortopedia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Ortopedia</a>
-          <a href="servicios/oncologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Oncología</a>
-          <a href="servicios/radiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Radiología</a>
-          <a href="servicios/dermatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Dermatología</a>
+          <a href="servicios/oncologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">OncologÃ­a</a>
+          <a href="servicios/radiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">RadiologÃ­a</a>
+          <a href="servicios/dermatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">DermatologÃ­a</a>
         </div>
       </div>
 
@@ -192,12 +192,12 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
           </div>
           <p class="text-xs sm:text-sm font-semibold text-slate-100 leading-relaxed">
-            Atención médica especializada exclusivamente con cita previa | No atendemos urgencias 24h
+            AtenciÃ³n mÃ©dica especializada exclusivamente con cita previa | No atendemos urgencias 24h
           </p>
         </div>
 
         <p class="mt-6 text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-          Atención clínica de alta complejidad y medicina interna para mascotas en Villavicencio, Meta. Equipamiento avanzado y atención profesional dedicada a la salud de su paciente.
+          AtenciÃ³n clÃ­nica de alta complejidad y medicina interna para mascotas en Villavicencio, Meta. Equipamiento avanzado y atenciÃ³n profesional dedicada a la salud de su paciente.
         </p>
 
         <!-- CTA Principal Agendamiento -->
@@ -207,13 +207,13 @@
             <span>Agendar Consulta por WhatsApp</span>
           </a>
           <a href="contacto-y-ubicacion.html" class="w-full sm:w-auto px-6 py-3.5 border border-brand-gold/50 text-brand-gold hover:bg-brand-gold hover:text-white font-semibold text-base rounded-xl transition-all">
-            Ubicación de la Clínica
+            UbicaciÃ³n de la ClÃ­nica
           </a>
         </div>
       </div>
     </section>
 
-    <!-- RESEÁ‘AS GOOGLE -->
+    <!-- RESEÃ‘AS GOOGLE -->
     <section class="py-12 bg-brand-deepNavy border-b border-brand-gold/20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-8">
@@ -235,7 +235,7 @@
               <div class="w-10 h-10 rounded-full bg-[#1B5E3B] flex items-center justify-center text-white font-bold text-sm shrink-0">A</div>
               <div>
                 <p class="text-sm font-semibold text-white">Ana Roman</p>
-                <p class="text-[11px] text-slate-400">Reseña de Google</p>
+                <p class="text-[11px] text-slate-400">ReseÃ±a de Google</p>
               </div>
             </div>
             <div class="flex items-center gap-2 mb-2">
@@ -249,7 +249,7 @@
               <span class="text-[11px] text-slate-400">Hace 4 meses</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-200 leading-relaxed">
-              El mejor Veterinario del Llano, Nuestro Señor Dios a través de él, sanó a mi perrita de 15 años que había pasado por muchas manos y ningún veterinario acertaba, estuvo a punto de morir y gracias a Dios y al Dr David Aguilar ahora goza de perfecta salud y corre y juega como cuando tenía 7 años aproximadamente!
+              El mejor Veterinario del Llano, Nuestro SeÃ±or Dios a travÃ©s de Ã©l, sanÃ³ a mi perrita de 15 aÃ±os que habÃ­a pasado por muchas manos y ningÃºn veterinario acertaba, estuvo a punto de morir y gracias a Dios y al Dr David Aguilar ahora goza de perfecta salud y corre y juega como cuando tenÃ­a 7 aÃ±os aproximadamente!
             </p>
           </article>
 
@@ -259,7 +259,7 @@
               <div class="w-10 h-10 rounded-full bg-[#8B3A4A] flex items-center justify-center text-white font-bold text-sm shrink-0">L</div>
               <div>
                 <p class="text-sm font-semibold text-white">Luisa Triana</p>
-                <p class="text-[11px] text-slate-400">Reseña de Google</p>
+                <p class="text-[11px] text-slate-400">ReseÃ±a de Google</p>
               </div>
             </div>
             <div class="flex items-center gap-2 mb-2">
@@ -273,7 +273,7 @@
               <span class="text-[11px] text-slate-400">Hace 4 meses</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-200 leading-relaxed">
-              La mejor veterinaria de villavicencio, el Dr David Aguilar es un excelente profesional, llevo 10 años confiándole la salud de mis mascotas ðŸ¶ ðŸˆ ðŸ¶ en el lugar donde él se encuentre trabajando, me hace muy feliz que desde hace varios años yaâ€¦
+              La mejor veterinaria de villavicencio, el Dr David Aguilar es un excelente profesional, llevo 10 aÃ±os confiÃ¡ndole la salud de mis mascotas ðŸ¶ ðŸˆ ðŸ¶ en el lugar donde Ã©l se encuentre trabajando, me hace muy feliz que desde hace varios aÃ±os yaâ€¦
             </p>
           </article>
 
@@ -283,7 +283,7 @@
               <div class="w-10 h-10 rounded-full bg-[#2A5A8B] flex items-center justify-center text-white font-bold text-sm shrink-0">Y</div>
               <div>
                 <p class="text-sm font-semibold text-white">Yeison Hernando Solano Amado</p>
-                <p class="text-[11px] text-slate-400">Reseña de Google</p>
+                <p class="text-[11px] text-slate-400">ReseÃ±a de Google</p>
               </div>
             </div>
             <div class="flex items-center gap-2 mb-2">
@@ -297,7 +297,7 @@
               <span class="text-[11px] text-slate-400">Hace 3 meses</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-200 leading-relaxed">
-              Muy buena atención, el Dr. David explica todo con mucha paciencia y se toma su tiempo con cada consulta. Nos hace sentir tranquilos al dejar a nuestra integrante de la familia en sus manos. Â¡Totalmente recomendado!
+              Muy buena atenciÃ³n, el Dr. David explica todo con mucha paciencia y se toma su tiempo con cada consulta. Nos hace sentir tranquilos al dejar a nuestra integrante de la familia en sus manos. Â¡Totalmente recomendado!
             </p>
           </article>
 
@@ -307,7 +307,7 @@
               <div class="w-10 h-10 rounded-full bg-[#6B4C9A] flex items-center justify-center text-white font-bold text-sm shrink-0">I</div>
               <div>
                 <p class="text-sm font-semibold text-white">Isabel Cruz</p>
-                <p class="text-[11px] text-slate-400">Reseña de Google</p>
+                <p class="text-[11px] text-slate-400">ReseÃ±a de Google</p>
               </div>
             </div>
             <div class="flex items-center gap-2 mb-2">
@@ -318,11 +318,11 @@
                 <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
                 <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
               </div>
-              <span class="text-[11px] text-slate-400">Hace 2 años</span>
+              <span class="text-[11px] text-slate-400">Hace 2 aÃ±os</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-200 leading-relaxed">
               Excelente Doctor ðŸ‘Œ , recomendado 10 de 10<br>
-              Mi niña sufre de convulsiones y su tratamiento ha sido satisfactoriamente bueno ðŸ‘
+              Mi niÃ±a sufre de convulsiones y su tratamiento ha sido satisfactoriamente bueno ðŸ‘
             </p>
           </article>
         </div>
@@ -333,58 +333,58 @@
     <section id="especialidades" class="py-14 bg-brand-deepNavy border-b border-brand-royalBlue/20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-10">
-          <h2 class="text-2xl sm:text-3xl font-bold text-white">Especialidades Médicas Clínicas</h2>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white">Especialidades MÃ©dicas ClÃ­nicas</h2>
           
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          <!-- Citopatología -->
+          <!-- CitopatologÃ­a -->
           <a href="servicios/citopatologia-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
-              <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Diagnóstico</span>
+              <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">DiagnÃ³stico</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Citopatología Veterinaria</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Análisis celular microscópico inmediato para la detección de tumores e infecciones.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">CitopatologÃ­a Veterinaria</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">AnÃ¡lisis celular microscÃ³pico inmediato para la detecciÃ³n de tumores e infecciones.</p>
           </a>
 
-          <!-- Cardiología -->
+          <!-- CardiologÃ­a -->
           <a href="servicios/cardiologia-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
               <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Especialidad</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Cardiología Veterinaria</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Evaluación cardiovascular, ecocardiografía doppler y manejo de arritmias.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">CardiologÃ­a Veterinaria</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">EvaluaciÃ³n cardiovascular, ecocardiografÃ­a doppler y manejo de arritmias.</p>
           </a>
 
-          <!-- Nefrología -->
+          <!-- NefrologÃ­a -->
           <a href="servicios/nefrologia-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
               <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Especialidad</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Nefrología Veterinaria</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Tratamiento de enfermedad renal aguda y crónica y salud de vías urinarias.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">NefrologÃ­a Veterinaria</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Tratamiento de enfermedad renal aguda y crÃ³nica y salud de vÃ­as urinarias.</p>
           </a>
 
-          <!-- Gastroenterología -->
+          <!-- GastroenterologÃ­a -->
           <a href="servicios/gastroenterologia-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
               <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Especialidad</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Gastroenterología Veterinaria</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Diagnóstico de patologías digestivas, hepatologías y pancreáticas.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">GastroenterologÃ­a Veterinaria</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">DiagnÃ³stico de patologÃ­as digestivas, hepatologÃ­as y pancreÃ¡ticas.</p>
           </a>
 
-          <!-- Neurología -->
+          <!-- NeurologÃ­a -->
           <a href="servicios/neurologia-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
               <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Especialidad</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Neurología Veterinaria</h3>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">NeurologÃ­a Veterinaria</h3>
             <p class="mt-1 text-xs text-slate-300 leading-relaxed">Manejo de epilepsia, hernias discales y trastornos neuromusculares.</p>
           </a>
 
@@ -395,17 +395,17 @@
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
             <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Medicina Interna Veterinaria</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Abordaje de enfermedades sistémicas, endocrinopatías y patologías complejas.</p>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Abordaje de enfermedades sistÃ©micas, endocrinopatÃ­as y patologÃ­as complejas.</p>
           </a>
 
-          <!-- Nutrición -->
+          <!-- NutriciÃ³n -->
           <a href="servicios/nutricion-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
               <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Especialidad</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Nutrición Clínica Veterinaria</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Formulación de dietas médicas prescriptivas para pacientes con condiciones especiales.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">NutriciÃ³n ClÃ­nica Veterinaria</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">FormulaciÃ³n de dietas mÃ©dicas prescriptivas para pacientes con condiciones especiales.</p>
           </a>
 
           <!-- Ortopedia -->
@@ -414,38 +414,38 @@
               <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Especialidad</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Ortopedia y Traumatología</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Evaluación quirúrgica y ortopédica de fracturas y ligamentos.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Ortopedia y TraumatologÃ­a</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">EvaluaciÃ³n quirÃºrgica y ortopÃ©dica de fracturas y ligamentos.</p>
           </a>
 
-          <!-- Oncología -->
+          <!-- OncologÃ­a -->
           <a href="servicios/oncologia-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
               <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Especialidad</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Oncología Veterinaria</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Tratamiento médico del cáncer en animales y quimioterapia personalizada.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">OncologÃ­a Veterinaria</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Tratamiento mÃ©dico del cÃ¡ncer en animales y quimioterapia personalizada.</p>
           </a>
 
-          <!-- Radiología -->
+          <!-- RadiologÃ­a -->
           <a href="servicios/radiologia-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
-              <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Diagnóstico</span>
+              <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">DiagnÃ³stico</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Radiología y Diagnóstico</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Estudios radiográficos digitales y ultrasonografía de precisión.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">RadiologÃ­a y DiagnÃ³stico</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Estudios radiogrÃ¡ficos digitales y ultrasonografÃ­a de precisiÃ³n.</p>
           </a>
 
-          <!-- Dermatología -->
+          <!-- DermatologÃ­a -->
           <a href="servicios/dermatologia-veterinaria.html" class="group p-5 rounded-2xl border border-brand-gold/30 bg-brand-deepNavy/5 hover:border-brand-gold border-brand-royalBlue/20 hover:bg-brand-royalBlue/5 hover:shadow-md transition-all">
             <div class="flex items-center justify-between mb-2">
               <span class="text-[10px] font-bold text-brand-goldDark uppercase tracking-wider">Especialidad</span>
               <svg class="w-4 h-4 text-brand-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </div>
-            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">Dermatología Veterinaria</h3>
-            <p class="mt-1 text-xs text-slate-300 leading-relaxed">Diagnóstico de alergias atópicas, otitis crónica y enfermedades de la piel.</p>
+            <h3 class="text-base font-bold text-white group-hover:text-brand-brightBlue transition-colors">DermatologÃ­a Veterinaria</h3>
+            <p class="mt-1 text-xs text-slate-300 leading-relaxed">DiagnÃ³stico de alergias atÃ³picas, otitis crÃ³nica y enfermedades de la piel.</p>
           </a>
         </div>
       </div>
@@ -465,41 +465,41 @@
               <span class="font-bold text-base text-white">Unidad Veterinaria</span>
             </div>
           <p class="text-xs text-slate-300 leading-relaxed">
-            Unidad de Cuidados Intensivos Veterinarios y Especialidades Médicas. Atención exclusiva con cita previa en Villavicencio, Meta.
+            Unidad de Cuidados Intensivos Veterinarios y Especialidades MÃ©dicas. AtenciÃ³n exclusiva con cita previa en Villavicencio, Meta.
           </p>
         </div>
 
         <div>
           <h4 class="text-xs font-bold text-brand-gold uppercase tracking-wider mb-3">Especialidades</h4>
           <ul class="space-y-2 text-xs text-slate-300">
-            <li><a href="servicios/citopatologia-veterinaria.html" class="hover:text-brand-gold">Citopatología</a></li>
-            <li><a href="servicios/cardiologia-veterinaria.html" class="hover:text-brand-gold">Cardiología</a></li>
-            <li><a href="servicios/nefrologia-veterinaria.html" class="hover:text-brand-gold">Nefrología</a></li>
-            <li><a href="servicios/gastroenterologia-veterinaria.html" class="hover:text-brand-gold">Gastroenterología</a></li>
-            <li><a href="servicios/neurologia-veterinaria.html" class="hover:text-brand-gold">Neurología</a></li>
+            <li><a href="servicios/citopatologia-veterinaria.html" class="hover:text-brand-gold">CitopatologÃ­a</a></li>
+            <li><a href="servicios/cardiologia-veterinaria.html" class="hover:text-brand-gold">CardiologÃ­a</a></li>
+            <li><a href="servicios/nefrologia-veterinaria.html" class="hover:text-brand-gold">NefrologÃ­a</a></li>
+            <li><a href="servicios/gastroenterologia-veterinaria.html" class="hover:text-brand-gold">GastroenterologÃ­a</a></li>
+            <li><a href="servicios/neurologia-veterinaria.html" class="hover:text-brand-gold">NeurologÃ­a</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 class="text-xs font-bold text-brand-gold uppercase tracking-wider mb-3">Más Servicios</h4>
+          <h4 class="text-xs font-bold text-brand-gold uppercase tracking-wider mb-3">MÃ¡s Servicios</h4>
           <ul class="space-y-2 text-xs text-slate-300">
             <li><a href="servicios/medicina-interna-veterinaria.html" class="hover:text-brand-gold">Medicina Interna</a></li>
-            <li><a href="servicios/nutricion-veterinaria.html" class="hover:text-brand-gold">Nutrición Clínica</a></li>
+            <li><a href="servicios/nutricion-veterinaria.html" class="hover:text-brand-gold">NutriciÃ³n ClÃ­nica</a></li>
             <li><a href="servicios/ortopedia-veterinaria.html" class="hover:text-brand-gold">Ortopedia</a></li>
-            <li><a href="servicios/oncologia-veterinaria.html" class="hover:text-brand-gold">Oncología</a></li>
-            <li><a href="servicios/radiologia-veterinaria.html" class="hover:text-brand-gold">Radiología</a></li>
-            <li><a href="servicios/dermatologia-veterinaria.html" class="hover:text-brand-gold">Dermatología</a></li>
+            <li><a href="servicios/oncologia-veterinaria.html" class="hover:text-brand-gold">OncologÃ­a</a></li>
+            <li><a href="servicios/radiologia-veterinaria.html" class="hover:text-brand-gold">RadiologÃ­a</a></li>
+            <li><a href="servicios/dermatologia-veterinaria.html" class="hover:text-brand-gold">DermatologÃ­a</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 class="text-xs font-bold text-brand-gold uppercase tracking-wider mb-3">Información Legal</h4>
+          <h4 class="text-xs font-bold text-brand-gold uppercase tracking-wider mb-3">InformaciÃ³n Legal</h4>
           <ul class="space-y-2 text-xs text-slate-300">
-            <li><a href="contacto-y-ubicacion.html" class="hover:text-brand-gold">Contacto y Ubicación</a></li>
+            <li><a href="contacto-y-ubicacion.html" class="hover:text-brand-gold">Contacto y UbicaciÃ³n</a></li>
             <li><a href="preguntas-frecuentes.html" class="hover:text-brand-gold">Preguntas Frecuentes</a></li>
             <li><a href="aviso-legal.html" class="hover:text-brand-gold">Aviso Legal</a></li>
-            <li><a href="politica-de-privacidad.html" class="hover:text-brand-gold">Política de Privacidad</a></li>
-            <li><a href="politica-de-cookies.html" class="hover:text-brand-gold">Política de Cookies</a></li>
+            <li><a href="politica-de-privacidad.html" class="hover:text-brand-gold">PolÃ­tica de Privacidad</a></li>
+            <li><a href="politica-de-cookies.html" class="hover:text-brand-gold">PolÃ­tica de Cookies</a></li>
           </ul>
         </div>
       </div>
@@ -513,7 +513,7 @@
   <!-- Cookie Banner compliance 2026 -->
   <div id="cookieBanner" class="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-4 sm:max-w-md bg-brand-deepNavy border border-brand-gold/60 rounded-2xl shadow-2xl p-5 z-50 transition-all duration-300 hidden opacity-0 text-white">
     <p class="text-xs text-slate-200 leading-relaxed mb-3">
-      Utilizamos cookies estrictamente necesarias para el correcto funcionamiento de la web. Consulte nuestra <a href="politica-de-cookies.html" class="text-brand-gold underline font-medium">Política de Cookies</a>.
+      Utilizamos cookies estrictamente necesarias para el correcto funcionamiento de la web. Consulte nuestra <a href="politica-de-cookies.html" class="text-brand-gold underline font-medium">PolÃ­tica de Cookies</a>.
     </p>
     <div class="flex items-center justify-end gap-3">
       <button id="cookieReject" class="px-4 py-1.5 border border-slate-600 text-xs font-medium text-slate-300 rounded-lg hover:bg-slate-800 transition-colors">Rechazar</button>

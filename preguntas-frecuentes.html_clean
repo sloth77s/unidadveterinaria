@@ -5,8 +5,8 @@
     <meta name="theme-color" content="#0D3880">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preguntas Frecuentes - Unidad Veterinaria | Dr. David Aguilar</title>
-  <meta name="description" content="Preguntas frecuentes sobre agendamiento de citas, preparación previa de mascotas y métodos de pago aceptados en la Unidad Veterinaria David Aguilar en Villavicencio.">
-  <meta name="keywords" content="preguntas frecuentes veterinaria, agendar cita veterinario Villavicencio, métodos de pago veterinaria, preparación mascota consulta">
+  <meta name="description" content="Preguntas frecuentes sobre agendamiento de citas, preparaciÃ³n previa de mascotas y mÃ©todos de pago aceptados en la Unidad Veterinaria David Aguilar en Villavicencio.">
+  <meta name="keywords" content="preguntas frecuentes veterinaria, agendar cita veterinario Villavicencio, mÃ©todos de pago veterinaria, preparaciÃ³n mascota consulta">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://unidadveterinaria.com/preguntas-frecuentes">
 
@@ -39,17 +39,17 @@
               <svg class="w-4 h-4 text-brand-gold transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
             <div class="absolute top-full left-0 w-72 bg-brand-deepNavy rounded-xl shadow-xl border border-brand-gold/30 py-3 hidden group-hover:block opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all">
-              <a href="servicios/citopatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Citopatología Veterinaria</a>
-              <a href="servicios/cardiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Cardiología Veterinaria</a>
-              <a href="servicios/nefrologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Nefrología Veterinaria</a>
-              <a href="servicios/gastroenterologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Gastroenterología Veterinaria</a>
-              <a href="servicios/neurologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Neurología Veterinaria</a>
+              <a href="servicios/citopatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">CitopatologÃ­a Veterinaria</a>
+              <a href="servicios/cardiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">CardiologÃ­a Veterinaria</a>
+              <a href="servicios/nefrologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NefrologÃ­a Veterinaria</a>
+              <a href="servicios/gastroenterologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">GastroenterologÃ­a Veterinaria</a>
+              <a href="servicios/neurologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NeurologÃ­a Veterinaria</a>
               <a href="servicios/medicina-interna-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Medicina Interna Veterinaria</a>
-              <a href="servicios/nutricion-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Nutrición Clínica Veterinaria</a>
-              <a href="servicios/ortopedia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Ortopedia y Traumatología</a>
-              <a href="servicios/oncologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Oncología Veterinaria</a>
-              <a href="servicios/radiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Radiología y Diagnóstico</a>
-              <a href="servicios/dermatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Dermatología Veterinaria</a>
+              <a href="servicios/nutricion-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NutriciÃ³n ClÃ­nica Veterinaria</a>
+              <a href="servicios/ortopedia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Ortopedia y TraumatologÃ­a</a>
+              <a href="servicios/oncologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">OncologÃ­a Veterinaria</a>
+              <a href="servicios/radiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">RadiologÃ­a y DiagnÃ³stico</a>
+              <a href="servicios/dermatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">DermatologÃ­a Veterinaria</a>
             </div>
           </div>
           <a href="preguntas-frecuentes.html" class="text-sm font-medium text-slate-200 hover:text-brand-gold transition-colors">FAQ</a>
@@ -77,17 +77,17 @@
           <svg id="mobileSpecArrow" class="w-4 h-4 text-brand-gold transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div id="mobileSpecList" class="hidden pl-3 border-l-2 border-brand-gold space-y-1 pb-2 mt-1">
-          <a href="servicios/citopatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Citopatología</a>
-          <a href="servicios/cardiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Cardiología</a>
-          <a href="servicios/nefrologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Nefrología</a>
-          <a href="servicios/gastroenterologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Gastroenterología</a>
-          <a href="servicios/neurologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Neurología</a>
+          <a href="servicios/citopatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">CitopatologÃ­a</a>
+          <a href="servicios/cardiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">CardiologÃ­a</a>
+          <a href="servicios/nefrologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NefrologÃ­a</a>
+          <a href="servicios/gastroenterologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">GastroenterologÃ­a</a>
+          <a href="servicios/neurologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NeurologÃ­a</a>
           <a href="servicios/medicina-interna-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Medicina Interna</a>
-          <a href="servicios/nutricion-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Nutrición Clínica</a>
+          <a href="servicios/nutricion-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NutriciÃ³n ClÃ­nica</a>
           <a href="servicios/ortopedia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Ortopedia</a>
-          <a href="servicios/oncologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Oncología</a>
-          <a href="servicios/radiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Radiología</a>
-          <a href="servicios/dermatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Dermatología</a>
+          <a href="servicios/oncologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">OncologÃ­a</a>
+          <a href="servicios/radiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">RadiologÃ­a</a>
+          <a href="servicios/dermatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">DermatologÃ­a</a>
         </div>
       </div>
 
@@ -109,7 +109,7 @@
           Preguntas Frecuentes - Unidad Veterinaria
         </h1>
         <p class="mt-3 text-sm text-slate-300">
-          Resolvemos sus dudas principales sobre la modalidad de atención por cita previa y los servicios de especialidad en Villavicencio.
+          Resolvemos sus dudas principales sobre la modalidad de atenciÃ³n por cita previa y los servicios de especialidad en Villavicencio.
         </p>
       </div>
 
@@ -119,33 +119,33 @@
         <!-- Q1 -->
         <div class="faq-item bg-brand-royalBlue/20 rounded-2xl border border-brand-gold/20 shadow-sm overflow-hidden transition-all">
           <button class="faq-question w-full p-6 text-left flex items-center justify-between gap-4 font-bold text-white text-base focus:outline-none">
-            <span>Â¿Cómo agendar una cita previa?</span>
+            <span>Â¿CÃ³mo agendar una cita previa?</span>
             <span class="faq-icon text-brand-gold font-bold text-xl shrink-0">+</span>
           </button>
           <div class="faq-answer px-6 pb-6 text-xs text-slate-300 leading-relaxed hidden">
-            Puede agendar su cita médica de especialidad comunicándose directamente a nuestra línea oficial de WhatsApp al <strong>+57 321 993 0949</strong> o haciendo clic en los botones de agendamiento directo en este sitio web. Se le asignará un turno específico según la disponibilidad del especialista.
+            Puede agendar su cita mÃ©dica de especialidad comunicÃ¡ndose directamente a nuestra lÃ­nea oficial de WhatsApp al <strong>+57 321 993 0949</strong> o haciendo clic en los botones de agendamiento directo en este sitio web. Se le asignarÃ¡ un turno especÃ­fico segÃºn la disponibilidad del especialista.
           </div>
         </div>
 
         <!-- Q2 -->
         <div class="faq-item bg-brand-royalBlue/20 rounded-2xl border border-brand-gold/20 shadow-sm overflow-hidden transition-all">
           <button class="faq-question w-full p-6 text-left flex items-center justify-between gap-4 font-bold text-white text-base focus:outline-none">
-            <span>Â¿Qué preparación necesita mi mascota antes de la consulta veterinaria especializada?</span>
+            <span>Â¿QuÃ© preparaciÃ³n necesita mi mascota antes de la consulta veterinaria especializada?</span>
             <span class="faq-icon text-brand-gold font-bold text-xl shrink-0">+</span>
           </button>
           <div class="faq-answer px-6 pb-6 text-xs text-slate-300 leading-relaxed hidden">
-            Dependiendo de la especialidad solicitada (ej. ecocardiografía, radiología o citopatología), se le indicará por WhatsApp si se requiere ayuno previo (generalmente entre 6 y 8 horas) o vejiga llena para ecografía abdominal. Se recomienda traer la historia clínica o exámentes previos en caso de contar con ellos.
+            Dependiendo de la especialidad solicitada (ej. ecocardiografÃ­a, radiologÃ­a o citopatologÃ­a), se le indicarÃ¡ por WhatsApp si se requiere ayuno previo (generalmente entre 6 y 8 horas) o vejiga llena para ecografÃ­a abdominal. Se recomienda traer la historia clÃ­nica o exÃ¡mentes previos en caso de contar con ellos.
           </div>
         </div>
 
         <!-- Q3 -->
         <div class="faq-item bg-brand-royalBlue/20 rounded-2xl border border-brand-gold/20 shadow-sm overflow-hidden transition-all">
           <button class="faq-question w-full p-6 text-left flex items-center justify-between gap-4 font-bold text-white text-base focus:outline-none">
-            <span>Â¿Cuáles son los métodos de pago aceptados en la clínica?</span>
+            <span>Â¿CuÃ¡les son los mÃ©todos de pago aceptados en la clÃ­nica?</span>
             <span class="faq-icon text-brand-gold font-bold text-xl shrink-0">+</span>
           </button>
           <div class="faq-answer px-6 pb-6 text-xs text-slate-300 leading-relaxed hidden">
-            Aceptamos pagos en efectivo, transferencias electrónicas bancarias (Bancolombia, Nequi, Daviplata) y tarjetas de débito o crédito directamente en las instalaciones de la clínica.
+            Aceptamos pagos en efectivo, transferencias electrÃ³nicas bancarias (Bancolombia, Nequi, Daviplata) y tarjetas de dÃ©bito o crÃ©dito directamente en las instalaciones de la clÃ­nica.
           </div>
         </div>
 
@@ -156,7 +156,7 @@
             <span class="faq-icon text-brand-gold font-bold text-xl shrink-0">+</span>
           </button>
           <div class="faq-answer px-6 pb-6 text-xs text-slate-300 leading-relaxed hidden">
-            No. Nuestra clínica opera exclusivamente bajo modalidad de <strong>consulta externa por especialidad únicamente con cita previa</strong>. No prestamos servicio de atención inmediata de urgencias 24h.
+            No. Nuestra clÃ­nica opera exclusivamente bajo modalidad de <strong>consulta externa por especialidad Ãºnicamente con cita previa</strong>. No prestamos servicio de atenciÃ³n inmediata de urgencias 24h.
           </div>
         </div>
 
@@ -164,7 +164,7 @@
 
       <div class="mt-12 text-center bg-brand-royalBlue/20 p-6 rounded-2xl border border-brand-gold/30">
         <h3 class="text-base font-bold text-white">Â¿Tiene alguna otra inquietud sobre su paciente?</h3>
-        <p class="text-xs text-slate-300 mt-1 mb-4">Nuestro equipo le responderá gustosamente por WhatsApp.</p>
+        <p class="text-xs text-slate-300 mt-1 mb-4">Nuestro equipo le responderÃ¡ gustosamente por WhatsApp.</p>
         <a href="https://wa.me/573219930949?text=Hola,%20tengo%20una%20pregunta" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 bg-brand-whatsapp text-white font-semibold text-xs rounded-xl shadow-sm hover:brightness-105">
           <span>Consultar por WhatsApp</span>
         </a>
@@ -183,10 +183,10 @@
             </picture>
             <span class="text-xl font-bold">UCIVET</span>
           </a>
-          <p class="text-gray-400 max-w-md">Unidad de Cuidados Intensivos Veterinarios - Especialistas en urgencias y cuidados críticos para mascotas en Villavicencio.</p>
+          <p class="text-gray-400 max-w-md">Unidad de Cuidados Intensivos Veterinarios - Especialistas en urgencias y cuidados crÃ­ticos para mascotas en Villavicencio.</p>
         </div>
         <div>
-          <h3 class="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
+          <h3 class="text-lg font-semibold mb-4">Enlaces RÃ¡pidos</h3>
           <ul class="space-y-2 text-gray-400">
             <li><a href="index.html" class="hover:text-white transition">Inicio</a></li>
             <li><a href="servicios/" class="hover:text-white transition">Servicios</a></li>
@@ -197,8 +197,8 @@
           <h3 class="text-lg font-semibold mb-4">Legal</h3>
           <ul class="space-y-2 text-gray-400">
             <li><a href="aviso-legal.html" class="hover:text-white transition">Aviso Legal</a></li>
-            <li><a href="politica-de-privacidad.html" class="hover:text-white transition">Política de Privacidad</a></li>
-            <li><a href="politica-de-cookies.html" class="hover:text-white transition">Política de Cookies</a></li>
+            <li><a href="politica-de-privacidad.html" class="hover:text-white transition">PolÃ­tica de Privacidad</a></li>
+            <li><a href="politica-de-cookies.html" class="hover:text-white transition">PolÃ­tica de Cookies</a></li>
           </ul>
         </div>
       </div>
