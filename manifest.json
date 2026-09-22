@@ -1,0 +1,49 @@
+{
+  "name": "Unidad Veterinaria David Aguilar",
+  "short_name": "UCIVET",
+  "description": "Clínica veterinaria de alta complejidad y cuidados intensivos en Villavicencio, Meta. Consulta externa por especialidad exclusivamente con cita previa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071F48",
+  "theme_color": "#0D3880",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/logo-sin-fondo-uci.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/logo%20sin%20fondo%20uci%20.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["medical", "health", "lifestyle"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Agendar Cita",
+      "short_name": "Cita",
+      "description": "Agendar consulta veterinaria por WhatsApp",
+      "url": "https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta",
+      "icons": [{ "src": "img/logo-sin-fondo-uci.webp", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ubicación",
+      "short_name": "Mapa",
+      "description": "Ver ubicación de la clínica en Google Maps",
+      "url": "/contacto-y-ubicacion.html",
+      "icons": [{ "src": "img/logo-sin-fondo-uci.webp", "sizes": "192x192" }]
+    },
+    {
+      "name": "Especialidades",
+      "short_name": "Servicios",
+      "description": "Ver todas las especialidades veterinarias disponibles",
+      "url": "/#especialidades",
+      "icons": [{ "src": "img/logo-sin-fondo-uci.webp", "sizes": "192x192" }]
+    }
+  ]
+}

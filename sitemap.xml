@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- PÃ¡ginas principales -->
+  <url>
+    <loc>https://unidadveterinaria.com/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/contacto-y-ubicacion</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/contacto-y-ubicacion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/contacto-y-ubicacion"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/preguntas-frecuentes</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/preguntas-frecuentes"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/preguntas-frecuentes"/>
+  </url>
+
+  <!-- PÃ¡ginas legales (noindex, pero en sitemap para rastreo) -->
+  <url>
+    <loc>https://unidadveterinaria.com/aviso-legal</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/aviso-legal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/aviso-legal"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/politica-de-privacidad</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/politica-de-privacidad"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/politica-de-privacidad"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/politica-de-cookies</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/politica-de-cookies"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/politica-de-cookies"/>
+  </url>
+
+  <!-- Servicios (11 especialidades) -->
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/citopatologia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/citopatologia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/citopatologia-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/cardiologia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/cardiologia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/cardiologia-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/nefrologia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/nefrologia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/nefrologia-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/gastroenterologia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/gastroenterologia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/gastroenterologia-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/neurologia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/neurologia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/neurologia-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/medicina-interna-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/medicina-interna-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/medicina-interna-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/nutricion-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/nutricion-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/nutricion-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/ortopedia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/ortopedia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/ortopedia-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/oncologia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/oncologia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/oncologia-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/radiologia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/radiologia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/radiologia-veterinaria"/>
+  </url>
+
+  <url>
+    <loc>https://unidadveterinaria.com/servicios/dermatologia-veterinaria</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.com/servicios/dermatologia-veterinaria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.com/servicios/dermatologia-veterinaria"/>
+  </url>
+
+</urlset>
