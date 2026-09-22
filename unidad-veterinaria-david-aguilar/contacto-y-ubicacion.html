@@ -1,41 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ubicación y Contacto de Especialidades Veterinarias | Unidad Veterinaria David Aguilar</title>
-  <meta name="description" content="Contacto y ubicación exacta de la Unidad Veterinaria David Aguilar en Villavicencio, Meta. Agenda tu consulta especializada mediante WhatsApp o llamada telefónica.">
-  <meta name="keywords" content="ubicación Unidad Veterinaria David Aguilar, contacto veterinario Villavicencio, mapa clínica veterinaria Meta, cita previa veterinario">
+    <meta name="theme-color" content="#0D3880">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UbicaciÃ³n y Contacto de Especialidades Veterinarias | Unidad Veterinaria David Aguilar</title>
+  <meta name="description" content="Contacto y ubicaciÃ³n exacta de la Unidad Veterinaria David Aguilar en Villavicencio, Meta. Agenda tu consulta especializada mediante WhatsApp o llamada telefÃ³nica.">
+  <meta name="keywords" content="ubicaciÃ³n Unidad Veterinaria David Aguilar, contacto veterinario Villavicencio, mapa clÃ­nica veterinaria Meta, cita previa veterinario">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="http://localhost:8080/contacto-y-ubicacion.html">
+  <link rel="canonical" href="https://unidadveterinaria.com/contacto-y-ubicacion">
 
     <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              royalBlue: '#0D3880',
-              deepNavy: '#071F48',
-              brightBlue: '#1248A4',
-              navy: '#071F48',
-              gold: '#E5B842',
-              goldDark: '#C79A2B',
-              goldLight: '#F3D275',
-              slateBg: '#071F48',
-              darkSlate: '#0F172A',
-              mutedSlate: '#94A3B8',
-              whatsapp: '#25D366'
-            }
-          },
-          fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
 
   <!-- Schema.org JSON-LD MedicalBusiness -->
   <script type="application/ld+json">
@@ -43,7 +18,7 @@
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     "name": "Unidad Veterinaria David Aguilar",
-    "description": "Centro médico veterinario de alta especialización y cuidados intensivos en Villavicencio, Meta.",
+    "description": "Centro mÃ©dico veterinario de alta especializaciÃ³n y cuidados intensivos en Villavicencio, Meta.",
     "telephone": "+573219930949",
     "address": {
       "@type": "PostalAddress",
@@ -57,9 +32,11 @@
       "latitude": "4.1420",
       "longitude": "-73.6266"
     },
-    "url": "http://localhost:8080/contacto-y-ubicacion.html"
+    "url": "https://unidadveterinaria.com/contacto-y-ubicacion.html"
   }
   </script>
+  <script src="js/tailwind-config.js"></script>
+  <link rel="manifest" href="./manifest.json">
 </head>
 <body class="bg-brand-deepNavy text-white font-sans flex flex-col min-h-screen">
 
@@ -69,7 +46,10 @@
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
         <a href="index.html" class="flex items-center gap-3">
-          <img src="img/logo%20sin%20fondo%20uci%20.png" alt="Logo David Aguilar Unidad Veterinaria" class="w-12 h-12 object-contain drop-shadow">
+          <picture>
+            <source srcset="img/logo-sin-fondo-uci.webp" type="image/webp">
+            <img src="img/logo%20sin%20fondo%20uci%20.png" alt="Logo David Aguilar Unidad Veterinaria" class="w-12 h-12 object-contain drop-shadow" loading="lazy">
+          </picture>
           <div>
             <span class="block font-bold text-lg text-white">Unidad Veterinaria</span>
             <span class="block text-xs font-semibold text-brand-goldLight tracking-wider uppercase">Dr. David Aguilar</span>
@@ -84,17 +64,17 @@
               <svg class="w-4 h-4 text-brand-gold transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
             <div class="absolute top-full left-0 w-72 bg-brand-deepNavy rounded-xl shadow-xl border border-brand-gold/30 py-3 hidden group-hover:block opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all">
-              <a href="servicios/citopatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Citopatología Veterinaria</a>
-              <a href="servicios/cardiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Cardiología Veterinaria</a>
-              <a href="servicios/nefrologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Nefrología Veterinaria</a>
-              <a href="servicios/gastroenterologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Gastroenterología Veterinaria</a>
-              <a href="servicios/neurologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Neurología Veterinaria</a>
+              <a href="servicios/citopatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">CitopatologÃ­a Veterinaria</a>
+              <a href="servicios/cardiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">CardiologÃ­a Veterinaria</a>
+              <a href="servicios/nefrologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NefrologÃ­a Veterinaria</a>
+              <a href="servicios/gastroenterologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">GastroenterologÃ­a Veterinaria</a>
+              <a href="servicios/neurologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NeurologÃ­a Veterinaria</a>
               <a href="servicios/medicina-interna-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Medicina Interna Veterinaria</a>
-              <a href="servicios/nutricion-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Nutrición Clínica Veterinaria</a>
-              <a href="servicios/ortopedia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Ortopedia y Traumatología</a>
-              <a href="servicios/oncologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Oncología Veterinaria</a>
-              <a href="servicios/radiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Radiología y Diagnóstico</a>
-              <a href="servicios/dermatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Dermatología Veterinaria</a>
+              <a href="servicios/nutricion-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">NutriciÃ³n ClÃ­nica Veterinaria</a>
+              <a href="servicios/ortopedia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">Ortopedia y TraumatologÃ­a</a>
+              <a href="servicios/oncologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">OncologÃ­a Veterinaria</a>
+              <a href="servicios/radiologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">RadiologÃ­a y DiagnÃ³stico</a>
+              <a href="servicios/dermatologia-veterinaria.html" class="block px-4 py-2 text-xs font-medium text-slate-200 hover:bg-brand-royalBlue hover:text-brand-gold border-l-2 border-transparent hover:border-brand-gold">DermatologÃ­a Veterinaria</a>
             </div>
           </div>
           <a href="preguntas-frecuentes.html" class="text-sm font-medium text-slate-200 hover:text-brand-gold transition-colors">FAQ</a>
@@ -122,17 +102,17 @@
           <svg id="mobileSpecArrow" class="w-4 h-4 text-brand-gold transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div id="mobileSpecList" class="hidden pl-3 border-l-2 border-brand-gold space-y-1 pb-2 mt-1">
-          <a href="servicios/citopatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Citopatología</a>
-          <a href="servicios/cardiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Cardiología</a>
-          <a href="servicios/nefrologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Nefrología</a>
-          <a href="servicios/gastroenterologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Gastroenterología</a>
-          <a href="servicios/neurologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Neurología</a>
+          <a href="servicios/citopatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">CitopatologÃ­a</a>
+          <a href="servicios/cardiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">CardiologÃ­a</a>
+          <a href="servicios/nefrologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NefrologÃ­a</a>
+          <a href="servicios/gastroenterologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">GastroenterologÃ­a</a>
+          <a href="servicios/neurologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NeurologÃ­a</a>
           <a href="servicios/medicina-interna-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Medicina Interna</a>
-          <a href="servicios/nutricion-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Nutrición Clínica</a>
+          <a href="servicios/nutricion-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">NutriciÃ³n ClÃ­nica</a>
           <a href="servicios/ortopedia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Ortopedia</a>
-          <a href="servicios/oncologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Oncología</a>
-          <a href="servicios/radiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Radiología</a>
-          <a href="servicios/dermatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">Dermatología</a>
+          <a href="servicios/oncologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">OncologÃ­a</a>
+          <a href="servicios/radiologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">RadiologÃ­a</a>
+          <a href="servicios/dermatologia-veterinaria.html" class="block text-xs text-slate-200 py-1 hover:text-brand-gold">DermatologÃ­a</a>
         </div>
       </div>
 
@@ -151,10 +131,10 @@
       
       <div class="text-center max-w-2xl mx-auto mb-12">
         <h1 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
-          Ubicación y Contacto de Especialidades Veterinarias
+          UbicaciÃ³n y Contacto de Especialidades Veterinarias
         </h1>
         <p class="mt-3 text-sm text-slate-300">
-          Sede clínica en Villavicencio, Meta. Le atendemos exclusivamente con cita previa para garantizar atención médica personalizada.
+          Sede clÃ­nica en Villavicencio, Meta. Le atendemos exclusivamente con cita previa para garantizar atenciÃ³n mÃ©dica personalizada.
         </p>
       </div>
 
@@ -163,29 +143,29 @@
         <!-- Contact Details Card -->
         <div class="bg-brand-royalBlue/20 p-6 sm:p-8 rounded-2xl border border-brand-gold/20 shadow-sm space-y-6">
           <div class="border-b border-brand-gold/20 pb-4">
-            <h2 class="text-lg font-bold text-white mb-1">Información Directa</h2>
-            <p class="text-xs text-slate-300">Comuníquese con el equipo médico para agendamiento de consultas externas.</p>
+            <h2 class="text-lg font-bold text-white mb-1">InformaciÃ³n Directa</h2>
+            <p class="text-xs text-slate-300">ComunÃ­quese con el equipo mÃ©dico para agendamiento de consultas externas.</p>
           </div>
 
           <div class="space-y-4">
             <div class="flex items-start gap-4">
-              <div class="p-3 bg-brand-deepNavy/5 text-white rounded-xl border border-brand-gold/30 shrink-0">📍</div>
+              <div class="p-3 bg-brand-deepNavy/5 text-white rounded-xl border border-brand-gold/30 shrink-0">ðŸ“</div>
               <div>
-                <h3 class="text-xs font-bold text-white uppercase tracking-wider">Dirección Sede</h3>
+                <h3 class="text-xs font-bold text-white uppercase tracking-wider">DirecciÃ³n Sede</h3>
                 <p class="text-sm text-slate-200 mt-0.5">Cra. 19a #36A-27, Villavicencio, Meta, Colombia</p>
               </div>
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="p-3 bg-brand-deepNavy/5 text-white rounded-xl border border-brand-gold/30 shrink-0">📞</div>
+              <div class="p-3 bg-brand-deepNavy/5 text-white rounded-xl border border-brand-gold/30 shrink-0">ðŸ“ž</div>
               <div>
-                <h3 class="text-xs font-bold text-white uppercase tracking-wider">Teléfono / WhatsApp</h3>
+                <h3 class="text-xs font-bold text-white uppercase tracking-wider">TelÃ©fono / WhatsApp</h3>
                 <p class="text-sm text-slate-200 mt-0.5">+57 321 993 0949</p>
               </div>
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="p-3 bg-brand-deepNavy/5 text-white rounded-xl border border-brand-gold/30 shrink-0">📸</div>
+              <div class="p-3 bg-brand-deepNavy/5 text-white rounded-xl border border-brand-gold/30 shrink-0">ðŸ“¸</div>
               <div>
                 <h3 class="text-xs font-bold text-white uppercase tracking-wider">Instagram Oficial</h3>
                 <a href="https://www.instagram.com/davidaguilarucivet/" target="_blank" rel="noopener" class="text-sm text-white font-semibold hover:underline mt-0.5 inline-block">
@@ -195,10 +175,10 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="p-3 bg-brand-deepNavy/5 text-white rounded-xl border border-brand-gold/30 shrink-0">⏰</div>
+              <div class="p-3 bg-brand-deepNavy/5 text-white rounded-xl border border-brand-gold/30 shrink-0">â°</div>
               <div>
-                <h3 class="text-xs font-bold text-white uppercase tracking-wider">Horarios de Atención</h3>
-                <p class="text-xs text-slate-300 mt-0.5">Lunes a Sábado: 8:00 AM - 12:00 PM / 2:00 PM - 6:00 PM</p>
+                <h3 class="text-xs font-bold text-white uppercase tracking-wider">Horarios de AtenciÃ³n</h3>
+                <p class="text-xs text-slate-300 mt-0.5">Lunes a SÃ¡bado: 8:00 AM - 12:00 PM / 2:00 PM - 6:00 PM</p>
                 <p class="text-xs text-slate-300">Domingo: Cerrado</p>
               </div>
             </div>
@@ -214,8 +194,8 @@
         <!-- Google Maps & Navigation -->
         <div class="bg-brand-royalBlue/20 p-6 sm:p-8 rounded-2xl border border-brand-gold/20 shadow-sm space-y-6">
           <div>
-            <h2 class="text-lg font-bold text-white mb-1">Mapa de Ubicación</h2>
-            <p class="text-xs text-slate-300">Sede clínica de especialidades en Villavicencio.</p>
+            <h2 class="text-lg font-bold text-white mb-1">Mapa de UbicaciÃ³n</h2>
+            <p class="text-xs text-slate-300">Sede clÃ­nica de especialidades en Villavicencio.</p>
           </div>
 
           <!-- Embed Maps -->
@@ -227,7 +207,7 @@
           <div>
             <a href="https://www.google.com/maps?vet=10CAAQoqAOahcKEwj4xJri7f6WAxUAAAAAHQAAAAAQDA..i&fvr=1&pvq=Cg0vZy8xMXFieTUxZjVtIhgKEnVuaWRhZCB2ZXRlcmluYXJpYRACGAM&lqi=ChJ1bmlkYWQgdmV0ZXJpbmFyaWFIs-nC0qu2gIAIWhwQABABGAAYASISdW5pZGFkIHZldGVyaW5hcmlhkgEPYW5pbWFsX2hvc3BpdGFsmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5xTUVsdGIwRjNFQUX6AQQIABA6&cs=0&um=1&ie=UTF-8&fb=1&gl=co&sa=X&geocode=KRNFbJe2GLUBMaH25uc31D4L&daddr=Cra.+19a+%2336A+27,+Villavicencio,+Meta" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 w-full py-3.5 bg-brand-deepNavy text-white font-bold text-sm rounded-xl border border-brand-gold shadow-md hover:bg-brand-deepNavy/95 transition-all text-center">
               <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              <span>Cómo Llegar — Google Maps</span>
+              <span>CÃ³mo Llegar â€” Google Maps</span>
             </a>
           </div>
         </div>
@@ -235,37 +215,48 @@
       </div>
     </div>
   </main>
-  <footer class="bg-brand-deepNavy text-white py-8 border-t border-brand-gold/30">
-    <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-400">
-      <p>&copy; 2026 Unidad Veterinaria David Aguilar. Villavicencio, Meta.</p>
+  <footer class="bg-brand-deepNavy text-white py-12 border-t border-brand-gold/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        <div class="md:col-span-2">
+          <a href="index.html" class="flex items-center space-x-2 mb-4">
+            <picture>
+              <source srcset="img/logo-sin-fondo-uci.webp" type="image/webp">
+              <img src="img/logo%20sin%20fondo%20uci%20.png" alt="Logo UCIVET" class="h-10 w-auto" loading="lazy">
+            </picture>
+            <span class="text-xl font-bold">UCIVET</span>
+          </a>
+          <p class="text-gray-400 max-w-md">Unidad de Cuidados Intensivos Veterinarios - Especialistas en urgencias y cuidados crÃ­ticos para mascotas en Villavicencio.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Enlaces RÃ¡pidos</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="index.html" class="hover:text-white transition">Inicio</a></li>
+            <li><a href="servicios/" class="hover:text-white transition">Servicios</a></li>
+            <li><a href="index.html#contacto" class="hover:text-white transition">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Legal</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="aviso-legal.html" class="hover:text-white transition">Aviso Legal</a></li>
+            <li><a href="politica-de-privacidad.html" class="hover:text-white transition">PolÃ­tica de Privacidad</a></li>
+            <li><a href="politica-de-cookies.html" class="hover:text-white transition">PolÃ­tica de Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2026 Unidad Veterinaria David Aguilar. Todos los derechos reservados.</p>
+      </div>
     </div>
   </footer>
 
   <script src="js/main.js"></script>
-  <script>
-    // Mobile hamburger menu toggle
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const mobileMenu = document.getElementById('mobileMenu');
-    if (mobileMenuBtn && mobileMenu) {
-      mobileMenuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-      });
-    }
-    // Specialties sub-menu toggle
-    const mobileSpecBtn = document.getElementById('mobileSpecBtn');
-    const mobileSpecList = document.getElementById('mobileSpecList');
-    const mobileSpecArrow = document.getElementById('mobileSpecArrow');
-    if (mobileSpecBtn && mobileSpecList) {
-      mobileSpecBtn.addEventListener('click', () => {
-        mobileSpecList.classList.toggle('hidden');
-        if (mobileSpecArrow) {
-          mobileSpecArrow.classList.toggle('rotate-180');
-        }
-      });
-    }
-  </script>
+  <script src="js/ui-components.js"></script>
 </body>
 </html>
+
+
 
 
 

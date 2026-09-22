@@ -1,0 +1,225 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Logo Unidad Veterinaria David Aguilar Unidad Veterinaria David Aguilar" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Logo Unidad Veterinaria David Aguilar" [ref=e6]
+        - generic [ref=e7]:
+          - generic [ref=e8]: Unidad Veterinaria
+          - generic [ref=e9]: David Aguilar
+      - navigation [ref=e10]:
+        - link "Inicio" [ref=e11] [cursor=pointer]:
+          - /url: index.html
+        - link "Servicios" [ref=e12] [cursor=pointer]:
+          - /url: "#servicios"
+        - link "Sobre Mí" [ref=e13] [cursor=pointer]:
+          - /url: "#sobre-mi"
+        - link "Ventajas" [ref=e14] [cursor=pointer]:
+          - /url: "#ventajas"
+        - link "Contacto" [ref=e15] [cursor=pointer]:
+          - /url: contacto-y-ubicacion.html
+        - link "WhatsApp" [ref=e16] [cursor=pointer]:
+          - /url: https://wa.me/573001234567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]: UCI Veterinaria de Alta Complejidad
+      - heading "Cuidamos a quien más amas" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Unidad de Cuidados Intensivos veterinarios en Villavicencio, Meta. Atención especializada las 24 horas con tecnología de vanguardia y el compromiso de salvar vidas.
+      - generic [ref=e29]:
+        - link "Agendar Cita por WhatsApp" [ref=e30] [cursor=pointer]:
+          - /url: https://wa.me/573001234567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20para%20mi%20mascota
+        - link "Ver Servicios" [ref=e33] [cursor=pointer]:
+          - /url: "#servicios"
+    - generic [ref=e35]:
+      - img "Veterinaria cuidando mascot as en UCI" [ref=e37]
+      - generic [ref=e42]:
+        - paragraph [ref=e43]: Atención 24/7
+        - paragraph [ref=e44]: Emergencias siempre
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - generic [ref=e48]: Nuestras Especialidades
+      - heading "Servicios Veterinarios de Alta Complejidad" [level=2] [ref=e49]
+      - paragraph [ref=e50]: Contamos con 9 áreas especializadas para brindar la mejor atención a tu mascota.
+    - generic [ref=e51]:
+      - link "Cardiología Diagnóstico y tratamiento de enfermedades cardíacas con ecocardiografía Doppler y monitorización continua. Conocer más →" [ref=e52] [cursor=pointer]:
+        - /url: servicios/cardiologia.html
+        - heading "Cardiología" [level=3] [ref=e56]
+        - paragraph [ref=e57]: Diagnóstico y tratamiento de enfermedades cardíacas con ecocardiografía Doppler y monitorización continua.
+        - generic [ref=e58]: Conocer más →
+      - link "Cirugía General Procedimientos quirúrgicos con anestesia segura,monitorización y recuperación supervisada. Conocer más →" [ref=e59] [cursor=pointer]:
+        - /url: servicios/cirugia-general.html
+        - heading "Cirugía General" [level=3] [ref=e63]
+        - paragraph [ref=e64]: Procedimientos quirúrgicos con anestesia segura,monitorización y recuperación supervisada.
+        - generic [ref=e65]: Conocer más →
+      - link "Neurología Evaluación neurológica completa, electroencefalograma y tratamiento de convulsiones y enfermedades neurológicas. Conocer más →" [ref=e66] [cursor=pointer]:
+        - /url: servicios/neurologia.html
+        - heading "Neurología" [level=3] [ref=e70]
+        - paragraph [ref=e71]: Evaluación neurológica completa, electroencefalograma y tratamiento de convulsiones y enfermedades neurológicas.
+        - generic [ref=e72]: Conocer más →
+      - link "Medicina Interna Diagnóstico integral de enfermedades internas con laboratorio clínico y protocolos de tratamiento personalizados. Conocer más →" [ref=e73] [cursor=pointer]:
+        - /url: servicios/medicina-interna.html
+        - heading "Medicina Interna" [level=3] [ref=e77]
+        - paragraph [ref=e78]: Diagnóstico integral de enfermedades internas con laboratorio clínico y protocolos de tratamiento personalizados.
+        - generic [ref=e79]: Conocer más →
+      - link "Nutrición Clínica Planes nutricionales personalizados para enfermedades crónicas, obesidad y recuperación postquirúrgica. Conocer más →" [ref=e80] [cursor=pointer]:
+        - /url: servicios/nutricion.html
+        - heading "Nutrición Clínica" [level=3] [ref=e84]
+        - paragraph [ref=e85]: Planes nutricionales personalizados para enfermedades crónicas, obesidad y recuperación postquirúrgica.
+        - generic [ref=e86]: Conocer más →
+      - link "Ortopedia y Traumatología Cirugías ortopédicas, reparación de ligamentos, prótesis articulares y rehabilitación física. Conocer más →" [ref=e87] [cursor=pointer]:
+        - /url: servicios/ortopedia.html
+        - heading "Ortopedia y Traumatología" [level=3] [ref=e91]
+        - paragraph [ref=e92]: Cirugías ortopédicas, reparación de ligamentos, prótesis articulares y rehabilitación física.
+        - generic [ref=e93]: Conocer más →
+      - link "Oncología Diagnóstico oncológico, quimioterapia, radioterapia y cuidados paliativos con calidad de vida. Conocer más →" [ref=e94] [cursor=pointer]:
+        - /url: servicios/oncologia.html
+        - heading "Oncología" [level=3] [ref=e98]
+        - paragraph [ref=e99]: Diagnóstico oncológico, quimioterapia, radioterapia y cuidados paliativos con calidad de vida.
+        - generic [ref=e100]: Conocer más →
+      - link "Radiología y Diagnóstico por Imagen Radiografía digital, ecografía, tomografía y resonancia magnética para diagnóstico preciso. Conocer más →" [ref=e101] [cursor=pointer]:
+        - /url: servicios/radiologia.html
+        - heading "Radiología y Diagnóstico por Imagen" [level=3] [ref=e106]
+        - paragraph [ref=e107]: Radiografía digital, ecografía, tomografía y resonancia magnética para diagnóstico preciso.
+        - generic [ref=e108]: Conocer más →
+      - link "Dermatología Tratamiento de alergias, infecciones cutáneas, enfermedades autoinmunes y análisis citológicos. Conocer más →" [ref=e109] [cursor=pointer]:
+        - /url: servicios/dermatologia.html
+        - heading "Dermatología" [level=3] [ref=e113]
+        - paragraph [ref=e114]: Tratamiento de alergias, infecciones cutáneas, enfermedades autoinmunes y análisis citológicos.
+        - generic [ref=e115]: Conocer más →
+  - generic [ref=e118]:
+    - img "Dr. David Aguilar — Veterinario especialista" [ref=e122]
+    - generic [ref=e123]:
+      - generic [ref=e124]: Sobre Mí
+      - heading "Dr. David Aguilar" [level=2] [ref=e125]
+      - paragraph [ref=e126]: Médico veterinario especialista con más de 10 años de experiencia en cuidados intensivos, cardiología y cirugía de alta complejidad.
+      - paragraph [ref=e127]: Mi compromiso es brindar la atención más avanzada y humanizada para cada paciente que llega a nuestra UCI. Cada mascota es única y merece el mejor cuidado posible.
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - paragraph [ref=e130]: "+10"
+          - paragraph [ref=e131]: Años de Experiencia
+        - generic [ref=e132]:
+          - paragraph [ref=e133]: "+5000"
+          - paragraph [ref=e134]: Pacientes Atendidos
+        - generic [ref=e135]:
+          - paragraph [ref=e136]: 24/7
+          - paragraph [ref=e137]: Atención Continua
+        - generic [ref=e138]:
+          - paragraph [ref=e139]: "9"
+          - paragraph [ref=e140]: Especialidades
+      - link "Consultar al Dr. David" [ref=e141] [cursor=pointer]:
+        - /url: https://wa.me/573001234567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20David
+  - generic [ref=e145]:
+    - generic [ref=e146]:
+      - generic [ref=e147]: Nuestras Ventajas
+      - heading "¿Por Qué Elegirnos?" [level=2] [ref=e148]
+      - paragraph [ref=e149]: La combinación perfecta de experiencia, tecnología y compromiso.
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - heading "Atención 24/7" [level=3] [ref=e155]
+        - paragraph [ref=e156]: Emergencias y cuidados intensivos las 24 horas, los 365 días del año.
+      - generic [ref=e157]:
+        - heading "Tecnología Avanzada" [level=3] [ref=e161]
+        - paragraph [ref=e162]: Equipos de última generación para diagnóstico preciso y tratamientos efectivos.
+      - generic [ref=e163]:
+        - heading "Compromiso y Amor" [level=3] [ref=e167]
+        - paragraph [ref=e168]: Tratamos a cada mascota como si fuera nuestra, con dedicación y profesionalismo.
+      - generic [ref=e169]:
+        - heading "9 Especialidades" [level=3] [ref=e173]
+        - paragraph [ref=e174]: Áreas médicas completas para cubrir todas las necesidades de tu mascota.
+  - generic [ref=e179]:
+    - heading "¿Tu Mascota Necesita Atención de Urgencia?" [level=2] [ref=e180]
+    - paragraph [ref=e181]: No esperes. Contacta ahora mismo y recibe la atención especializada que tu mascota merece. Estamos disponibles 24 horas.
+    - generic [ref=e182]:
+      - link "WhatsApp de Emergencia" [ref=e183] [cursor=pointer]:
+        - /url: https://wa.me/573001234567?text=Hola%2C%20mi%20mascota%20necesita%20atenci%C3%B3n%20de%20urgencia
+      - link "Llamar Ahora" [ref=e186] [cursor=pointer]:
+        - /url: tel:+573001234567
+  - generic [ref=e190]:
+    - generic [ref=e191]:
+      - generic [ref=e192]: Preguntas Frecuentes
+      - heading "¿Tienes Dudas?" [level=2] [ref=e193]
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - button "¿Cuáles son los horarios de atención?" [ref=e196] [cursor=pointer]
+        - paragraph [ref=e200]: Nuestra UCI funciona las 24 horas del día, los 365 días del año. La consulta general y especializada tiene horarios de lunes a sábado de 8:00 AM a 6:00 PM. Las emergencias están disponibles siempre.
+      - generic [ref=e201]:
+        - button "¿Necesito cita previa para emergencias?" [ref=e202] [cursor=pointer]
+        - paragraph [ref=e206]: No. Las emergencias no requieren cita previa. Puede presentarse directamente con su mascota. Para consultas especializadas, le recomendamos agendar cita por WhatsApp para garantizar la disponibilidad del especialista.
+      - generic [ref=e207]:
+        - button "¿Qué especies atienden?" [ref=e208] [cursor=pointer]
+        - paragraph [ref=e212]: Atendemos principalmente mascotas (perros y gatos), pero también contamos con experiencia en animales exóticos y de compañía. Consulte por disponibilidad para otras especies.
+      - generic [ref=e213]:
+        - button "¿Cómo puedo agendar una cita?" [ref=e214] [cursor=pointer]
+        - paragraph [ref=e218]: La forma más rápida es a través de WhatsApp. Envíe un mensaje con su nombre, el nombre de su mascota y el motivo de la consulta. También puede llamarnos directamente o visitarnos en nuestra ubicación en Villavicencio.
+      - generic [ref=e219]:
+        - button "¿Aceptan seguros de mascotas?" [ref=e220] [cursor=pointer]
+        - paragraph [ref=e224]: Trabajamos con diferentes aseguradoras de mascotas. Consulte directamente con nosotros para verificar si su seguro está cubierto. También ofrecemos opciones de pago flexibles.
+  - contentinfo [ref=e225]:
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - img "Logo" [ref=e230]
+            - generic [ref=e231]:
+              - generic [ref=e232]: Unidad Veterinaria
+              - generic [ref=e233]: David Aguilar
+          - paragraph [ref=e234]: UCI veterinaria de alta complejidad en Villavicencio, Meta. Cuidando a quienes más amas.
+        - generic [ref=e235]:
+          - heading "Enlaces" [level=4] [ref=e236]
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - link "Inicio" [ref=e239] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=e240]:
+              - link "Servicios" [ref=e241] [cursor=pointer]:
+                - /url: "#servicios"
+            - listitem [ref=e242]:
+              - link "Sobre Mí" [ref=e243] [cursor=pointer]:
+                - /url: "#sobre-mi"
+            - listitem [ref=e244]:
+              - link "Ventajas" [ref=e245] [cursor=pointer]:
+                - /url: "#ventajas"
+            - listitem [ref=e246]:
+              - link "Contacto" [ref=e247] [cursor=pointer]:
+                - /url: contacto-y-ubicacion.html
+        - generic [ref=e248]:
+          - heading "Especialidades" [level=4] [ref=e249]
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - link "Cardiología" [ref=e252] [cursor=pointer]:
+                - /url: servicios/cardiologia.html
+            - listitem [ref=e253]:
+              - link "Cirugía General" [ref=e254] [cursor=pointer]:
+                - /url: servicios/cirugia-general.html
+            - listitem [ref=e255]:
+              - link "Neurología" [ref=e256] [cursor=pointer]:
+                - /url: servicios/neurologia.html
+            - listitem [ref=e257]:
+              - link "Medicina Interna" [ref=e258] [cursor=pointer]:
+                - /url: servicios/medicina-interna.html
+            - listitem [ref=e259]:
+              - link "Oncología" [ref=e260] [cursor=pointer]:
+                - /url: servicios/oncologia.html
+        - generic [ref=e261]:
+          - heading "Contacto" [level=4] [ref=e262]
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - generic [ref=e268]: "Calle 40 #15-25Villavicencio, Meta"
+            - listitem [ref=e269]:
+              - link "+57 300 123 4567" [ref=e272] [cursor=pointer]:
+                - /url: tel:+573001234567
+            - listitem [ref=e273]:
+              - link "WhatsApp" [ref=e276] [cursor=pointer]:
+                - /url: https://wa.me/573001234567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita
+            - listitem [ref=e277]:
+              - link "@davidaguilarucivet" [ref=e280] [cursor=pointer]:
+                - /url: https://www.instagram.com/davidaguilarucivet
+      - paragraph [ref=e282]: © 2026 Unidad Veterinaria David Aguilar. Todos los derechos reservados.
+  - link "Contáctenos por WhatsApp" [ref=e283] [cursor=pointer]:
+    - /url: https://wa.me/573001234567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita
+  - generic [ref=e287]:
+    - paragraph [ref=e289]:
+      - text: Utilizamos cookies para mejorar su experiencia en nuestro sitio web. Al continuar navegando, usted acepta nuestro uso de cookies.
+      - link "Política de Privacidad" [ref=e290] [cursor=pointer]:
+        - /url: "#"
+    - button "Aceptar" [ref=e291] [cursor=pointer]

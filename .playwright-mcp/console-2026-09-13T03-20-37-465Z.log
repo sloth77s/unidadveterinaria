@@ -1,0 +1,28 @@
+[      43ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[      44ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/hero-veterinaria.jpg:0
+[      56ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[     281ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  522437ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/dr-david-aguilar.jpg:0
+[  523990ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  524144ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  524145ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/hero-veterinaria.jpg:0
+[  524262ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  525354ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/dr-david-aguilar.jpg:0
+[  569306ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  576809ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  576953ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  576954ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/hero-veterinaria.jpg:0
+[  577059ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  579981ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/dr-david-aguilar.jpg:0
+[  580967ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  589225ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  589225ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/hero-veterinaria.jpg:0
+[  589239ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  589478ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  590735ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/dr-david-aguilar.jpg:0
+[  621255ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/servicios/cirugia-general.html:0
+[  624138ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  624138ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/hero-veterinaria.jpg:0
+[  624150ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  624382ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/logo.png:0
+[  624419ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/img/dr-david-aguilar.jpg:0
