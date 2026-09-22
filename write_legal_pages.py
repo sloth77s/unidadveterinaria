@@ -1,0 +1,363 @@
+# -*- coding: utf-8 -*-
+import os
+
+LEGAL_DIR = r"C:\Users\SOPORTES JPVM\Documents\web uci vet con seo\unidad-veterinaria-david-aguilar"
+
+# Common header/footer for all legal pages
+HEADER = '''<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#0D3880">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>{title}</title>
+  <meta name="description" content="{description}">
+  <link rel="canonical" href="https://unidadveterinaria.com/{canonical}">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/tailwind-config.js"></script>
+</head>
+<body class="bg-brand-deepNavy text-white font-sans flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-brand-deepNavy border-b border-brand-gold/40 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center gap-3">
+          <picture>
+            <source srcset="img/logo-sin-fondo-uci.webp" type="image/webp">
+            <img src="img/logo%20sin%20fondo%20uci%20.png" alt="Logo David Aguilar Unidad Veterinaria" class="w-12 h-12 object-contain drop-shadow" loading="lazy">
+          </picture>
+          <div>
+            <span class="block font-bold text-lg text-white">Unidad Veterinaria</span>
+            <span class="block text-xs font-semibold text-brand-goldLight tracking-wider uppercase">Dr. David Aguilar</span>
+          </div>
+        </a>
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="text-sm font-medium text-slate-300 hover:text-white">Inicio</a>
+          <a href="index.html#especialidades" class="text-sm font-medium text-slate-300 hover:text-brand-gold transition-colors">Especialidades</a>
+          <a href="preguntas-frecuentes.html" class="text-sm font-medium text-slate-300 hover:text-brand-gold transition-colors">FAQ</a>
+          <a href="contacto-y-ubicacion.html" class="text-sm font-medium text-slate-300 hover:text-brand-gold transition-colors">Contacto</a>
+        </nav>
+        <!-- CTA + Hamburger -->
+        <div class="flex items-center gap-3">
+          <a href="https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-whatsapp text-white font-semibold text-sm rounded-full shadow-sm hover:brightness-105">
+            <span>Agendar Cita</span>
+          </a>
+          <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg text-white hover:text-brand-gold focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Drawer -->
+    <div id="mobileMenu" class="hidden md:hidden border-t border-brand-gold/30 bg-brand-deepNavy px-4 pt-4 pb-6 space-y-1">
+      <a href="index.html" class="block font-semibold text-brand-gold text-sm py-2">Inicio</a>
+      <a href="index.html#especialidades" class="block font-medium text-slate-200 text-sm py-2 hover:text-brand-gold">Especialidades</a>
+      <a href="preguntas-frecuentes.html" class="block font-medium text-slate-200 text-sm py-2 hover:text-brand-gold">FAQ</a>
+      <a href="contacto-y-ubicacion.html" class="block font-medium text-slate-200 text-sm py-2 hover:text-brand-gold">Contacto</a>
+      <div class="pt-3">
+        <a href="https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 w-full py-3 bg-brand-whatsapp text-white font-semibold text-sm rounded-xl">
+          <span>Agendar por WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow py-12 bg-brand-deepNavy">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
+          {h1}
+        </h1>
+        <p class="mt-3 text-sm text-slate-300">
+          {subtitle}
+        </p>
+      </div>
+
+      <div class="bg-brand-royalBlue/20 p-6 sm:p-8 rounded-2xl border border-brand-gold/20 shadow-sm space-y-8">
+'''
+
+FOOTER = '''      </div>
+    </div>
+  </main>
+
+  <footer class="bg-brand-deepNavy text-white py-12 border-t border-brand-gold/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        <div class="md:col-span-2">
+          <a href="index.html" class="flex items-center space-x-2 mb-4">
+            <picture>
+              <source srcset="img/logo-sin-fondo-uci.webp" type="image/webp">
+              <img src="img/logo%20sin%20fondo%20uci%20.png" alt="Logo UCIVET" class="h-10 w-auto" loading="lazy">
+            </picture>
+            <span class="text-xl font-bold">UCIVET</span>
+          </a>
+          <p class="text-slate-400 max-w-md">Unidad de Cuidados Intensivos Veterinarios - Especialistas en urgencias y cuidados críticos para mascotas en Villavicencio.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
+          <ul class="space-y-2 text-slate-400">
+            <li><a href="index.html" class="hover:text-white transition">Inicio</a></li>
+            <li><a href="index.html#especialidades" class="hover:text-white transition">Especialidades</a></li>
+            <li><a href="contacto-y-ubicacion.html" class="hover:text-white transition">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Legal</h3>
+          <ul class="space-y-2 text-slate-400">
+            <li><a href="aviso-legal.html" class="hover:text-white transition">Aviso Legal</a></li>
+            <li><a href="politica-de-privacidad.html" class="hover:text-white transition">Política de Privacidad</a></li>
+            <li><a href="politica-de-cookies.html" class="hover:text-white transition">Política de Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-brand-royalBlue mt-8 pt-8 text-center text-xs text-slate-400">
+        <p>&copy; 2026 Unidad Veterinaria David Aguilar. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/ui-components.js"></script>
+</body>
+</html>'''
+
+# ===== AVISO LEGAL =====
+AVISO_LEGAL_CONTENT = '''
+        <section>
+          <h2 class="text-xl font-semibold text-white mb-4">Datos del Titular</h2>
+          <dl class="space-y-4 text-slate-200">
+            <div>
+              <dt class="font-medium text-white">Razón Social / Titular:</dt>
+              <dd class="mt-1">Unidad Veterinaria David Aguilar</dd>
+            </div>
+            <div>
+              <dt class="font-medium text-white">Identificación Fiscal:</dt>
+              <dd class="mt-1">NIT / DNI</dd>
+            </div>
+            <div>
+              <dt class="font-medium text-white">Domicilio Social:</dt>
+              <dd class="mt-1">Villavicencio, Meta, Colombia</dd>
+            </div>
+            <div>
+              <dt class="font-medium text-white">Correo Electrónico:</dt>
+              <dd class="mt-1"><a href="mailto:contacto@ucivet.com" class="text-brand-gold hover:underline">contacto@ucivet.com</a></dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Objeto y Ámbito de Aplicación</h2>
+          <p class="text-slate-200 leading-relaxed">
+            Este sitio web tiene un carácter exclusivamente informativo sobre los servicios médicos veterinarios especializados ofrecidos en Villavicencio. La reserva de citas se realiza directamente a través de canales externos como WhatsApp.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Propiedad Intelectual e Industrial</h2>
+          <p class="text-slate-200 leading-relaxed">
+            Todos los contenidos de este sitio web (textos, imágenes, logotipos, estructura, código fuente, etc.) son propiedad de la Unidad Veterinaria David Aguilar o de terceros que han autorizado su uso, y están protegidos por la legislación vigente en materia de propiedad intelectual e industrial. Queda prohibida su reproducción, distribución, comunicación pública o transformación sin autorización expresa.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Exención de Responsabilidad</h2>
+          <p class="text-slate-200 leading-relaxed">
+            La información contenida en este sitio web es de naturaleza general y meramente informativa, no constituyendo asesoramiento veterinario profesional. La Unidad Veterinaria David Aguilar no se hace responsable de las decisiones tomadas a partir de la información aquí publicada. Se recomienda consultar directamente con el profesional veterinario para cada caso particular.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Enlaces a Terceros</h2>
+          <p class="text-slate-200 leading-relaxed">
+            Este sitio web puede contener enlaces a sitios web de terceros (WhatsApp, Google Maps, redes sociales). La Unidad Veterinaria David Aguilar no tiene control sobre el contenido, políticas de privacidad o prácticas de dichos sitios y no asume responsabilidad alguna por ellos.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Legislación Aplicable y Jurisdicción</h2>
+          <p class="text-slate-200 leading-relaxed">
+            Las presentes condiciones se rigen por la legislación colombiana. Para la resolución de cualquier controversia que pudiera surgir, las partes se someten a los juzgados y tribunales de Villavicencio, Meta, Colombia, renunciando expresamente a cualquier otro fuero que pudiera corresponderles.
+          </p>
+        </section>
+'''
+
+# ===== POLÍTICA DE PRIVACIDAD =====
+PRIVACIDAD_CONTENT = '''
+        <section>
+          <h2 class="text-xl font-semibold text-white mb-4">Responsable del Tratamiento</h2>
+          <dl class="space-y-3 text-slate-200">
+            <div><dt class="font-medium text-white">Titular:</dt> <dd class="mt-1">Unidad Veterinaria David Aguilar</dd></div>
+            <div><dt class="font-medium text-white">Ubicación:</dt> <dd class="mt-1">Villavicencio, Meta, Colombia</dd></div>
+            <div><dt class="font-medium text-white">Contacto:</dt> <dd class="mt-1"><a href="mailto:contacto@ucivet.com" class="text-brand-gold hover:underline">contacto@ucivet.com</a></dd></div>
+          </dl>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6 p-6 bg-brand-deepNavy/50 rounded-lg border border-brand-gold/10">
+          <h2 class="text-xl font-semibold text-white mb-4">Declaración de No Captura de Datos</h2>
+          <p class="text-slate-200 leading-relaxed text-lg font-medium">
+            La Unidad Veterinaria David Aguilar <strong>no recopila, almacena ni procesa datos personales de los usuarios a través de formularios dentro de este sitio web</strong>.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Redirección a Servicios de Terceros</h2>
+          <p class="text-slate-200 leading-relaxed mb-4">
+            Este sitio web facilita el acceso a servicios externos mediante botones y enlaces. Al interactuar con ellos, el usuario sale de nuestro entorno y accede a plataformas que aplican sus propias políticas de privacidad:
+          </p>
+          <ul class="list-disc list-inside space-y-3 text-slate-200">
+            <li>
+              <strong>WhatsApp / Meta Platforms, Inc.:</strong> Los botones de agendamiento y contacto redirigen a WhatsApp. El tratamiento de datos realizado a través de esta plataforma se rige por la <a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Política de Privacidad de WhatsApp</a> y los <a href="https://www.meta.com/privacy/policy/" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Términos de Meta</a>.
+            </li>
+            <li>
+              <strong>Google Maps:</strong> Los enlaces de ubicación abren Google Maps. El tratamiento de datos de localización se rige por la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Política de Privacidad de Google</a>.
+            </li>
+          </ul>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Datos de Navegación (Cookies Técnicas y Analíticas)</h2>
+          <p class="text-slate-200 leading-relaxed mb-4">
+            Aunque no solicitamos datos mediante formularios, la infraestructura técnica del sitio (Cloudflare Pages) y servicios embebidos (Google Maps) pueden utilizar cookies técnicas y de rendimiento para garantizar la velocidad de carga, seguridad y medición anónima de tráfico. Consulte nuestra <a href="politica-de-cookies.html" class="text-brand-gold hover:underline">Política de Cookies</a> para más detalles.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Derechos del Usuario</h2>
+          <p class="text-slate-200 leading-relaxed mb-4">
+            Al no tratarse datos personales propios mediante formularios, los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad (ARCO) se ejercen directamente ante los terceros mencionados (Meta, Google) según sus propios procedimientos.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Modificaciones</h2>
+          <p class="text-slate-200 leading-relaxed">
+            Esta política puede actualizarse para adaptarse a novedades legislativas o cambios en los servicios de terceros. La versión vigente será siempre la publicada en esta página.
+          </p>
+        </section>
+'''
+
+# ===== POLÍTICA DE COOKIES =====
+COOKIES_CONTENT = '''
+        <section>
+          <h2 class="text-xl font-semibold text-white mb-4">¿Qué son las cookies?</h2>
+          <p class="text-slate-200 leading-relaxed">
+            Las cookies son pequeños archivos de texto que los sitios web almacenan en el navegador del usuario para recordar información sobre su visita. Permiten que el sitio funcione correctamente, analice el tráfico y mejore la experiencia de usuario.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6 p-6 bg-brand-deepNavy/50 rounded-lg border border-brand-gold/10">
+          <h2 class="text-xl font-semibold text-white mb-4">Uso de Cookies en Este Sitio</h2>
+          <p class="text-slate-200 leading-relaxed mb-4">
+            Este sitio web utiliza <strong>exclusivamente cookies técnicas y de rendimiento</strong> para:
+          </p>
+          <ul class="list-disc list-inside space-y-2 text-slate-200">
+            <li>Garantizar el funcionamiento técnico y la seguridad del sitio (cookies de sesión, balanceo de carga, protección CSRF).</li>
+            <li>Medir el tráfico de forma anónima y agregada para mejorar el rendimiento (analytics sin identificación personal).</li>
+            <li>Mantener la velocidad de carga óptima mediante CDN (Cloudflare).</li>
+          </ul>
+          <p class="text-slate-200 leading-relaxed mt-4">
+            <strong>No utilizamos cookies de publicidad, seguimiento entre sitios (cross-site tracking) ni perfiles de usuario.</strong>
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Cookies de Terceros</h2>
+          <p class="text-slate-200 leading-relaxed mb-4">
+            Algunos servicios embebidos pueden establecer sus propias cookies cuando el usuario interactúa con ellos:
+          </p>
+          <ul class="list-disc list-inside space-y-3 text-slate-200">
+            <li>
+              <strong>Google Maps:</strong> Al cargar el mapa de ubicación, Google puede instalar cookies para recordar preferencias de mapa y medir uso. Regidas por la <a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Política de Cookies de Google</a>.
+            </li>
+            <li>
+              <strong>WhatsApp / Meta:</strong> Al hacer clic en botones de WhatsApp, Meta puede usar cookies para autenticación y seguridad. Regidas por la <a href="https://www.facebook.com/policies/cookies/" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Política de Cookies de Meta</a>.
+            </li>
+            <li>
+              <strong>Cloudflare (CDN):</strong> Cookie <code class="bg-brand-deepNavy px-1.5 py-0.5 rounded text-sm font-mono">__cf_bm</code> para gestión de tráfico legítimo y seguridad (bot management). Duración: 30 minutos.
+            </li>
+          </ul>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Cómo Gestionar y Eliminar Cookies</h2>
+          <p class="text-slate-200 leading-relaxed mb-4">
+            El usuario puede permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de su navegador. Los enlaces a las instrucciones de los navegadores más comunes:
+          </p>
+          <ul class="list-disc list-inside space-y-2 text-slate-200">
+            <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Google Chrome</a></li>
+            <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Mozilla Firefox</a></li>
+            <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Safari</a></li>
+            <li><a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Microsoft Edge</a></li>
+          </ul>
+          <p class="text-slate-200 leading-relaxed mt-4">
+            <strong>Nota:</strong> Si desactiva las cookies técnicas, algunas funcionalidades del sitio (como el mapa de ubicación o los botones de WhatsApp) podrían no funcionar correctamente.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Consentimiento</h2>
+          <p class="text-slate-200 leading-relaxed">
+            Al navegar por este sitio web con el navegador configurado para aceptar cookies, el usuario consiente el uso de las cookies técnicas y de rendimiento descritas. El usuario puede revocar este consentimiento en cualquier momento eliminando las cookies desde la configuración de su navegador.
+          </p>
+        </section>
+
+        <section class="border-t border-brand-gold/20 pt-6">
+          <h2 class="text-xl font-semibold text-white mb-4">Actualizaciones</h2>
+          <p class="text-slate-200 leading-relaxed">
+            Esta política de cookies puede actualizarse para reflejar cambios en los servicios utilizados o en la normativa aplicable. Se recomienda revisarla periódicamente.
+          </p>
+        </section>
+'''
+
+PAGES = [
+    {
+        "filename": "aviso-legal.html",
+        "title": "Aviso Legal - Unidad Veterinaria David Aguilar",
+        "description": "Aviso legal de la Unidad Veterinaria David Aguilar. Información del titular, propiedad intelectual, exención de responsabilidad y legislación aplicable.",
+        "canonical": "aviso-legal",
+        "h1": "Aviso Legal",
+        "subtitle": "Información legal de la Unidad Veterinaria David Aguilar en cumplimiento con la normativa vigente.",
+        "content": AVISO_LEGAL_CONTENT
+    },
+    {
+        "filename": "politica-de-privacidad.html",
+        "title": "Política de Privacidad - Unidad Veterinaria David Aguilar",
+        "description": "Política de privacidad de la Unidad Veterinaria David Aguilar. No recopilamos datos personales mediante formularios. Redirección a WhatsApp/Meta y Google Maps.",
+        "canonical": "politica-de-privacidad",
+        "h1": "Política de Privacidad",
+        "subtitle": "Cómo protegemos tu información al navegar por nuestro sitio web.",
+        "content": PRIVACIDAD_CONTENT
+    },
+    {
+        "filename": "politica-de-cookies.html",
+        "title": "Política de Cookies - Unidad Veterinaria David Aguilar",
+        "description": "Política de cookies de la Unidad Veterinaria David Aguilar. Uso de cookies técnicas y de rendimiento, cookies de terceros (Google Maps, WhatsApp, Cloudflare) y cómo gestionarlas.",
+        "canonical": "politica-de-cookies",
+        "h1": "Política de Cookies",
+        "subtitle": "Qué cookies utilizamos, para qué sirven y cómo puedes gestionarlas.",
+        "content": COOKIES_CONTENT
+    }
+]
+
+def write_page(page):
+    full = HEADER.format(
+        title=page["title"],
+        description=page["description"],
+        canonical=page["canonical"],
+        h1=page["h1"],
+        subtitle=page["subtitle"]
+    ) + page["content"] + FOOTER
+    
+    path = os.path.join(LEGAL_DIR, page["filename"])
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(full)
+    print(f"Written: {page['filename']} ({len(full)} chars)")
+
+if __name__ == "__main__":
+    for page in PAGES:
+        write_page(page)
+    print("\nAll 3 legal pages written with UTF-8 encoding!")
