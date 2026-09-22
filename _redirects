@@ -23,12 +23,8 @@
 /servicios/radiologia-veterinaria.html /servicios/radiologia-veterinaria 301
 /servicios/dermatologia-veterinaria.html /servicios/dermatologia-veterinaria 301
 
-# Handle trailing slashes
-/servicios/ /servicios/ 200
-/servicios/* /servicios/:splat 301
-
 # Root
 /index.html / 301
 
-# SPA fallback (if needed)
-/* /index.html 200
+# SPA fallback (if needed) - only for paths that don't match
+# Remove the problematic catch-all that might cause loops

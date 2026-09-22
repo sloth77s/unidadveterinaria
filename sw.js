@@ -4,23 +4,23 @@
 const CACHE_NAME = 'ucivet-v1';
 const STATIC_ASSETS = [
   '/',
-  '/index.html',
-  '/contacto-y-ubicacion.html',
-  '/preguntas-frecuentes.html',
-  '/aviso-legal.html',
-  '/politica-de-privacidad.html',
-  '/politica-de-cookies.html',
-  '/servicios/cardiologia-veterinaria.html',
-  '/servicios/citopatologia-veterinaria.html',
-  '/servicios/dermatologia-veterinaria.html',
-  '/servicios/gastroenterologia-veterinaria.html',
-  '/servicios/medicina-interna-veterinaria.html',
-  '/servicios/nefrologia-veterinaria.html',
-  '/servicios/neurologia-veterinaria.html',
-  '/servicios/nutricion-veterinaria.html',
-  '/servicios/oncologia-veterinaria.html',
-  '/servicios/ortopedia-veterinaria.html',
-  '/servicios/radiologia-veterinaria.html',
+  '/index',
+  '/contacto-y-ubicacion',
+  '/preguntas-frecuentes',
+  '/aviso-legal',
+  '/politica-de-privacidad',
+  '/politica-de-cookies',
+  '/servicios/cardiologia-veterinaria',
+  '/servicios/citopatologia-veterinaria',
+  '/servicios/dermatologia-veterinaria',
+  '/servicios/gastroenterologia-veterinaria',
+  '/servicios/medicina-interna-veterinaria',
+  '/servicios/nefrologia-veterinaria',
+  '/servicios/neurologia-veterinaria',
+  '/servicios/nutricion-veterinaria',
+  '/servicios/oncologia-veterinaria',
+  '/servicios/ortopedia-veterinaria',
+  '/servicios/radiologia-veterinaria',
   '/js/ui-components.js',
   '/js/tailwind-config.js',
   '/css/custom.css',
@@ -116,7 +116,7 @@ self.addEventListener('fetch', (event) => {
           .catch(() => {
             // Offline fallback for HTML pages
             if (event.request.headers.get('accept')?.includes('text/html')) {
-              return caches.match('/index.html');
+              return caches.match('/index');
             }
             return new Response('Offline', { status: 503 });
           });
