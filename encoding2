@@ -1,9 +1,10 @@
 import os
 import glob
+import re
 
 # ============================================================
-#  fix_encoding.py — Unidad Veterinaria
-#  Ejecutar UNA VEZ dentro de la carpeta del proyecto
+#  fix_encoding.py — Unidad Veterinaria v2
+#  Ejecutar dentro de la carpeta raíz del proyecto:
 #  python fix_encoding.py
 # ============================================================
 
@@ -14,24 +15,25 @@ files = (
     glob.glob(os.path.join(BASE_DIR, "servicios", "*.html"))
 )
 
-# Reemplazos a nivel de bytes (orden importa: más largos primero)
+# ── Reemplazos a nivel de BYTES (orden: más largos primero) ──────────────────
 BYTE_FIXES = [
     # BOM doble-codificado
     (b'\xc3\xaf\xc2\xbb\xc2\xbf', b''),
-    # ¿ (signo de interrogación)
+    # ¿
     (b'\xc3\x81\xc2\x82\xc2\xbf', '¿'.encode()),
-    # ¡ (signo de exclamación)
+    # ¡
     (b'\xc3\x81\xc2\x82\xc2\xa1', '¡'.encode()),
     # á (aviso-legal: ámbito)
     (b'\xc3\x81\xc2\x81\xc3\x82\xc2\x81', 'á'.encode()),
-    # … (puntos suspensivos)
+    # … puntos suspensivos
     (b'\xc3\x81\xc2\xa2\xc3\xa2\xc2\x82\xc2\xac\xc3\x82\xc2\xa6', '…'.encode()),
-    # → (flecha derecha, contacto "Google Maps")
+    # → flecha
     (b'\xc3\x81\xc2\xa2\xc3\xa2\xc2\x82\xc2\xac\xc3\xa2\xc2\x80\xc2\x9d', '→'.encode()),
-    # ✕ (cruz JS preguntas-frecuentes)
+    # ✕
     (b'\xc3\x81\xc2\xa2\xc3\x8b\xc2\x86\xc3\xa2\xc2\x80\xc2\x99', '✕'.encode()),
-    # ✔ (checkmark, dos variantes)
+    # ✔ variante 1
     (b'\xc3\x81\xc2\xa2\xc3\x82\xc2\x82\xc3\x82\xc2\xb0', '✔'.encode()),
+    # ✔ variante 2
     (b'\xc3\x81\xc2\xa2\xc3\x82\xc2\x8f\xc3\x82\xc2\xb0', '✔'.encode()),
     # Ñ (RESEÑAS)
     (b'\xc3\x81\xc2\x81\xc3\xa2\xc2\x80\xc2\x98', 'Ñ'.encode()),
@@ -39,34 +41,62 @@ BYTE_FIXES = [
     (b'\xc3\x81\xc2\x81\xc3\xa2\xc2\x80\xc2\x9c', 'Ó'.encode()),
     # Á (RÁPIDA)
     (b'\xc3\x81\xc2\x81\xc3\x82\xc2\x81', 'Á'.encode()),
-    # 📍 (dirección, contacto)
+    # 📍 dirección
     (b'\xc3\x85\xc2\xb8\xc3\xa2\xc2\x80\xc2\x9c\xc3\x82\xc2\x8d', '📍'.encode()),
-    # 📞 (teléfono, contacto)
+    # 📞 teléfono
     (b'\xc3\x85\xc2\xb8\xc3\xa2\xc2\x80\xc2\x9c\xc3\x85\xc2\xbe', '📞'.encode()),
-    # 📸 (instagram, contacto)
+    # 📸 instagram
     (b'\xc3\x85\xc2\xb8\xc3\xa2\xc2\x80\xc2\x9c\xc3\x82\xc2\xb8', '📸'.encode()),
-    # 🐾 (pata, reseñas — variante larga)
+    # 🐾 pata variante larga
     (b'\xc3\x85\xc2\xb8\xc3\x82\xc2\x90\xc3\x82\xc2\xb6', '🐾'.encode()),
-    # 🐕 (perro, reseñas)
+    # 🐕 perro
     (b'\xc3\x85\xc2\xb8\xc3\x82\xc2\x90\xc3\x8b\xc2\x86', '🐕'.encode()),
-    # 🏆 (trofeo, reseña "Excelente Doctor")
+    # 🏆 trofeo
     (b'\xc3\x85\xc2\xb8\xc3\xa2\xc2\x80\xc2\x98\xc3\x85\xc2\x92', '🏆'.encode()),
-    # ❤️ (reseña "Mi niña")
+    # ❤️
     (b'\xc3\x85\xc2\xb8\xc3\xa2\xc2\x80\xc2\x98\xc3\x82\xc2\x8d', '❤️'.encode()),
-    # Å¸âÂ remanentes genéricos (fallback)
+    # Remanentes Å¸â genéricos
     (b'\xc3\x85\xc2\xb8\xc3\xa2\xc2\x80', b''),
+]
+
+# ── Reemplazos a nivel de TEXTO (para limpiar restos visibles) ────────────────
+# Estos limpian el "Á°" que queda delante de emojis ya convertidos
+TEXT_FIXES = [
+    # Á° delante de emojis de contacto
+    ('Á°📍', '📍'),
+    ('Á°📞', '📞'),
+    ('Á°📸', '📸'),
+    ('Á°🕐', '🕐'),
+    ('Á°✔', '✔'),
+    # Á° delante de emojis de reseñas
+    ('Á°🐾', '🐾'),
+    ('Á°🐕', '🐕'),
+    ('Á°🏆', '🏆'),
+    ('Á°❤️', '❤️'),
+    # Cualquier Á° que quede suelto
+    ('Á°', ''),
+    # ÁÂ¡ -> ¡ (texto visible residual)
+    ('ÁÂ¡', '¡'),
+    ('ÁÂ¿', '¿'),
 ]
 
 fixed = 0
 for filepath in files:
     with open(filepath, 'rb') as f:
-        original = f.read()
+        original_bytes = f.read()
 
-    content = original
+    # Paso 1: arreglos a nivel de bytes
+    content = original_bytes
     for bad, good in BYTE_FIXES:
         content = content.replace(bad, good)
 
-    if content != original:
+    # Paso 2: arreglos a nivel de texto (para residuos visibles)
+    text = content.decode('utf-8', errors='replace')
+    for bad, good in TEXT_FIXES:
+        text = text.replace(bad, good)
+    content = text.encode('utf-8')
+
+    if content != original_bytes:
         with open(filepath, 'wb') as f:
             f.write(content)
         print(f"  CORREGIDO: {os.path.relpath(filepath, BASE_DIR)}")
@@ -75,4 +105,4 @@ for filepath in files:
         print(f"  OK:        {os.path.relpath(filepath, BASE_DIR)}")
 
 print(f"\n✅ Listo. {fixed} archivo(s) corregido(s).")
-print("   Ahora haz commit y push a GitHub, luego despliega.")
+print("   Ahora haz commit, push y despliega.")
