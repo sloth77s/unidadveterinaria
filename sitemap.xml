@@ -29,34 +29,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.pages.dev/preguntas-frecuentes"/>
   </url>
 
-  <!-- Páginas legales (noindex, pero en sitemap para rastreo) -->
-  <url>
-    <loc>https://unidadveterinaria.pages.dev/aviso-legal</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.pages.dev/aviso-legal"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.pages.dev/aviso-legal"/>
-  </url>
-
-  <url>
-    <loc>https://unidadveterinaria.pages.dev/politica-de-privacidad</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.pages.dev/politica-de-privacidad"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.pages.dev/politica-de-privacidad"/>
-  </url>
-
-  <url>
-    <loc>https://unidadveterinaria.pages.dev/politica-de-cookies</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="es-CO" href="https://unidadveterinaria.pages.dev/politica-de-cookies"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://unidadveterinaria.pages.dev/politica-de-cookies"/>
-  </url>
-
   <!-- Servicios (11 especialidades) -->
   <url>
     <loc>https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria</loc>
