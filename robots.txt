@@ -1,5 +1,5 @@
 # robots.txt para Unidad Veterinaria David Aguilar
-# Configuración para Cloudflare Pages con URLs limpias (sin .html)
+# Configuracion para Cloudflare Pages con URLs limpias (sin .html)
 
 User-agent: *
 Allow: /
@@ -7,10 +7,10 @@ Allow: /
 # Sitemap
 Sitemap: https://unidadveterinaria.pages.dev/sitemap.xml
 
-# Páginas legales - noindex via meta tag, pero permitimos rastreo
-# (las páginas tienen <meta name="robots" content="noindex"> en el HTML)
+# Paginas legales - noindex via meta tag, pero permitimos rastreo
+# (las paginas tienen <meta name="robots" content="noindex"> en el HTML)
 
-# No bloquear recursos estáticos
+# No bloquear recursos estaticos
 Allow: /img/
 Allow: /js/
 Allow: /css/
