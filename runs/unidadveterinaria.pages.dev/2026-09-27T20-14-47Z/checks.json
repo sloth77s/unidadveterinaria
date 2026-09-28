@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-27T20:15:01.579Z",
+  "plugin_version": "0.2.0",
+  "run_dir": "C:\\Users\\SOPORTES JPVM\\Documents\\web uci vet con seo\\runs\\unidadveterinaria.pages.dev\\2026-09-27T20-14-47Z",
+  "stats": {
+    "checks_run": 25,
+    "per_module": {
+      "M7": 5,
+      "M7c": 1,
+      "M7b": 2,
+      "M8": 10,
+      "M9": 1,
+      "M10": 5,
+      "M5": 1,
+      "M17": 1,
+      "M20": 1,
+      "M4": 1,
+      "M14": 7,
+      "M21": 2,
+      "M22": 8,
+      "M15": 2
+    },
+    "needs_api": 6,
+    "manual_review": 0,
+    "not_applicable": 3,
+    "dropped": 0,
+    "dropped_findings": [],
+    "psi": "needs_api",
+    "errors": []
+  }
+}

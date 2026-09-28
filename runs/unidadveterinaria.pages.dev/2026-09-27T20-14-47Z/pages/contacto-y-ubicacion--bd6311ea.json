@@ -1,0 +1,1081 @@
+{
+  "snapshot_version": 2,
+  "plugin_version": "0.2.0",
+  "generated_at": "2026-09-27T20:14:49.920Z",
+  "run_id": "2026-09-27T20-14-47Z",
+  "target": {
+    "kind": "url",
+    "value": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+    "requested_url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+    "final_url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+    "host": "unidadveterinaria.pages.dev",
+    "origin": "https://unidadveterinaria.pages.dev",
+    "slug": "contacto-y-ubicacion--bd6311ea",
+    "path": null
+  },
+  "request": {
+    "ua_preset": "default",
+    "user_agent": "Mozilla/5.0 (compatible; claude-seo-ai/0.2; +https://github.com/Hainrixz/claude-seo-ai)",
+    "accept_language": "en",
+    "timeout_ms": 20000,
+    "max_hops": 10,
+    "max_bytes": 5000000,
+    "attempts": 1
+  },
+  "status_chain": [
+    {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+      "status": 200,
+      "location": null,
+      "ms": 292
+    }
+  ],
+  "status": 200,
+  "ok": true,
+  "redirects": {
+    "hops": 0,
+    "loop": false,
+    "truncated": false,
+    "http_to_https": false,
+    "host_changed": false,
+    "www_normalized": false,
+    "trailing_slash_changed": false
+  },
+  "headers": {
+    "access-control-allow-origin": "*",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "cf-ray": "a41d2ce1dad674be-MIA",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 27 Sep 2026 20:14:33 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Pc7s%2FPdJ1wo7%2FYBwxqNdOa7kvP2X5s4Iaeluro0H2xfQxH2VIqdx8NFrSo7ZExARJmF6S6Mo%2FfTxf0gjX1%2BFGzEilL6wKkrRXxeCrraawldasRWUjZOd3fNV7Wn9yeyHHuxPG2gKL%2BK%2FtUOyjO%2FF7LLimPQq6RYPyAQ%3D\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "x-content-type-options": "nosniff"
+  },
+  "cookie_names": [],
+  "header_links": {
+    "all": [],
+    "canonical": null,
+    "alternates": []
+  },
+  "robots_directives": {
+    "header": {
+      "raw": null,
+      "directives": []
+    },
+    "meta": [
+      {
+        "name": "robots",
+        "content": "index, follow",
+        "directives": [
+          {
+            "agent": null,
+            "name": "index",
+            "value": null,
+            "raw": "index"
+          },
+          {
+            "agent": null,
+            "name": "follow",
+            "value": null,
+            "raw": "follow"
+          }
+        ]
+      }
+    ],
+    "effective": {
+      "noindex": false,
+      "nofollow": false,
+      "nosnippet": false,
+      "noarchive": false,
+      "noimageindex": false,
+      "notranslate": false,
+      "indexifembedded": false,
+      "max_snippet": null,
+      "max_image_preview": null,
+      "max_video_preview": null,
+      "unavailable_after": null,
+      "directives": [
+        "follow",
+        "index"
+      ],
+      "agents_seen": [
+        "all"
+      ],
+      "indexable": true,
+      "snippet_eligible": true
+    },
+    "sources": [
+      "meta"
+    ]
+  },
+  "body": {
+    "bytes": 18725,
+    "truncated": false,
+    "charset": "utf-8",
+    "charset_source": "header",
+    "content_encoding": "br",
+    "gunzipped": false,
+    "sha256": "9a66705fed4db708439b5f26d96a4fb1e0a66209278c3c4d98c162a5a6a6ab82"
+  },
+  "timing": {
+    "ttfb_ms": 292,
+    "download_ms": 5,
+    "total_ms": 296
+  },
+  "raw_html_path": "pages/contacto-y-ubicacion--bd6311ea.html",
+  "rendered_html_path": null,
+  "render": {
+    "needed": true,
+    "signals": [
+      "low_word_count"
+    ],
+    "markers": [],
+    "mode": "static",
+    "renderer": "auto",
+    "used": "none",
+    "renderer_path": null,
+    "confidence": "reduced",
+    "available": null,
+    "hint": "static HTML looks JS-dependent (low_word_count); re-run with --render auto or --render js, or pass --rendered-file <dom.html>",
+    "ms": null,
+    "error": null,
+    "delta": null
+  },
+  "parsed": {
+    "base_href": null,
+    "effective_base": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+    "title": {
+      "value": "Ubicación y Contacto de Especialidades Veterinarias | Unidad Veterinaria David Aguilar",
+      "count": 1
+    },
+    "metas": [
+      {
+        "name": null,
+        "property": null,
+        "content": null,
+        "charset": "UTF-8"
+      },
+      {
+        "name": "theme-color",
+        "property": null,
+        "content": "#0D3880"
+      },
+      {
+        "name": "viewport",
+        "property": null,
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "property": null,
+        "content": "Contacto y ubicación exacta de la Unidad Veterinaria David Aguilar en Villavicencio, Meta. Agenda tu consulta especializada mediante WhatsApp o llamada telefónica."
+      },
+      {
+        "name": "keywords",
+        "property": null,
+        "content": "ubicación Unidad Veterinaria David Aguilar, contacto veterinario Villavicencio, mapa clínica veterinaria Meta, cita previa veterinario"
+      },
+      {
+        "name": "robots",
+        "property": null,
+        "content": "index, follow"
+      }
+    ],
+    "robots_meta": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      }
+    ],
+    "lang": "es",
+    "charset": {
+      "value": "UTF-8",
+      "offset_bytes": 67
+    },
+    "canonicals": [
+      {
+        "href": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+        "abs": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+        "source": "link"
+      }
+    ],
+    "hreflang": [],
+    "links_rel": [
+      {
+        "rel": [
+          "canonical"
+        ],
+        "href": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+        "abs": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+        "hreflang": null,
+        "type": null,
+        "media": null
+      },
+      {
+        "rel": [
+          "manifest"
+        ],
+        "href": "/manifest.json",
+        "abs": "https://unidadveterinaria.pages.dev/manifest.json",
+        "hreflang": null,
+        "type": null,
+        "media": null
+      }
+    ],
+    "anchors": [
+      {
+        "href": "/",
+        "abs": "https://unidadveterinaria.pages.dev/",
+        "anchor": "Unidad Veterinaria Dr. David Aguilar",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/",
+        "abs": "https://unidadveterinaria.pages.dev/",
+        "anchor": "Inicio",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/citopatologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria",
+        "anchor": "Citopatología Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/cardiologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria",
+        "anchor": "Cardiología Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/nefrologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria",
+        "anchor": "Nefrología Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/gastroenterologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria",
+        "anchor": "Gastroenterología Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/neurologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria",
+        "anchor": "Neurología Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/medicina-interna-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria",
+        "anchor": "Medicina Interna Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/nutricion-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/nutricion-veterinaria",
+        "anchor": "Nutrición Clínica Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/ortopedia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/ortopedia-veterinaria",
+        "anchor": "Ortopedia y Traumatología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/oncologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/oncologia-veterinaria",
+        "anchor": "Oncología Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/radiologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/radiologia-veterinaria",
+        "anchor": "Radiología y Diagnóstico",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/dermatologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/dermatologia-veterinaria",
+        "anchor": "Dermatología Veterinaria",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/preguntas-frecuentes",
+        "abs": "https://unidadveterinaria.pages.dev/preguntas-frecuentes",
+        "anchor": "FAQ",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "/contacto-y-ubicacion",
+        "abs": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+        "anchor": "Contacto",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "nav",
+        "in_content": false
+      },
+      {
+        "href": "https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta",
+        "abs": "https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta",
+        "anchor": "Agendar Cita",
+        "anchor_source": "text",
+        "rel": [
+          "noopener"
+        ],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": false,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/",
+        "abs": "https://unidadveterinaria.pages.dev/",
+        "anchor": "Inicio",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/citopatologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria",
+        "anchor": "Citopatología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/cardiologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria",
+        "anchor": "Cardiología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/nefrologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria",
+        "anchor": "Nefrología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/gastroenterologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria",
+        "anchor": "Gastroenterología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/neurologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria",
+        "anchor": "Neurología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/medicina-interna-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria",
+        "anchor": "Medicina Interna",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/nutricion-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/nutricion-veterinaria",
+        "anchor": "Nutrición Clínica",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/ortopedia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/ortopedia-veterinaria",
+        "anchor": "Ortopedia",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/oncologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/oncologia-veterinaria",
+        "anchor": "Oncología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/radiologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/radiologia-veterinaria",
+        "anchor": "Radiología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/servicios/dermatologia-veterinaria",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/dermatologia-veterinaria",
+        "anchor": "Dermatología",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/preguntas-frecuentes",
+        "abs": "https://unidadveterinaria.pages.dev/preguntas-frecuentes",
+        "anchor": "FAQ",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "/contacto-y-ubicacion",
+        "abs": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+        "anchor": "Contacto",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta",
+        "abs": "https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta",
+        "anchor": "Agendar por WhatsApp",
+        "anchor_source": "text",
+        "rel": [
+          "noopener"
+        ],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": false,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "href": "https://www.instagram.com/davidaguilarucivet/",
+        "abs": "https://www.instagram.com/davidaguilarucivet/",
+        "anchor": "@davidaguilarucivet",
+        "anchor_source": "text",
+        "rel": [
+          "noopener"
+        ],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": false,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "href": "https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta",
+        "abs": "https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta",
+        "anchor": "Agendar Cita por WhatsApp",
+        "anchor_source": "text",
+        "rel": [
+          "noopener"
+        ],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": false,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "href": "https://www.google.com/maps?vet=10CAAQoqAOahcKEwj4xJri7f6WAxUAAAAAHQAAAAAQDA..i&fvr=1&pvq=Cg0vZy8xMXFieTUxZjVtIhgKEnVuaWRhZCB2ZXRlcmluYXJpYRACGAM&lqi=ChJ1bmlkYWQgdmV0ZXJpbmFyaWFIs-nC0qu2gIAIWhwQABABGAAYASISdW5pZGFkIHZldGVyaW5hcmlhkgEPYW5pbWFsX2hvc3BpdGFsmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5xTUVsdGIwRjNFQUX6AQQIABA6&cs=0&um=1&ie=UTF-8&fb=1&gl=co&sa=X&geocode=KRNFbJe2GLUBMaH25uc31D4L&daddr=Cra.+19a+%2336A+27,+Villavicencio,+Meta",
+        "abs": "https://www.google.com/maps?vet=10CAAQoqAOahcKEwj4xJri7f6WAxUAAAAAHQAAAAAQDA..i&fvr=1&pvq=Cg0vZy8xMXFieTUxZjVtIhgKEnVuaWRhZCB2ZXRlcmluYXJpYRACGAM&lqi=ChJ1bmlkYWQgdmV0ZXJpbmFyaWFIs-nC0qu2gIAIWhwQABABGAAYASISdW5pZGFkIHZldGVyaW5hcmlhkgEPYW5pbWFsX2hvc3BpdGFsmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5xTUVsdGIwRjNFQUX6AQQIABA6&cs=0&um=1&ie=UTF-8&fb=1&gl=co&sa=X&geocode=KRNFbJe2GLUBMaH25uc31D4L&daddr=Cra.+19a+%2336A+27,+Villavicencio,+Meta",
+        "anchor": "Cómo Llegar → Google Maps",
+        "anchor_source": "text",
+        "rel": [
+          "noopener"
+        ],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": false,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "href": "/",
+        "abs": "https://unidadveterinaria.pages.dev/",
+        "anchor": "UCIVET",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "footer",
+        "in_content": false
+      },
+      {
+        "href": "/",
+        "abs": "https://unidadveterinaria.pages.dev/",
+        "anchor": "Inicio",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "footer",
+        "in_content": false
+      },
+      {
+        "href": "servicios/",
+        "abs": "https://unidadveterinaria.pages.dev/servicios/",
+        "anchor": "Servicios",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "footer",
+        "in_content": false
+      },
+      {
+        "href": "/#contacto",
+        "abs": "https://unidadveterinaria.pages.dev/#contacto",
+        "anchor": "Contacto",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "footer",
+        "in_content": false
+      },
+      {
+        "href": "/aviso-legal",
+        "abs": "https://unidadveterinaria.pages.dev/aviso-legal",
+        "anchor": "Aviso Legal",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "footer",
+        "in_content": false
+      },
+      {
+        "href": "/politica-de-privacidad",
+        "abs": "https://unidadveterinaria.pages.dev/politica-de-privacidad",
+        "anchor": "Política de Privacidad",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "footer",
+        "in_content": false
+      },
+      {
+        "href": "/politica-de-cookies",
+        "abs": "https://unidadveterinaria.pages.dev/politica-de-cookies",
+        "anchor": "Política de Cookies",
+        "anchor_source": "text",
+        "rel": [],
+        "nofollow": false,
+        "sponsored": false,
+        "ugc": false,
+        "internal": true,
+        "fragment_only": false,
+        "scheme": "http",
+        "region": "footer",
+        "in_content": false
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Ubicación y Contacto de Especialidades Veterinarias",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "level": 2,
+        "text": "Información Directa",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "level": 3,
+        "text": "Dirección Sede",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "level": 3,
+        "text": "Teléfono / WhatsApp",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "level": 3,
+        "text": "Instagram Oficial",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "level": 3,
+        "text": "Horarios de Atención",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "level": 2,
+        "text": "Mapa de Ubicación",
+        "region": "main",
+        "in_content": true
+      },
+      {
+        "level": 3,
+        "text": "Enlaces Rápidos",
+        "region": "footer",
+        "in_content": false
+      },
+      {
+        "level": 3,
+        "text": "Legal",
+        "region": "footer",
+        "in_content": false
+      }
+    ],
+    "images": [
+      {
+        "src": "img/logo%20sin%20fondo%20uci%20.png",
+        "abs": "https://unidadveterinaria.pages.dev/img/logo%20sin%20fondo%20uci%20.png",
+        "srcset": [],
+        "data_src": null,
+        "lazy": true,
+        "alt": "Logo David Aguilar Unidad Veterinaria",
+        "alt_present": true,
+        "width": null,
+        "height": null,
+        "sized": false,
+        "bound": [],
+        "region": "header",
+        "in_content": false
+      },
+      {
+        "src": "img/logo%20sin%20fondo%20uci%20.png",
+        "abs": "https://unidadveterinaria.pages.dev/img/logo%20sin%20fondo%20uci%20.png",
+        "srcset": [],
+        "data_src": null,
+        "lazy": true,
+        "alt": "Logo UCIVET",
+        "alt_present": true,
+        "width": null,
+        "height": null,
+        "sized": false,
+        "bound": [],
+        "region": "footer",
+        "in_content": false
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://cdn.tailwindcss.com",
+        "abs": "https://cdn.tailwindcss.com/",
+        "type": null,
+        "async": false,
+        "defer": false,
+        "module": false,
+        "inline_bytes": 0
+      },
+      {
+        "src": "js/tailwind-config.js",
+        "abs": "https://unidadveterinaria.pages.dev/js/tailwind-config.js",
+        "type": null,
+        "async": false,
+        "defer": false,
+        "module": false,
+        "inline_bytes": 0
+      },
+      {
+        "src": "js/main.js",
+        "abs": "https://unidadveterinaria.pages.dev/js/main.js",
+        "type": null,
+        "async": false,
+        "defer": false,
+        "module": false,
+        "inline_bytes": 0
+      },
+      {
+        "src": "js/ui-components.js",
+        "abs": "https://unidadveterinaria.pages.dev/js/ui-components.js",
+        "type": null,
+        "async": false,
+        "defer": false,
+        "module": false,
+        "inline_bytes": 0
+      },
+      {
+        "src": "https://static.cloudflareinsights.com/beacon.min.js",
+        "abs": "https://static.cloudflareinsights.com/beacon.min.js",
+        "type": null,
+        "async": false,
+        "defer": true,
+        "module": false,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [],
+    "jsonld": [
+      {
+        "ok": true,
+        "type": [
+          "MedicalBusiness"
+        ],
+        "data": {
+          "@context": "https://schema.org",
+          "@type": "MedicalBusiness",
+          "name": "Unidad Veterinaria David Aguilar",
+          "description": "Centro médico veterinario de alta especialización y cuidados intensivos en Villavicencio, Meta.",
+          "telephone": "+573219930949",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Cra. 19a #36A-27",
+            "addressLocality": "Villavicencio",
+            "addressRegion": "Meta",
+            "addressCountry": "CO"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "4.1420",
+            "longitude": "-73.6266"
+          },
+          "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion.html"
+        },
+        "error": null,
+        "raw": "{\n\n    \"@context\": \"https://schema.org\",\n\n    \"@type\": \"MedicalBusiness\",\n\n    \"name\": \"Unidad Veterinaria David Aguilar\",\n\n    \"description\": \"Centro médico veterinario de alta especialización y cuidados intensivos en Villavicencio, Meta.\",\n\n    \"telephone\": \"+573219930949\",\n\n    \"address\": {\n\n      \"@type\": \"PostalAddress\",\n\n      \"streetAddress\": \"Cra. 19a #36A-27\",\n\n      \"addressLocality\": \"Villavicencio\",\n\n      \"addressRegion\": \"Meta\",\n\n      \"addressCountry\": \"CO\"\n\n    },\n\n    \"geo\": {\n\n      \"@type\": \"GeoCoordinates\",\n\n      \"latitude\": \"4.1420\",\n\n      \"longitude\": \"-73.6266\"\n\n    },\n\n    \"url\": \"https://unidadveterinaria.pages.dev/contacto-y-ubicacion.html\"\n\n  }"
+      }
+    ],
+    "microdata_items": 0,
+    "rdfa_typeof": 0,
+    "iframes": [
+      {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5!2d-73.626616!3d4.142100!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2e9a5b5b5b5b%3A0x0!2sCra.+19a+%2336A-27%2C+Villavicencio%2C+Meta!5e0!3m2!1ses!2sco!4v1",
+        "abs": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5!2d-73.626616!3d4.142100!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2e9a5b5b5b5b%3A0x0!2sCra.+19a+%2336A-27%2C+Villavicencio%2C+Meta!5e0!3m2!1ses!2sco!4v1",
+        "title": "Mapa de la Unidad Veterinaria David Aguilar - Cra. 19a #36A-27 Villavicencio",
+        "loading": "lazy",
+        "region": "main"
+      }
+    ],
+    "forms": [],
+    "landmarks": {
+      "main": 1,
+      "article": 0,
+      "nav": 1,
+      "header": 1,
+      "footer": 1,
+      "aside": 0
+    },
+    "markers": {
+      "next_data": false,
+      "next_assets": false,
+      "nuxt": false,
+      "reactroot": false,
+      "next_root_empty": null,
+      "app_root_empty": null,
+      "angular": false,
+      "sveltekit": false,
+      "astro": false,
+      "remix": false,
+      "noscript_js_notice": false,
+      "generator": null
+    },
+    "word_count": 93,
+    "text_sample": "Ubicación y Contacto de Especialidades Veterinarias Sede clínica en Villavicencio, Meta. Le atendemos exclusivamente con cita previa para garantizar atención médica personalizada. Información Directa Comuníquese con el equipo médico para agendamiento de consultas externas. 📍 Dirección Sede Cra. 19a #36A-27, Villavicencio, Meta, Colombia 📞 Teléfono / WhatsApp +57 321 993 0949 📸 Instagram Oficial @davidaguilarucivet ✔ Horarios de Atención Lunes a Sábado: 8:00 AM - 12:00 PM / 2:00 PM - 6:00 PM Domingo: Cerrado Agendar Cita por WhatsApp Mapa de Ubicación Sede clínica de especialidades en Villavicencio. Cómo Llegar → Google Maps",
+    "html_comments_sample": [
+      "Schema.org JSON-LD MedicalBusiness",
+      "Header",
+      "Logo",
+      "Desktop Nav",
+      "CTA + Hamburger"
+    ]
+  },
+  "parsed_rendered": null,
+  "site": {
+    "robots": "site/robots.json",
+    "sitemaps": "site/sitemaps.json",
+    "sitemap_urls": "site/sitemap-urls.txt",
+    "discovery": "site/discovery.json",
+    "robots_txt": "site/robots.txt"
+  },
+  "warnings": [
+    "render skipped by --render static although the page looks JS-dependent"
+  ],
+  "tier": 0,
+  "error": null
+}

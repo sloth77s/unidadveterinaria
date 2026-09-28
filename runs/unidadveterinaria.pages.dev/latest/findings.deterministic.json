@@ -1,0 +1,1314 @@
+[
+  {
+    "id": "M7.title.length_out_of_band",
+    "title": "Title length is outside the pass band",
+    "status": "warn",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "\"Unidad Veterinaria David Aguilar | Clínica de Especialidades en Villavicencio\" is 77 characters (long); pass band 30-60, recommended 50-60."
+    },
+    "expected": "Title length inside 30-60 characters.",
+    "recommendation": "Shorten the title to about 50-60 characters so the SERP does not truncate it.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "The <title> length falls within 30-60 characters.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Google publishes no character limit — the band is a pixel-width convention, and Google rewrites titles it considers unhelpful regardless of length.",
+      "magnitude": "medium"
+    },
+    "module": "M7"
+  },
+  {
+    "id": "M7.title.length_out_of_band",
+    "title": "Title length is outside the pass band",
+    "status": "warn",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "evidence": {
+      "observed": "\"Ubicación y Contacto de Especialidades Veterinarias | Unidad Veterinaria David Aguilar\" is 86 characters (long); pass band 30-60, recommended 50-60."
+    },
+    "expected": "Title length inside 30-60 characters.",
+    "recommendation": "Shorten the title to about 50-60 characters so the SERP does not truncate it.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "The <title> length falls within 30-60 characters.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Google publishes no character limit — the band is a pixel-width convention, and Google rewrites titles it considers unhelpful regardless of length.",
+      "magnitude": "medium"
+    },
+    "module": "M7"
+  },
+  {
+    "id": "M7.description.length_out_of_band",
+    "title": "Meta description is outside the pass band",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "evidence": {
+      "observed": "\"Contacto y ubicación exacta de la Unidad Veterinaria David Aguilar en Villavicencio, Meta. Agenda tu consulta especializada mediante WhatsApp o llamada telefónica.\" is 163 characters (long); pass band 70-160."
+    },
+    "expected": "A meta description of 70-160 characters that summarises the page.",
+    "recommendation": "Rewrite the description to land inside the band.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[name=description] content length falls within 70-160.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Google states the description is not a ranking factor and is frequently rewritten; the band affects how often the site's own text is used as the snippet.",
+      "magnitude": "low"
+    },
+    "module": "M7"
+  },
+  {
+    "id": "M7.title.length_out_of_band",
+    "title": "Title length is outside the pass band",
+    "status": "warn",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+    },
+    "evidence": {
+      "observed": "\"Preguntas Frecuentes - Unidad Veterinaria | Dr. David Aguilar\" is 61 characters (long); pass band 30-60, recommended 50-60."
+    },
+    "expected": "Title length inside 30-60 characters.",
+    "recommendation": "Shorten the title to about 50-60 characters so the SERP does not truncate it.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "The <title> length falls within 30-60 characters.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/preguntas-frecuentes--5090bafe.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Google publishes no character limit — the band is a pixel-width convention, and Google rewrites titles it considers unhelpful regardless of length.",
+      "magnitude": "medium"
+    },
+    "module": "M7"
+  },
+  {
+    "id": "M7.description.length_out_of_band",
+    "title": "Meta description is outside the pass band",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+    },
+    "evidence": {
+      "observed": "\"Preguntas frecuentes sobre agendamiento de citas, preparación previa de mascotas y métodos de pago aceptados en la Unidad Veterinaria David Aguilar en Villavicencio.\" is 165 characters (long); pass band 70-160."
+    },
+    "expected": "A meta description of 70-160 characters that summarises the page.",
+    "recommendation": "Rewrite the description to land inside the band.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[name=description] content length falls within 70-160.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/preguntas-frecuentes--5090bafe.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Google states the description is not a ranking factor and is frequently rewritten; the band affects how often the site's own text is used as the snippet.",
+      "magnitude": "low"
+    },
+    "module": "M7"
+  },
+  {
+    "id": "M7c.outline.skipped_level",
+    "title": "Heading outline skips a level",
+    "status": "fail",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+    },
+    "evidence": {
+      "observed": "h1 \"Preguntas Frecuentes - Unidad Veterinar…\" is followed directly by h3 \"¿Tiene alguna otra inquietud sobre su p…\"."
+    },
+    "expected": "Heading levels descend one step at a time (h2 -> h3, never h2 -> h4).",
+    "recommendation": "Renumber the headings so each nested section is exactly one level below its parent.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "No two consecutive headings differ by more than one level.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/preguntas-frecuentes--5090bafe.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "A broken outline is an accessibility defect and makes passage boundaries harder to infer; no engine documents a ranking effect.",
+      "magnitude": "medium"
+    },
+    "module": "M7c"
+  },
+  {
+    "id": "M7b.layout.horizontal_scroll",
+    "title": "Horizontal overflow was not measured",
+    "status": "needs_api",
+    "scope": "site",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "Not measured in this run: whether content overflows a 360 px viewport depends on computed widths, not on the HTML source. 5 pages were parsed from static HTML only."
+    },
+    "expected": "A rendered-page audit that reports viewport overflow and tap-target geometry.",
+    "recommendation": "Run npx lighthouse <url> --only-categories=seo,accessibility --form-factor=mobile against the URLs that matter, or re-run this audit with a renderer attached.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "manual_review",
+      "assertion": "A mobile Lighthouse run reports no horizontal overflow and no undersized tap targets.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Google documents mobile usability expectations but publishes no static test for them; claiming a pass from the HTML alone would be a fabrication.",
+      "magnitude": "low"
+    },
+    "module": "M7b",
+    "severity": 0
+  },
+  {
+    "id": "M7b.taptarget.too_small",
+    "title": "Tap-target size was not measured",
+    "status": "needs_api",
+    "scope": "site",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "Not measured in this run: target size and spacing need layout boxes, which the HTML source does not carry. 5 pages were parsed from static HTML only."
+    },
+    "expected": "A rendered-page audit that reports viewport overflow and tap-target geometry.",
+    "recommendation": "Run npx lighthouse <url> --only-categories=accessibility --form-factor=mobile against the URLs that matter, or re-run this audit with a renderer attached.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "manual_review",
+      "assertion": "A mobile Lighthouse run reports no horizontal overflow and no undersized tap targets.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Google documents mobile usability expectations but publishes no static test for them; claiming a pass from the HTML alone would be a fabrication.",
+      "magnitude": "low"
+    },
+    "module": "M7b",
+    "severity": 0
+  },
+  {
+    "id": "M8.og.missing_image",
+    "title": "No og:image on the page",
+    "status": "fail",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "No <meta property=\"og:image\">, og:image:url or twitter:image in the head of https://unidadveterinaria.pages.dev/."
+    },
+    "expected": "An absolute og:image URL pointing at a shareable preview image.",
+    "recommendation": "Add <meta property=\"og:image\" content=\"<absolute image URL>\"> (at least 200×200 px) to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[property=\"og:image\"] exists with an absolute URL.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "established",
+      "rationale": "The Open Graph protocol and the platforms that consume it document og:image as the source of the shared preview; without it the platform picks an arbitrary image or none.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.twitter.no_card",
+    "title": "No twitter:card declared",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "No <meta name=\"twitter:card\"> on https://unidadveterinaria.pages.dev/; the page has no Open Graph image to fall back to either."
+    },
+    "expected": "A twitter:card value (summary or summary_large_image) alongside the Open Graph tags.",
+    "recommendation": "Add <meta name=\"twitter:card\" content=\"summary_large_image\"> to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[name=\"twitter:card\"] exists with a documented card type.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "X falls back to Open Graph tags when the card type is absent, so the cost is the larger card format rather than the preview itself.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.og.missing_image",
+    "title": "No og:image on the page",
+    "status": "fail",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "evidence": {
+      "observed": "No <meta property=\"og:image\">, og:image:url or twitter:image in the head of https://unidadveterinaria.pages.dev/contacto-y-ubicacion."
+    },
+    "expected": "An absolute og:image URL pointing at a shareable preview image.",
+    "recommendation": "Add <meta property=\"og:image\" content=\"<absolute image URL>\"> (at least 200×200 px) to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[property=\"og:image\"] exists with an absolute URL.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "established",
+      "rationale": "The Open Graph protocol and the platforms that consume it document og:image as the source of the shared preview; without it the platform picks an arbitrary image or none.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.twitter.no_card",
+    "title": "No twitter:card declared",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "evidence": {
+      "observed": "No <meta name=\"twitter:card\"> on https://unidadveterinaria.pages.dev/contacto-y-ubicacion; the page has no Open Graph image to fall back to either."
+    },
+    "expected": "A twitter:card value (summary or summary_large_image) alongside the Open Graph tags.",
+    "recommendation": "Add <meta name=\"twitter:card\" content=\"summary_large_image\"> to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[name=\"twitter:card\"] exists with a documented card type.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "X falls back to Open Graph tags when the card type is absent, so the cost is the larger card format rather than the preview itself.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.og.missing_image",
+    "title": "No og:image on the page",
+    "status": "fail",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria"
+    },
+    "evidence": {
+      "observed": "No <meta property=\"og:image\">, og:image:url or twitter:image in the head of https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria."
+    },
+    "expected": "An absolute og:image URL pointing at a shareable preview image.",
+    "recommendation": "Add <meta property=\"og:image\" content=\"<absolute image URL>\"> (at least 200×200 px) to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[property=\"og:image\"] exists with an absolute URL.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_citopatologia-veterinaria--24b79a69.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "established",
+      "rationale": "The Open Graph protocol and the platforms that consume it document og:image as the source of the shared preview; without it the platform picks an arbitrary image or none.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.twitter.no_card",
+    "title": "No twitter:card declared",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria"
+    },
+    "evidence": {
+      "observed": "No <meta name=\"twitter:card\"> on https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria; the page has no Open Graph image to fall back to either."
+    },
+    "expected": "A twitter:card value (summary or summary_large_image) alongside the Open Graph tags.",
+    "recommendation": "Add <meta name=\"twitter:card\" content=\"summary_large_image\"> to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[name=\"twitter:card\"] exists with a documented card type.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_citopatologia-veterinaria--24b79a69.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "X falls back to Open Graph tags when the card type is absent, so the cost is the larger card format rather than the preview itself.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.og.missing_image",
+    "title": "No og:image on the page",
+    "status": "fail",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+    },
+    "evidence": {
+      "observed": "No <meta property=\"og:image\">, og:image:url or twitter:image in the head of https://unidadveterinaria.pages.dev/preguntas-frecuentes."
+    },
+    "expected": "An absolute og:image URL pointing at a shareable preview image.",
+    "recommendation": "Add <meta property=\"og:image\" content=\"<absolute image URL>\"> (at least 200×200 px) to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[property=\"og:image\"] exists with an absolute URL.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/preguntas-frecuentes--5090bafe.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "established",
+      "rationale": "The Open Graph protocol and the platforms that consume it document og:image as the source of the shared preview; without it the platform picks an arbitrary image or none.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.twitter.no_card",
+    "title": "No twitter:card declared",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+    },
+    "evidence": {
+      "observed": "No <meta name=\"twitter:card\"> on https://unidadveterinaria.pages.dev/preguntas-frecuentes; the page has no Open Graph image to fall back to either."
+    },
+    "expected": "A twitter:card value (summary or summary_large_image) alongside the Open Graph tags.",
+    "recommendation": "Add <meta name=\"twitter:card\" content=\"summary_large_image\"> to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[name=\"twitter:card\"] exists with a documented card type.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/preguntas-frecuentes--5090bafe.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "X falls back to Open Graph tags when the card type is absent, so the cost is the larger card format rather than the preview itself.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.og.missing_image",
+    "title": "No og:image on the page",
+    "status": "fail",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria"
+    },
+    "evidence": {
+      "observed": "No <meta property=\"og:image\">, og:image:url or twitter:image in the head of https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria."
+    },
+    "expected": "An absolute og:image URL pointing at a shareable preview image.",
+    "recommendation": "Add <meta property=\"og:image\" content=\"<absolute image URL>\"> (at least 200×200 px) to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[property=\"og:image\"] exists with an absolute URL.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_cardiologia-veterinaria--101ea79f.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "established",
+      "rationale": "The Open Graph protocol and the platforms that consume it document og:image as the source of the shared preview; without it the platform picks an arbitrary image or none.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M8.twitter.no_card",
+    "title": "No twitter:card declared",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria"
+    },
+    "evidence": {
+      "observed": "No <meta name=\"twitter:card\"> on https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria; the page has no Open Graph image to fall back to either."
+    },
+    "expected": "A twitter:card value (summary or summary_large_image) alongside the Open Graph tags.",
+    "recommendation": "Add <meta name=\"twitter:card\" content=\"summary_large_image\"> to the template.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "meta[name=\"twitter:card\"] exists with a documented card type.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_cardiologia-veterinaria--101ea79f.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "X falls back to Open Graph tags when the card type is absent, so the cost is the larger card format rather than the preview itself.",
+      "magnitude": "low"
+    },
+    "module": "M8"
+  },
+  {
+    "id": "M9.img.no_dimensions",
+    "title": "Content images declare no width/height",
+    "status": "warn",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "1 content <img> of 1 lacks numeric width and height: <img src=\"img/logo%20sin%20fondo%20uci%20.png\" alt=\"David Aguilar Logo Oficial\">."
+    },
+    "expected": "Each <img> declares its intrinsic width and height in pixels so the browser can reserve the space.",
+    "recommendation": "Add width and height attributes (or an aspect-ratio in CSS) matching the file's intrinsic size.",
+    "fixable": "auto",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "Every content <img> carries numeric width and height attributes.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "both",
+      "confidence": "directional",
+      "rationale": "Unsized images are a documented cause of layout shift, but whether they move CLS on this page depends on the layout, which static HTML cannot settle.",
+      "magnitude": "medium"
+    },
+    "module": "M9"
+  },
+  {
+    "id": "M10.contextual.too_few_inbody_links",
+    "title": "Few contextual in-body internal links",
+    "status": "warn",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "evidence": {
+      "observed": "0 internal links inside the content region of https://unidadveterinaria.pages.dev/contacto-y-ubicacion (41 http anchors on the page in total; the rest sit in nav/header/footer/aside)."
+    },
+    "expected": "At least 3 contextual links from the body text to related pages.",
+    "recommendation": "Link from the body copy to the pages this one references, using anchor text that names the destination.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "link_graph",
+      "assertion": "The content region contains at least 3 internal anchors.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/link-graph.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Internal links are how Google discovers and weights pages, but no engine publishes a minimum count — the threshold is ours.",
+      "magnitude": "medium"
+    },
+    "module": "M10"
+  },
+  {
+    "id": "M10.contextual.too_few_inbody_links",
+    "title": "Few contextual in-body internal links",
+    "status": "warn",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria"
+    },
+    "evidence": {
+      "observed": "0 internal links inside the content region of https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria (40 http anchors on the page in total; the rest sit in nav/header/footer/aside)."
+    },
+    "expected": "At least 3 contextual links from the body text to related pages.",
+    "recommendation": "Link from the body copy to the pages this one references, using anchor text that names the destination.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "link_graph",
+      "assertion": "The content region contains at least 3 internal anchors.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/link-graph.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_citopatologia-veterinaria--24b79a69.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Internal links are how Google discovers and weights pages, but no engine publishes a minimum count — the threshold is ours.",
+      "magnitude": "medium"
+    },
+    "module": "M10"
+  },
+  {
+    "id": "M10.contextual.too_few_inbody_links",
+    "title": "Few contextual in-body internal links",
+    "status": "warn",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+    },
+    "evidence": {
+      "observed": "0 internal links inside the content region of https://unidadveterinaria.pages.dev/preguntas-frecuentes (39 http anchors on the page in total; the rest sit in nav/header/footer/aside)."
+    },
+    "expected": "At least 3 contextual links from the body text to related pages.",
+    "recommendation": "Link from the body copy to the pages this one references, using anchor text that names the destination.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "link_graph",
+      "assertion": "The content region contains at least 3 internal anchors.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/link-graph.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/preguntas-frecuentes--5090bafe.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Internal links are how Google discovers and weights pages, but no engine publishes a minimum count — the threshold is ours.",
+      "magnitude": "medium"
+    },
+    "module": "M10"
+  },
+  {
+    "id": "M10.contextual.too_few_inbody_links",
+    "title": "Few contextual in-body internal links",
+    "status": "warn",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria"
+    },
+    "evidence": {
+      "observed": "0 internal links inside the content region of https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria (40 http anchors on the page in total; the rest sit in nav/header/footer/aside)."
+    },
+    "expected": "At least 3 contextual links from the body text to related pages.",
+    "recommendation": "Link from the body copy to the pages this one references, using anchor text that names the destination.",
+    "fixable": "proposed",
+    "verification": {
+      "method": "link_graph",
+      "assertion": "The content region contains at least 3 internal anchors.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/link-graph.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_cardiologia-veterinaria--101ea79f.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Internal links are how Google discovers and weights pages, but no engine publishes a minimum count — the threshold is ours.",
+      "magnitude": "medium"
+    },
+    "module": "M10"
+  },
+  {
+    "id": "M10.orphan.no_incoming_links",
+    "title": "Sitemap URLs the crawl never reached through a link",
+    "status": "needs_api",
+    "scope": "site",
+    "evidence": {
+      "observed": "9 sitemap URLs were not sampled, so their inlink counts are unknown: https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria, https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria, https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria, https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria and 5 more (5 URLs sampled of 18 discovered)."
+    },
+    "expected": "A crawl wide enough to sample every sitemap URL, or an explicit statement that the rest were not measured.",
+    "recommendation": "Raise --pages / --max (or pass the URLs as --seeds) if the inlink status of these URLs matters for this audit.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "link_graph",
+      "assertion": "Each listed sitemap URL appears in crawl.json pages[] with an inlinks count.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/crawl.mjs\" --url https://unidadveterinaria.pages.dev/ --json"
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "established",
+      "rationale": "Reporting these as orphans would overstate what the crawl saw; they are unmeasured, not proven unlinked.",
+      "magnitude": "low"
+    },
+    "module": "M10",
+    "severity": 0
+  },
+  {
+    "id": "M5.article.missing",
+    "title": "Editorial page carries no Article schema",
+    "status": "fail",
+    "severity": 4,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "https://unidadveterinaria.pages.dev/ is an editorial page (template type MedicalBusiness) and its JSON-LD declares MedicalBusiness, PostalAddress, GeoCoordinates, OpeningHoursSpecification, AdministrativeArea — no Article/NewsArticle/BlogPosting node."
+    },
+    "expected": "An Article (or NewsArticle/BlogPosting) node with headline, datePublished, dateModified, author and image.",
+    "recommendation": "Add Article JSON-LD to the template using schema/jsonld-templates/article.json.",
+    "fixable": "auto",
+    "verification": {
+      "method": "schema_validator",
+      "assertion": "The page emits an Article-family node with the required properties.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/validate-jsonld.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "both",
+      "confidence": "established",
+      "rationale": "Google documents Article structured data as the requirement for article rich results and for the byline/date it shows beside them.",
+      "magnitude": "high"
+    },
+    "module": "M5"
+  },
+  {
+    "id": "M17.sitemap.lastmod_identical",
+    "title": "Every sitemap URL carries the same lastmod",
+    "status": "warn",
+    "severity": 2,
+    "scope": "site",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    "evidence": {
+      "observed": "All 14 <lastmod> values equal 2026-09-22T00:00:00.000Z, so the file cannot distinguish a changed page from an unchanged one."
+    },
+    "expected": "lastmod reflects when each URL last changed meaningfully.",
+    "recommendation": "Emit the real per-URL modification date, or omit lastmod entirely — a build timestamp on every URL is worse than none.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "xml_parse",
+      "assertion": "The sitemap carries more than one distinct <lastmod> value, or none at all.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-robots-sitemap.mjs\" --url https://unidadveterinaria.pages.dev/robots.txt --path /"
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Google states it ignores lastmod when a site reports it inconsistently; the effect is a loss of the recrawl hint, not a penalty.",
+      "magnitude": "low"
+    },
+    "module": "M17"
+  },
+  {
+    "id": "M20.hreflang.not_applicable",
+    "title": "No hreflang annotations on this site",
+    "status": "not_applicable",
+    "scope": "site",
+    "evidence": {
+      "observed": "None of the 5 sampled pages declares a rel=\"alternate\" hreflang link or Link header."
+    },
+    "expected": "A monolingual site needs no hreflang; a multilingual one annotates each locale cluster.",
+    "recommendation": "Nothing to do — hreflang only applies once the same content exists in more than one language or region.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "No page emits <link rel=\"alternate\" hreflang=\"…\">.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/hreflang-check.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "established",
+      "rationale": "Google documents hreflang as applying to pages that exist in several languages or regions; on a monolingual site there is nothing for it to annotate.",
+      "magnitude": "low"
+    },
+    "module": "M20",
+    "severity": 0
+  },
+  {
+    "id": "M4.render.needs_renderer",
+    "title": "Pages show client-side-rendering signals and no renderer was available",
+    "status": "needs_api",
+    "severity": 3,
+    "scope": "site",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "evidence": {
+      "observed": "3 sampled pages of 5 reports render.needed with render.used=\"none\" (signals on https://unidadveterinaria.pages.dev/contacto-y-ubicacion: low_word_count; mode \"static\", renderer \"auto\"). The raw-vs-rendered delta could not be measured."
+    },
+    "expected": "A run with a renderer (--render js, or --rendered-file with a DOM captured elsewhere) so the delta can be measured.",
+    "recommendation": "static HTML looks JS-dependent (low_word_count); re-run with --render auto or --render js, or pass --rendered-file <dom.html>",
+    "fixable": "advisory",
+    "verification": {
+      "method": "render_diff",
+      "assertion": "The snapshot carries render.used != \"none\" and a render.delta object.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/snapshot.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\" --render js"
+    },
+    "expected_impact": {
+      "axis": "both",
+      "confidence": "directional",
+      "rationale": "The CSR signals (low word count, empty framework root, hydration markers) are heuristics; only a real render can confirm or refute them, so the result is unknown rather than clean.",
+      "magnitude": "medium"
+    },
+    "module": "M4"
+  },
+  {
+    "id": "M14.retrieval.allowed",
+    "title": "Retrieval and user-triggered AI crawlers may fetch the audited path",
+    "status": "pass",
+    "severity": 4,
+    "scope": "site",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/robots.txt",
+      "resource": "robots.txt"
+    },
+    "evidence": {
+      "observed": "All 12 citation-capable crawlers are allowed on /: OAI-SearchBot, Claude-SearchBot, PerplexityBot, Amazonbot, Google-CloudVertexBot, DuckAssistBot and 6 more."
+    },
+    "expected": "No Disallow reaches the retrieval/user-class tokens on the audited path.",
+    "recommendation": "Keep it this way, and review robots.txt whenever a new AI token is added to it.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "robots_parse",
+      "assertion": "Every retrieval/user-class token resolves to allowed:true for the audited path.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-robots-sitemap.mjs\" --url https://unidadveterinaria.pages.dev/robots.txt --path /"
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "Access is necessary for citation but not sufficient: no vendor documents how an allowed page is selected for an answer.",
+      "magnitude": "high"
+    },
+    "module": "M14"
+  },
+  {
+    "id": "M14.content_signal.absent",
+    "title": "No Content-Signal line in robots.txt",
+    "status": "not_applicable",
+    "scope": "site",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/robots.txt",
+      "resource": "robots.txt"
+    },
+    "evidence": {
+      "observed": "robots.txt at https://unidadveterinaria.pages.dev/robots.txt carries no `Content-Signal:` directive."
+    },
+    "expected": "Absence is not a defect: Content-Signal is an optional preference vocabulary.",
+    "recommendation": "Add one only if the site wants to state a preference about search, AI input and AI training separately. No vendor documents that it is honoured.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "robots_parse",
+      "assertion": "parseRobots(robots.txt).contentSignals.present is false.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-robots-sitemap.mjs\" --url https://unidadveterinaria.pages.dev/robots.txt --path /"
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "speculative",
+      "rationale": "The Content-Signal draft expired in April 2026 and defines vocabulary only; nobody publishes compliance, so its absence changes nothing measurable.",
+      "magnitude": "low"
+    },
+    "module": "M14",
+    "severity": 0
+  },
+  {
+    "id": "M14.ai_eligibility.ok",
+    "title": "Page is indexable and snippet-eligible",
+    "status": "pass",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "https://unidadveterinaria.pages.dev/: No noindex, nosnippet or max-snippet:0 was observed and robots.txt allows Googlebot on this URL."
+    },
+    "expected": "No noindex, nosnippet or max-snippet:0, and robots.txt allows Googlebot.",
+    "recommendation": "No action needed. Eligibility is a gate, not a promise of citation.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "header_check",
+      "assertion": "The effective Googlebot directives leave the page indexable and snippet-eligible.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/ai-eligibility.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "established",
+      "rationale": "Google documents that AI features draw on pages eligible for Search snippets; this check confirms the gate is open, nothing beyond it.",
+      "magnitude": "medium"
+    },
+    "module": "M14"
+  },
+  {
+    "id": "M14.ai_eligibility.ok",
+    "title": "Page is indexable and snippet-eligible",
+    "status": "pass",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "evidence": {
+      "observed": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion: No noindex, nosnippet or max-snippet:0 was observed and robots.txt allows Googlebot on this URL."
+    },
+    "expected": "No noindex, nosnippet or max-snippet:0, and robots.txt allows Googlebot.",
+    "recommendation": "No action needed. Eligibility is a gate, not a promise of citation.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "header_check",
+      "assertion": "The effective Googlebot directives leave the page indexable and snippet-eligible.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/ai-eligibility.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "established",
+      "rationale": "Google documents that AI features draw on pages eligible for Search snippets; this check confirms the gate is open, nothing beyond it.",
+      "magnitude": "medium"
+    },
+    "module": "M14"
+  },
+  {
+    "id": "M14.ai_eligibility.ok",
+    "title": "Page is indexable and snippet-eligible",
+    "status": "pass",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria"
+    },
+    "evidence": {
+      "observed": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria: No noindex, nosnippet or max-snippet:0 was observed and robots.txt allows Googlebot on this URL."
+    },
+    "expected": "No noindex, nosnippet or max-snippet:0, and robots.txt allows Googlebot.",
+    "recommendation": "No action needed. Eligibility is a gate, not a promise of citation.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "header_check",
+      "assertion": "The effective Googlebot directives leave the page indexable and snippet-eligible.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/ai-eligibility.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_citopatologia-veterinaria--24b79a69.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "established",
+      "rationale": "Google documents that AI features draw on pages eligible for Search snippets; this check confirms the gate is open, nothing beyond it.",
+      "magnitude": "medium"
+    },
+    "module": "M14"
+  },
+  {
+    "id": "M14.ai_eligibility.ok",
+    "title": "Page is indexable and snippet-eligible",
+    "status": "pass",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+    },
+    "evidence": {
+      "observed": "https://unidadveterinaria.pages.dev/preguntas-frecuentes: No noindex, nosnippet or max-snippet:0 was observed and robots.txt allows Googlebot on this URL."
+    },
+    "expected": "No noindex, nosnippet or max-snippet:0, and robots.txt allows Googlebot.",
+    "recommendation": "No action needed. Eligibility is a gate, not a promise of citation.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "header_check",
+      "assertion": "The effective Googlebot directives leave the page indexable and snippet-eligible.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/ai-eligibility.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/preguntas-frecuentes--5090bafe.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "established",
+      "rationale": "Google documents that AI features draw on pages eligible for Search snippets; this check confirms the gate is open, nothing beyond it.",
+      "magnitude": "medium"
+    },
+    "module": "M14"
+  },
+  {
+    "id": "M14.ai_eligibility.ok",
+    "title": "Page is indexable and snippet-eligible",
+    "status": "pass",
+    "severity": 3,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria"
+    },
+    "evidence": {
+      "observed": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria: No noindex, nosnippet or max-snippet:0 was observed and robots.txt allows Googlebot on this URL."
+    },
+    "expected": "No noindex, nosnippet or max-snippet:0, and robots.txt allows Googlebot.",
+    "recommendation": "No action needed. Eligibility is a gate, not a promise of citation.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "header_check",
+      "assertion": "The effective Googlebot directives leave the page indexable and snippet-eligible.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/ai-eligibility.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_cardiologia-veterinaria--101ea79f.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "established",
+      "rationale": "Google documents that AI features draw on pages eligible for Search snippets; this check confirms the gate is open, nothing beyond it.",
+      "magnitude": "medium"
+    },
+    "module": "M14"
+  },
+  {
+    "id": "M21.llmstxt.malformed",
+    "title": "/llms.txt does not follow the llms.txt shape",
+    "status": "warn",
+    "severity": 1,
+    "scope": "site",
+    "fixable": "auto",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/llms.txt"
+    },
+    "evidence": {
+      "observed": "GET /llms.txt returns HTML, not Markdown (43730 bytes)."
+    },
+    "expected": "An H1 title, an optional `>` summary, then `## Section` headings with Markdown links.",
+    "recommendation": "Fix the structure so a parser can read the sections and links.",
+    "verification": {
+      "method": "header_check",
+      "assertion": "validateLlmsTxt reports ok:true with no errors.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/ai-discovery.mjs\" --run-dir \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "speculative",
+      "rationale": "No search or answer engine documents that this file affects retrieval, ranking or citation; it is a convention some agent frameworks read.",
+      "magnitude": "low"
+    },
+    "module": "M21"
+  },
+  {
+    "id": "M21.agents_md.present",
+    "title": "/agents.md is published",
+    "status": "pass",
+    "severity": 1,
+    "scope": "site",
+    "fixable": "advisory",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/agents.md"
+    },
+    "evidence": {
+      "observed": "GET /agents.md -> HTTP 200, 43730 bytes, headings: (none)."
+    },
+    "expected": "Informational: the file exists and parses.",
+    "recommendation": "Keep it accurate — it states how agents should interact with the site.",
+    "verification": {
+      "method": "header_check",
+      "assertion": "GET /agents.md returns 200 with Markdown content.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/ai-discovery.mjs\" --run-dir \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "speculative",
+      "rationale": "No search or answer engine documents that this file affects retrieval, ranking or citation; it is a convention some agent frameworks read.",
+      "magnitude": "low"
+    },
+    "module": "M21"
+  },
+  {
+    "id": "M22.controls.button_without_name",
+    "title": "Buttons have no accessible name",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "fixable": "proposed",
+    "evidence": {
+      "observed": "1 of 5 button(s) on https://unidadveterinaria.pages.dev/ expose no text, aria-label or labelled image: <button id=\"mobileMenuBtn\" class=\"md:hidden p-2 rounded-lg text-white hov…\">."
+    },
+    "expected": "Every button carries text, an aria-label, or an image with alt text.",
+    "recommendation": "Add visible text or an aria-label naming the action the button performs.",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "Every button resolves to a non-empty accessible name.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/agent-readiness.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "Browsing agents read the DOM the way assistive technology does, but no vendor publishes how a specific control pattern affects task completion.",
+      "magnitude": "low"
+    },
+    "module": "M22"
+  },
+  {
+    "id": "M22.controls.button_without_name",
+    "title": "Buttons have no accessible name",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "fixable": "proposed",
+    "evidence": {
+      "observed": "1 of 3 button(s) on https://unidadveterinaria.pages.dev/contacto-y-ubicacion expose no text, aria-label or labelled image: <button id=\"mobileMenuBtn\" class=\"md:hidden p-2 rounded-lg text-white hov…\">."
+    },
+    "expected": "Every button carries text, an aria-label, or an image with alt text.",
+    "recommendation": "Add visible text or an aria-label naming the action the button performs.",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "Every button resolves to a non-empty accessible name.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/agent-readiness.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "Browsing agents read the DOM the way assistive technology does, but no vendor publishes how a specific control pattern affects task completion.",
+      "magnitude": "low"
+    },
+    "module": "M22"
+  },
+  {
+    "id": "M22.content.iframe_primary",
+    "title": "The primary content sits inside an iframe",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion"
+    },
+    "fixable": "advisory",
+    "evidence": {
+      "observed": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion carries 1 iframe in its content region and only 93 words of its own text."
+    },
+    "expected": "The page's own HTML carries its primary content.",
+    "recommendation": "Render the content in the page itself and keep iframes for genuinely embedded third-party widgets.",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "The page's own document contains the primary content, not an embedded frame.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/agent-readiness.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/contacto-y-ubicacion--bd6311ea.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "Content inside a frame belongs to another document; how each agent traverses frames is not documented.",
+      "magnitude": "low"
+    },
+    "module": "M22"
+  },
+  {
+    "id": "M22.controls.button_without_name",
+    "title": "Buttons have no accessible name",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria"
+    },
+    "fixable": "proposed",
+    "evidence": {
+      "observed": "1 of 3 button(s) on https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria expose no text, aria-label or labelled image: <button id=\"mobileMenuBtn\" class=\"md:hidden p-2 rounded-lg text-white hov…\">."
+    },
+    "expected": "Every button carries text, an aria-label, or an image with alt text.",
+    "recommendation": "Add visible text or an aria-label naming the action the button performs.",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "Every button resolves to a non-empty accessible name.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/agent-readiness.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_citopatologia-veterinaria--24b79a69.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "Browsing agents read the DOM the way assistive technology does, but no vendor publishes how a specific control pattern affects task completion.",
+      "magnitude": "low"
+    },
+    "module": "M22"
+  },
+  {
+    "id": "M22.controls.button_without_name",
+    "title": "Buttons have no accessible name",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+    },
+    "fixable": "proposed",
+    "evidence": {
+      "observed": "1 of 7 button(s) on https://unidadveterinaria.pages.dev/preguntas-frecuentes expose no text, aria-label or labelled image: <button id=\"mobileMenuBtn\" class=\"md:hidden p-2 rounded-lg text-white hov…\">."
+    },
+    "expected": "Every button carries text, an aria-label, or an image with alt text.",
+    "recommendation": "Add visible text or an aria-label naming the action the button performs.",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "Every button resolves to a non-empty accessible name.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/agent-readiness.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/preguntas-frecuentes--5090bafe.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "Browsing agents read the DOM the way assistive technology does, but no vendor publishes how a specific control pattern affects task completion.",
+      "magnitude": "low"
+    },
+    "module": "M22"
+  },
+  {
+    "id": "M22.controls.button_without_name",
+    "title": "Buttons have no accessible name",
+    "status": "warn",
+    "severity": 2,
+    "scope": "page",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria"
+    },
+    "fixable": "proposed",
+    "evidence": {
+      "observed": "1 of 3 button(s) on https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria expose no text, aria-label or labelled image: <button id=\"mobileMenuBtn\" class=\"md:hidden p-2 rounded-lg text-white hov…\">."
+    },
+    "expected": "Every button carries text, an aria-label, or an image with alt text.",
+    "recommendation": "Add visible text or an aria-label naming the action the button performs.",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "Every button resolves to a non-empty accessible name.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/agent-readiness.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/servicios_cardiologia-veterinaria--101ea79f.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "Browsing agents read the DOM the way assistive technology does, but no vendor publishes how a specific control pattern affects task completion.",
+      "magnitude": "low"
+    },
+    "module": "M22"
+  },
+  {
+    "id": "M22.static.not_checkable",
+    "title": "Items that static HTML cannot decide",
+    "status": "not_applicable",
+    "scope": "site",
+    "fixable": "advisory",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "cursor_affordance: Whether a control looks clickable (cursor:pointer, :hover, focus ring) depends on computed CSS. | target_size: Minimum target size needs layout boxes, which static HTML does not carry. | overlays_and_interstitials: Consent banners, modals and cookie walls that cover the content only exist after the page runs. | focus_order_and_traps: Focus order, focus visibility and keyboard traps need a live accessibility tree."
+    },
+    "expected": "These need computed styles, layout boxes or a live page — not the HTML source.",
+    "recommendation": "Tier 1: npx lighthouse <url> --only-categories=accessibility.",
+    "verification": {
+      "method": "manual_review",
+      "assertion": "A rendered-page audit (Lighthouse accessibility, or a browsing agent) covers these four items.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/agent-readiness.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "Listing what was not measured keeps the module from reading as a clean bill of health.",
+      "magnitude": "low"
+    },
+    "module": "M22",
+    "severity": 0
+  },
+  {
+    "id": "M22.lighthouse.agentic_browsing",
+    "title": "The consent-gated agentic browsing run did not happen",
+    "status": "needs_api",
+    "severity": 3,
+    "scope": "site",
+    "fixable": "advisory",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "No agentic-browsing score is present in C:\\Users\\SOPORTES JPVM\\Documents\\web uci vet con seo\\runs\\unidadveterinaria.pages.dev\\2026-09-27T20-14-47Z: the run is deterministic and static, and that audit needs a rendered page plus explicit consent."
+    },
+    "expected": "A Lighthouse agentic-browsing run against the live URL, with its score recorded in the run.",
+    "recommendation": "Run it separately if the numbers matter: npx lighthouse https://unidadveterinaria.pages.dev/ --only-categories=accessibility (and the agentic-browsing audit where available).",
+    "verification": {
+      "method": "manual_review",
+      "assertion": "A Lighthouse run for this URL reports the agentic-browsing category score.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/agent-readiness.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "ai",
+      "confidence": "directional",
+      "rationale": "The audit was not run, so no score is claimed either way.",
+      "magnitude": "medium"
+    },
+    "module": "M22"
+  },
+  {
+    "id": "M15.field.needs_api",
+    "title": "Field Core Web Vitals could not be measured",
+    "status": "needs_api",
+    "severity": 4,
+    "scope": "site",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "No field (CrUX) data for https://unidadveterinaria.pages.dev/: no PSI/CrUX API key was available in the environment (CLAUDE_PLUGIN_OPTION_PSI_API_KEY or PSI_API_KEY)."
+    },
+    "expected": "p75 LCP, INP and CLS from the Chrome UX Report for this URL or its origin.",
+    "recommendation": "Export CLAUDE_PLUGIN_OPTION_PSI_API_KEY (or PSI_API_KEY) in the environment and re-run; the key is never passed on the command line. A page with too little traffic may still have no field data, in which case only lab measurements exist.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "psi_api",
+      "assertion": "psi-client.mjs returns status \"ok\" with field.has_field_data true.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/psi-client.mjs\" --url https://unidadveterinaria.pages.dev/"
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "established",
+      "rationale": "Google documents that the Core Web Vitals it uses come from field data; a lab number is not a substitute and is never presented as one here.",
+      "magnitude": "high"
+    },
+    "module": "M15"
+  },
+  {
+    "id": "M15.cls.unsized_image",
+    "title": "Content images without width/height can shift the layout",
+    "status": "warn",
+    "severity": 4,
+    "scope": "site",
+    "location": {
+      "url": "https://unidadveterinaria.pages.dev/"
+    },
+    "evidence": {
+      "observed": "Static (lab-side) observation, not a measured CLS value: 1 sampled page carries content images with no numeric width/height, e.g. https://unidadveterinaria.pages.dev/ with 1 image (img/logo%20sin%20fondo%20uci%20.png)."
+    },
+    "expected": "Every content image reserves its space through width/height attributes or a CSS aspect-ratio.",
+    "recommendation": "Add intrinsic width and height to the images listed above, then confirm the effect with a real CLS measurement.",
+    "fixable": "advisory",
+    "verification": {
+      "method": "dom_assert",
+      "assertion": "Every content image carries numeric width/height (or a CSS aspect-ratio), and a PSI/CrUX run then reports CLS at or below 0.1 for this URL.",
+      "reproduce": "node \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/claude-seo-ai/scripts/parse-html.mjs\" --snapshot \"C:/Users/SOPORTES JPVM/Documents/web uci vet con seo/runs/unidadveterinaria.pages.dev/2026-09-27T20-14-47Z/pages/index--5461ab0e.json\""
+    },
+    "expected_impact": {
+      "axis": "search",
+      "confidence": "directional",
+      "rationale": "Unsized images are a documented cause of layout shift, but this finding is a source-level heuristic — no CLS value was measured for this page.",
+      "magnitude": "high"
+    },
+    "module": "M15"
+  }
+]

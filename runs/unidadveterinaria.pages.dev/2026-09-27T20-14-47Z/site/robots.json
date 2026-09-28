@@ -1,0 +1,401 @@
+{
+  "url": "https://unidadveterinaria.pages.dev/robots.txt",
+  "status": 200,
+  "final_url": "https://unidadveterinaria.pages.dev/robots.txt",
+  "ok": true,
+  "mode": "parsed",
+  "reason": null,
+  "error": null,
+  "redirects": {
+    "hops": 0,
+    "loop": false,
+    "truncated": false,
+    "http_to_https": false,
+    "host_changed": false,
+    "www_normalized": false,
+    "trailing_slash_changed": false
+  },
+  "bytes": 481,
+  "sha256": "de372f8dcd932b9f9bfad4eb7920df45c02ea4bc733fcc2ec9c8d067d6ac813f",
+  "fetched_at": "2026-09-27T20:14:47.905Z",
+  "source": "http",
+  "path": "/",
+  "verdicts": {
+    "Googlebot": {
+      "allowed": true,
+      "via": "wildcard",
+      "rule": {
+        "type": "allow",
+        "path": "/",
+        "line": 5
+      },
+      "path": "/",
+      "token": "Googlebot"
+    },
+    "Bingbot": {
+      "allowed": true,
+      "via": "wildcard",
+      "rule": {
+        "type": "allow",
+        "path": "/",
+        "line": 5
+      },
+      "path": "/",
+      "token": "Bingbot"
+    },
+    "claude-seo-ai": {
+      "allowed": true,
+      "via": "wildcard",
+      "rule": {
+        "type": "allow",
+        "path": "/",
+        "line": 5
+      },
+      "path": "/",
+      "token": "claude-seo-ai"
+    }
+  },
+  "crawl_delay": {
+    "Googlebot": null,
+    "*": null,
+    "declared": []
+  },
+  "content_signals": {
+    "present": false,
+    "placement": null,
+    "global": null,
+    "by_group": [],
+    "malformed": [],
+    "cloudflare_managed_hint": false
+  },
+  "sitemaps_declared": [
+    "https://unidadveterinaria.pages.dev/sitemap.xml"
+  ],
+  "ai_posture": {
+    "training": {
+      "GPTBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "ClaudeBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Google-Extended": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Applebot-Extended": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "CCBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Meta-ExternalAgent": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Bytespider": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "cohere-ai": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      }
+    },
+    "retrieval": {
+      "OAI-SearchBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Claude-SearchBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "PerplexityBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Amazonbot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Google-CloudVertexBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "DuckAssistBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      }
+    },
+    "user": {
+      "ChatGPT-User": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Perplexity-User": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Claude-User": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Claude-Web": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Meta-ExternalFetcher": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "MistralAI-User": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      }
+    },
+    "search": {
+      "Googlebot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Bingbot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      },
+      "Applebot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      }
+    },
+    "other": {
+      "OAI-AdsBot": {
+        "root_allowed": true,
+        "url_allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "signals": "unset"
+      }
+    }
+  },
+  "parsed": {
+    "groups": [
+      {
+        "agents": [
+          "*"
+        ],
+        "rules": [
+          {
+            "type": "allow",
+            "path": "/",
+            "line": 5
+          },
+          {
+            "type": "allow",
+            "path": "/img/",
+            "line": 14
+          },
+          {
+            "type": "allow",
+            "path": "/js/",
+            "line": 15
+          },
+          {
+            "type": "allow",
+            "path": "/css/",
+            "line": 16
+          }
+        ],
+        "crawlDelay": null,
+        "contentSignal": null,
+        "line": 4
+      }
+    ],
+    "sitemaps": [
+      "https://unidadveterinaria.pages.dev/sitemap.xml"
+    ],
+    "host": "https://unidadveterinaria.pages.dev",
+    "cleanParam": [],
+    "contentSignals": {
+      "present": false,
+      "placement": null,
+      "global": null,
+      "by_group": [],
+      "malformed": [],
+      "cloudflare_managed_hint": false
+    },
+    "unknownDirectives": [],
+    "invalidLines": [],
+    "hasBom": false,
+    "lines": 19
+  }
+}

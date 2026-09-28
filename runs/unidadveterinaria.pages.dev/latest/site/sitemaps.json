@@ -1,0 +1,248 @@
+{
+  "origin": "https://unidadveterinaria.pages.dev",
+  "declared": [
+    "https://unidadveterinaria.pages.dev/sitemap.xml"
+  ],
+  "found": 1,
+  "error": null,
+  "files": [
+    {
+      "url": "https://unidadveterinaria.pages.dev/sitemap.xml",
+      "final_url": "https://unidadveterinaria.pages.dev/sitemap.xml",
+      "redirected": false,
+      "alias_of": null,
+      "source": "robots",
+      "parent": null,
+      "depth": 0,
+      "status": 200,
+      "bytes": 6556,
+      "gz": false,
+      "kind": "urlset",
+      "url_count": 14,
+      "over_50k": false,
+      "over_50mb": false,
+      "errors": [],
+      "lastmod": {
+        "count": 14,
+        "min": "2026-09-22T00:00:00.000Z",
+        "max": "2026-09-22T00:00:00.000Z",
+        "distinct": 1,
+        "invalid": 0
+      },
+      "error": null,
+      "namespaces": [
+        {
+          "prefix": null,
+          "uri": "http://www.sitemaps.org/schemas/sitemap/0.9"
+        },
+        {
+          "prefix": "xhtml",
+          "uri": "http://www.w3.org/1999/xhtml"
+        }
+      ]
+    },
+    {
+      "url": "https://unidadveterinaria.pages.dev/sitemap_index.xml",
+      "final_url": "https://unidadveterinaria.pages.dev/sitemap_index.xml",
+      "redirected": false,
+      "alias_of": null,
+      "source": "well-known",
+      "parent": null,
+      "depth": 0,
+      "status": 200,
+      "bytes": 43730,
+      "gz": false,
+      "kind": "invalid",
+      "url_count": 0,
+      "over_50k": false,
+      "over_50mb": false,
+      "errors": [
+        "no <urlset> or <sitemapindex> root element",
+        "body looks like an HTML page (soft 404 or redirect to a page?)"
+      ],
+      "lastmod": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "distinct": 0,
+        "invalid": 0
+      },
+      "error": null,
+      "namespaces": []
+    },
+    {
+      "url": "https://unidadveterinaria.pages.dev/sitemap-index.xml",
+      "final_url": "https://unidadveterinaria.pages.dev/sitemap-index.xml",
+      "redirected": false,
+      "alias_of": null,
+      "source": "well-known",
+      "parent": null,
+      "depth": 0,
+      "status": 200,
+      "bytes": 43730,
+      "gz": false,
+      "kind": "invalid",
+      "url_count": 0,
+      "over_50k": false,
+      "over_50mb": false,
+      "errors": [
+        "no <urlset> or <sitemapindex> root element",
+        "body looks like an HTML page (soft 404 or redirect to a page?)"
+      ],
+      "lastmod": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "distinct": 0,
+        "invalid": 0
+      },
+      "error": null,
+      "namespaces": []
+    },
+    {
+      "url": "https://unidadveterinaria.pages.dev/wp-sitemap.xml",
+      "final_url": "https://unidadveterinaria.pages.dev/wp-sitemap.xml",
+      "redirected": false,
+      "alias_of": null,
+      "source": "well-known",
+      "parent": null,
+      "depth": 0,
+      "status": 200,
+      "bytes": 43730,
+      "gz": false,
+      "kind": "invalid",
+      "url_count": 0,
+      "over_50k": false,
+      "over_50mb": false,
+      "errors": [
+        "no <urlset> or <sitemapindex> root element",
+        "body looks like an HTML page (soft 404 or redirect to a page?)"
+      ],
+      "lastmod": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "distinct": 0,
+        "invalid": 0
+      },
+      "error": null,
+      "namespaces": []
+    },
+    {
+      "url": "https://unidadveterinaria.pages.dev/sitemap.xml.gz",
+      "final_url": "https://unidadveterinaria.pages.dev/sitemap.xml.gz",
+      "redirected": false,
+      "alias_of": null,
+      "source": "well-known",
+      "parent": null,
+      "depth": 0,
+      "status": 200,
+      "bytes": 43730,
+      "gz": false,
+      "kind": "invalid",
+      "url_count": 0,
+      "over_50k": false,
+      "over_50mb": false,
+      "errors": [
+        "no <urlset> or <sitemapindex> root element",
+        "body looks like an HTML page (soft 404 or redirect to a page?)"
+      ],
+      "lastmod": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "distinct": 0,
+        "invalid": 0
+      },
+      "error": null,
+      "namespaces": []
+    }
+  ],
+  "url_count": 14,
+  "urls_file": "sitemap-urls.txt",
+  "sample": [
+    {
+      "loc": "https://unidadveterinaria.pages.dev/",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/preguntas-frecuentes",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/nutricion-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/ortopedia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/oncologia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/radiologia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    },
+    {
+      "loc": "https://unidadveterinaria.pages.dev/servicios/dermatologia-veterinaria",
+      "lastmod": "2026-09-22T00:00:00.000Z",
+      "sitemap": "https://unidadveterinaria.pages.dev/sitemap.xml"
+    }
+  ],
+  "lastmod": {
+    "count": 14,
+    "min": "2026-09-22T00:00:00.000Z",
+    "max": "2026-09-22T00:00:00.000Z"
+  },
+  "over_50k_any": false,
+  "over_50mb_any": false,
+  "errors_total": 8,
+  "probe_misses": 0,
+  "well_known_only": false,
+  "truncated": false,
+  "truncated_files": false,
+  "truncated_urls": false
+}

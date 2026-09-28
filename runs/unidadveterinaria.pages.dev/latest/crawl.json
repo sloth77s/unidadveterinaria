@@ -1,0 +1,1016 @@
+{
+  "crawl_version": 1,
+  "plugin_version": "0.2.0",
+  "generated_at": "2026-09-27T20:15:01.290Z",
+  "run_id": "2026-09-27T20-14-47Z",
+  "run_dir": "C:\\Users\\SOPORTES JPVM\\Documents\\web uci vet con seo\\runs\\unidadveterinaria.pages.dev\\2026-09-27T20-14-47Z",
+  "origin": "https://unidadveterinaria.pages.dev",
+  "host": "unidadveterinaria.pages.dev",
+  "target": "https://unidadveterinaria.pages.dev/",
+  "started_at": "2026-09-27T20:14:47.150Z",
+  "finished_at": "2026-09-27T20:15:01.289Z",
+  "options": {
+    "pages": 5,
+    "max": 40,
+    "per_template": 2,
+    "depth": 3,
+    "concurrency": 4,
+    "delay_ms": 0,
+    "respect_robots": true,
+    "ua": "Mozilla/5.0 (compatible; claude-seo-ai/0.2; +https://github.com/Hainrixz/claude-seo-ai)",
+    "ua_preset": "default",
+    "lang": "en",
+    "render": "static",
+    "renderer": "auto",
+    "include": [],
+    "exclude": [],
+    "seeds": [],
+    "sitemaps": true,
+    "sitemap_sample": 30,
+    "link_status": 60,
+    "artifacts": {
+      "robots": true,
+      "sitemaps": true,
+      "discovery": true
+    }
+  },
+  "robots": {
+    "status": 200,
+    "path": "site/robots.json",
+    "mode": "parsed",
+    "crawl_delay_s": null,
+    "crawl_delay_declared_s": null,
+    "root_allowed": true,
+    "respected": true,
+    "ua_token": "claude-seo-ai",
+    "verdicts": {
+      "Googlebot": {
+        "allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "path": "/",
+        "token": "Googlebot"
+      },
+      "Bingbot": {
+        "allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "path": "/",
+        "token": "Bingbot"
+      },
+      "claude-seo-ai": {
+        "allowed": true,
+        "via": "wildcard",
+        "rule": {
+          "type": "allow",
+          "path": "/",
+          "line": 5
+        },
+        "path": "/",
+        "token": "claude-seo-ai"
+      }
+    },
+    "recorded_uas": [
+      "Googlebot",
+      "Bingbot"
+    ]
+  },
+  "sitemaps": {
+    "path": "site/sitemaps.json",
+    "files": 5,
+    "urls": 14,
+    "sampled": 14,
+    "probe_hits": 0,
+    "declared": 1,
+    "truncated": false
+  },
+  "pages": [
+    {
+      "url": "https://unidadveterinaria.pages.dev/",
+      "slug": "index--5461ab0e",
+      "snapshot": "pages/index--5461ab0e.json",
+      "role": "homepage",
+      "template": "/|MedicalBusiness",
+      "depth": 0,
+      "discovered_via": "origin",
+      "status": 200,
+      "hops": 0,
+      "title": "Unidad Veterinaria David Aguilar | Clínica de Especialidades en Villavicencio",
+      "h1": "Unidad Veterinaria David Aguilar",
+      "canonical": "https://unidadveterinaria.pages.dev/",
+      "noindex": false,
+      "hreflang_count": 0,
+      "in_sitemap": true,
+      "inlinks": 5,
+      "outlinks_internal": 17,
+      "render": {
+        "needed": false,
+        "used": "none",
+        "confidence": "static"
+      },
+      "ms": 179,
+      "weight": 3
+    },
+    {
+      "url": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+      "slug": "contacto-y-ubicacion--bd6311ea",
+      "snapshot": "pages/contacto-y-ubicacion--bd6311ea.json",
+      "role": "sample",
+      "template": "/*|MedicalBusiness",
+      "depth": 0,
+      "discovered_via": "sitemap",
+      "status": 200,
+      "hops": 0,
+      "title": "Ubicación y Contacto de Especialidades Veterinarias | Unidad Veterinaria David Aguilar",
+      "h1": "Ubicación y Contacto de Especialidades Veterinarias",
+      "canonical": "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+      "noindex": false,
+      "hreflang_count": 0,
+      "in_sitemap": true,
+      "inlinks": 5,
+      "outlinks_internal": 18,
+      "render": {
+        "needed": true,
+        "used": "none",
+        "confidence": "reduced"
+      },
+      "ms": 296,
+      "weight": 2
+    },
+    {
+      "url": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria",
+      "slug": "servicios_citopatologia-veterinaria--24b79a69",
+      "snapshot": "pages/servicios_citopatologia-veterinaria--24b79a69.json",
+      "role": "sample",
+      "template": "/servicios/*|",
+      "depth": 0,
+      "discovered_via": "sitemap",
+      "status": 200,
+      "hops": 0,
+      "title": "Citopatología Veterinaria | Unidad Veterinaria David Aguilar",
+      "h1": "Citopatología Veterinaria",
+      "canonical": "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria",
+      "noindex": false,
+      "hreflang_count": 0,
+      "in_sitemap": true,
+      "inlinks": 5,
+      "outlinks_internal": 18,
+      "render": {
+        "needed": true,
+        "used": "none",
+        "confidence": "reduced"
+      },
+      "ms": 145,
+      "weight": 2
+    },
+    {
+      "url": "https://unidadveterinaria.pages.dev/preguntas-frecuentes",
+      "slug": "preguntas-frecuentes--5090bafe",
+      "snapshot": "pages/preguntas-frecuentes--5090bafe.json",
+      "role": "sample",
+      "template": "/*|",
+      "depth": 0,
+      "discovered_via": "sitemap",
+      "status": 200,
+      "hops": 0,
+      "title": "Preguntas Frecuentes - Unidad Veterinaria | Dr. David Aguilar",
+      "h1": "Preguntas Frecuentes - Unidad Veterinaria",
+      "canonical": "https://unidadveterinaria.pages.dev/preguntas-frecuentes",
+      "noindex": false,
+      "hreflang_count": 0,
+      "in_sitemap": true,
+      "inlinks": 5,
+      "outlinks_internal": 18,
+      "render": {
+        "needed": false,
+        "used": "none",
+        "confidence": "static"
+      },
+      "ms": 309,
+      "weight": 2
+    },
+    {
+      "url": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria",
+      "slug": "servicios_cardiologia-veterinaria--101ea79f",
+      "snapshot": "pages/servicios_cardiologia-veterinaria--101ea79f.json",
+      "role": "sample",
+      "template": "/servicios/*|",
+      "depth": 0,
+      "discovered_via": "sitemap",
+      "status": 200,
+      "hops": 0,
+      "title": "Cardiología Veterinaria | Unidad Veterinaria David Aguilar",
+      "h1": "Cardiología Veterinaria",
+      "canonical": "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria",
+      "noindex": false,
+      "hreflang_count": 0,
+      "in_sitemap": true,
+      "inlinks": 5,
+      "outlinks_internal": 18,
+      "render": {
+        "needed": true,
+        "used": "none",
+        "confidence": "reduced"
+      },
+      "ms": 106,
+      "weight": 1
+    }
+  ],
+  "templates": [
+    {
+      "key": "/servicios/*|",
+      "pattern": "/servicios/*",
+      "type": "",
+      "discovered": 11,
+      "sampled": 2,
+      "examples": [
+        "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria",
+        "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria",
+        "https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria"
+      ],
+      "evidence": [
+        "url-pattern:/servicios/*",
+        "unfetched-urls-assigned-by-pattern"
+      ],
+      "weight": 0.611,
+      "split": false
+    },
+    {
+      "key": "/*|MedicalBusiness",
+      "pattern": "/*",
+      "type": "MedicalBusiness",
+      "discovered": 4,
+      "sampled": 1,
+      "examples": [
+        "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+        "https://unidadveterinaria.pages.dev/aviso-legal",
+        "https://unidadveterinaria.pages.dev/politica-de-privacidad"
+      ],
+      "evidence": [
+        "url-pattern:/*",
+        "jsonld:MedicalBusiness",
+        "unfetched-urls-assigned-by-pattern",
+        "pattern-split-by-type"
+      ],
+      "weight": 0.222,
+      "split": true
+    },
+    {
+      "key": "/*|",
+      "pattern": "/*",
+      "type": "",
+      "discovered": 1,
+      "sampled": 1,
+      "examples": [
+        "https://unidadveterinaria.pages.dev/preguntas-frecuentes"
+      ],
+      "evidence": [
+        "url-pattern:/*",
+        "pattern-split-by-type"
+      ],
+      "weight": 0.056,
+      "split": true
+    },
+    {
+      "key": "/|MedicalBusiness",
+      "pattern": "/",
+      "type": "MedicalBusiness",
+      "discovered": 1,
+      "sampled": 1,
+      "examples": [
+        "https://unidadveterinaria.pages.dev/"
+      ],
+      "evidence": [
+        "url-pattern:/",
+        "jsonld:MedicalBusiness"
+      ],
+      "weight": 0.056,
+      "split": false
+    },
+    {
+      "key": "/servicios|",
+      "pattern": "/servicios",
+      "type": "",
+      "discovered": 1,
+      "sampled": 0,
+      "examples": [
+        "https://unidadveterinaria.pages.dev/servicios/"
+      ],
+      "evidence": [
+        "url-pattern:/servicios"
+      ],
+      "weight": 0.056,
+      "split": false
+    }
+  ],
+  "graph": {
+    "nodes": [
+      "https://unidadveterinaria.pages.dev/",
+      "https://unidadveterinaria.pages.dev/contacto-y-ubicacion",
+      "https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria",
+      "https://unidadveterinaria.pages.dev/preguntas-frecuentes",
+      "https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/nutricion-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/ortopedia-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/oncologia-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/radiologia-veterinaria",
+      "https://unidadveterinaria.pages.dev/servicios/dermatologia-veterinaria",
+      "https://unidadveterinaria.pages.dev/aviso-legal",
+      "https://unidadveterinaria.pages.dev/politica-de-privacidad",
+      "https://unidadveterinaria.pages.dev/politica-de-cookies",
+      "https://unidadveterinaria.pages.dev/servicios/"
+    ],
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        16
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        17
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        4,
+        16
+      ]
+    ],
+    "edge_count": 89,
+    "truncated": false,
+    "limit": 20000
+  },
+  "link_status": {
+    "budget": 60,
+    "checked": 13,
+    "ok": 13,
+    "broken": 0,
+    "redirects": 0,
+    "skipped": 0,
+    "results": [
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/nutricion-veterinaria",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/nutricion-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/ortopedia-veterinaria",
+        "method": "GET",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/ortopedia-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/oncologia-veterinaria",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/oncologia-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/radiologia-veterinaria",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/radiologia-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/dermatologia-veterinaria",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/dermatologia-veterinaria",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": true,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/aviso-legal",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/aviso-legal",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": false,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/politica-de-privacidad",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/politica-de-privacidad",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": false,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/politica-de-cookies",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/politica-de-cookies",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": false,
+        "inlinks": 5
+      },
+      {
+        "url": "https://unidadveterinaria.pages.dev/servicios/",
+        "method": "HEAD",
+        "status": 200,
+        "ok": true,
+        "broken": false,
+        "redirect": false,
+        "hops": 0,
+        "final_url": "https://unidadveterinaria.pages.dev/servicios/",
+        "chain": [],
+        "loop": false,
+        "error": null,
+        "in_sitemap": false,
+        "inlinks": 4
+      }
+    ]
+  },
+  "sampling": {
+    "mode": "crawl",
+    "requested_pages": 5,
+    "sampled": 5,
+    "discovered": 18,
+    "seeds": {
+      "origin": 1,
+      "target": 1,
+      "sitemap": 13,
+      "extra": 0
+    },
+    "skipped_by_robots": {
+      "count": 0,
+      "urls": [],
+      "truncated": false
+    },
+    "skipped_by_filter": {
+      "count": 0,
+      "urls": [],
+      "truncated": false
+    },
+    "skipped_by_depth": {
+      "count": 0,
+      "urls": [],
+      "truncated": false
+    },
+    "skipped_by_cap": {
+      "count": 0,
+      "urls": [],
+      "truncated": false
+    },
+    "skipped_by_template": {
+      "count": 0,
+      "urls": [],
+      "truncated": false
+    },
+    "skipped_by_budget": {
+      "count": 13,
+      "urls": [
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/nutricion-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/ortopedia-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/oncologia-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/radiologia-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/dermatologia-veterinaria",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/aviso-legal",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/politica-de-privacidad",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/politica-de-cookies",
+          "reason": "page budget 5 reached"
+        },
+        {
+          "url": "https://unidadveterinaria.pages.dev/servicios/",
+          "reason": "page budget 5 reached"
+        }
+      ],
+      "truncated": false
+    },
+    "redirect_aliases": [],
+    "errors": [],
+    "template_weight": "share of discovered URLs",
+    "per_template": 2,
+    "depth": 3
+  },
+  "budget": {
+    "pages": 5,
+    "max": 40,
+    "requests": 19,
+    "elapsed_ms": 14139,
+    "delay_ms": 0,
+    "concurrency": 4,
+    "link_status": 60,
+    "max_reached": false,
+    "pages_exhausted": true
+  },
+  "warnings": [
+    "13 allowed URL(s) were discovered but not sampled (--pages 5, --per-template 2); see sampling.skipped_by_template and sampling.skipped_by_budget"
+  ]
+}

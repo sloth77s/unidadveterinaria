@@ -1,0 +1,88 @@
+{
+  "version": "detect-platform/1",
+  "target": {
+    "url": "https://unidadveterinaria.pages.dev/",
+    "host": "unidadveterinaria.pages.dev",
+    "project_root": null
+  },
+  "platform": null,
+  "framework": null,
+  "cms_plugins": [],
+  "hosting": {
+    "id": "cloudflare-pages",
+    "confidence": "medium",
+    "signals": [
+      {
+        "kind": "asset_host",
+        "value": ".pages.dev",
+        "weight": 4
+      },
+      {
+        "kind": "header",
+        "value": "cf-ray",
+        "weight": 2,
+        "note": "cf-ray alone only proves Cloudflare is in front of the origin"
+      }
+    ]
+  },
+  "environment": {
+    "kind": "production",
+    "signals": []
+  },
+  "capabilities": {
+    "local_files": false,
+    "theme_files": false,
+    "rest_api": false,
+    "wp_cli": false,
+    "admin_api": false,
+    "page_api": false,
+    "sitemap_editable": false,
+    "robots_editable": "none",
+    "redirects": "none",
+    "head_owner": "theme",
+    "instructions_only": true
+  },
+  "write_targets": [
+    {
+      "adapter": "instructions",
+      "for": [
+        "*"
+      ],
+      "ready": true,
+      "needs": [],
+      "tools": {}
+    }
+  ],
+  "candidates": {
+    "platform": [],
+    "framework": []
+  },
+  "vertical_hints": [],
+  "cards": [],
+  "sources": {
+    "html": true,
+    "headers": true,
+    "cookies": false,
+    "probes": [],
+    "repo": null,
+    "repo_files": 0
+  },
+  "notes": [
+    "repo signals not consulted: no --path given (repo/pkg rules were skipped)",
+    "no probe results supplied: probe-only signals (REST namespaces, /.well-known/ucp) were skipped — rerun with --probe for a plugin-accurate WordPress verdict",
+    "platform unresolved: no candidate reached the low-confidence floor (score >= 2). Treat the site as instructions-only until a card is confirmed by hand."
+  ],
+  "vertical": {
+    "primary": "generic",
+    "also": [],
+    "multilingual": false,
+    "source": "inferred",
+    "signals": {
+      "platform_hints": [],
+      "template_types": [
+        "MedicalBusiness"
+      ],
+      "hreflang_pages": 0
+    }
+  }
+}
