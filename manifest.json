@@ -9,13 +9,13 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "img/logo-sin-fondo-uci.webp",
+      "src": "img/logo-unidad-veterinaria.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "img/logo%20sin%20fondo%20uci%20.png",
+      "src": "img/logo-unidad-veterinaria.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -29,21 +29,21 @@
       "short_name": "Cita",
       "description": "Agendar consulta veterinaria por WhatsApp",
       "url": "https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta",
-      "icons": [{ "src": "img/logo-sin-fondo-uci.webp", "sizes": "192x192" }]
+      "icons": [{ "src": "img/logo-unidad-veterinaria.webp", "sizes": "192x192" }]
     },
     {
       "name": "Ubicación",
       "short_name": "Mapa",
       "description": "Ver ubicación de la clínica en Google Maps",
-      "url": "/contacto-y-ubicacion.html",
-      "icons": [{ "src": "img/logo-sin-fondo-uci.webp", "sizes": "192x192" }]
+      "url": "/contacto-y-ubicacion",
+      "icons": [{ "src": "img/logo-unidad-veterinaria.webp", "sizes": "192x192" }]
     },
     {
       "name": "Especialidades",
       "short_name": "Servicios",
       "description": "Ver todas las especialidades veterinarias disponibles",
       "url": "/#especialidades",
-      "icons": [{ "src": "img/logo-sin-fondo-uci.webp", "sizes": "192x192" }]
+      "icons": [{ "src": "img/logo-unidad-veterinaria.webp", "sizes": "192x192" }]
     }
   ]
 }

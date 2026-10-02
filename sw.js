@@ -24,7 +24,7 @@ const STATIC_ASSETS = [
   '/js/ui-components.js',
   '/js/tailwind-config.js',
   '/css/custom.css',
-  '/img/logo-sin-fondo-uci.webp',
+  '/img/logo-unidad-veterinaria.webp',
   '/img/fondo-del-hero.webp',
   '/manifest.json'
 ];
