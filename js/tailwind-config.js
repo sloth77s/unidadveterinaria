@@ -15,7 +15,7 @@ window.tailwindConfig = {
           goldLight: '#F3D275',
           slateBg: '#071F48',
           darkSlate: '#0F172A',
-          mutedSlate: '#94A3B8',
+          mutedSlate: '#CBD5E1',
           whatsapp: '#25D366'
         }
       },

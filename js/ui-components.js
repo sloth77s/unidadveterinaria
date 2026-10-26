@@ -11,6 +11,7 @@
     if (mobileMenuBtn && mobileMenu) {
       mobileMenuBtn.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
+        mobileMenuBtn.setAttribute('aria-expanded', mobileMenu.classList.contains('hidden') ? 'false' : 'true');
       });
     }
 
@@ -24,6 +25,7 @@
         if (mobileSpecArrow) {
           mobileSpecArrow.classList.toggle('rotate-180');
         }
+        mobileSpecBtn.setAttribute('aria-expanded', mobileSpecList.classList.contains('hidden') ? 'false' : 'true');
       });
     }
   }

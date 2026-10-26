@@ -21,10 +21,6 @@
 /servicios/oncologia-veterinaria.html /servicios/oncologia-veterinaria 301
 /servicios/ortopedia-veterinaria.html /servicios/ortopedia-veterinaria 301
 /servicios/radiologia-veterinaria.html /servicios/radiologia-veterinaria 301
-/servicios/dermatologia-veterinaria.html /servicios/dermatologia-veterinaria 301
-
-# Root
-/index.html / 301
 
 # SPA fallback (if needed) - only for paths that don't match
 # Remove the problematic catch-all that might cause loops

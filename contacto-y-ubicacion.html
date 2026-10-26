@@ -82,8 +82,6 @@
 
   </script>
 
-  <script src="js/tailwind-config.js"></script>
-
   <script src="https://cdn.tailwindcss.com"></script>
 
   <script src="js/tailwind-config.js"></script>
@@ -186,7 +184,7 @@
 
           </a>
 
-          <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg text-white hover:text-brand-gold focus:outline-none">
+          <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg text-white hover:text-brand-gold focus:outline-none" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
 
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
 
@@ -545,7 +543,7 @@
       </div>
 
 
-      <div class="pt-6 border-t border-brand-royalBlue text-center text-xs text-slate-400">
+      <div class="pt-6 border-t border-brand-royalBlue text-center text-xs text-slate-300">
 
         <p>&copy; 2026 Unidad Veterinaria David Aguilar. Todos los derechos reservados. Villavicencio, Meta, Colombia.</p>
 
@@ -557,9 +555,9 @@
 
 
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 
-  <script src="js/ui-components.js"></script>
+  <script src="js/ui-components.js" defer></script>
 
 </body>
 

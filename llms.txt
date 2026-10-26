@@ -1,4 +1,4 @@
-# Unidad Veterinaria David Aguilar
+﻿# Unidad Veterinaria David Aguilar
 > Clínica veterinaria de especialidades en Villavicencio, Meta. Atención médica de alta complejidad y cuidados intensivos para mascotas. Consulta externa por especialidad exclusivamente con cita previa.
 
 ## Información de Contacto
@@ -8,25 +8,25 @@
 - **Horarios:** Lunes a Sábado: 8:00 AM - 12:00 PM / 2:00 PM - 6:00 PM | Domingo: Cerrado
 
 ## Especialidades Médicas
-- [Citopatología Veterinaria](/servicios/citopatologia-veterinaria) - Análisis celular microscópico inmediato para detección de tumores e infecciones
-- [Cardiología Veterinaria](/servicios/cardiologia-veterinaria) - Evaluación cardiovascular, ecocardiografía doppler y manejo de arritmias
-- [Nefrología Veterinaria](/servicios/nefrologia-veterinaria) - Tratamiento de enfermedad renal aguda y crónica y salud de vías urinarias
-- [Gastroenterología Veterinaria](/servicios/gastroenterologia-veterinaria) - Diagnóstico de patologías digestivas, hepatológicas y pancreáticas
-- [Neurología Veterinaria](/servicios/neurologia-veterinaria) - Manejo de epilepsia, hernias discales y trastornos neuromusculares
-- [Medicina Interna Veterinaria](/servicios/medicina-interna-veterinaria) - Abordaje de enfermedades sistémicas, endocrinopatías y patologías complejas
-- [Nutrición Clínica Veterinaria](/servicios/nutricion-veterinaria) - Formulación de dietas médicas prescriptivas para pacientes con condiciones especiales
-- [Ortopedia y Traumatología](/servicios/ortopedia-veterinaria) - Evaluación quirúrgica y ortopédica de fracturas y ligamentos
-- [Oncología Veterinaria](/servicios/oncologia-veterinaria) - Tratamiento médico del cáncer en animales y quimioterapia personalizada
-- [Radiología y Diagnóstico](/servicios/radiologia-veterinaria) - Estudios radiográficos digitales y ultrasonografía de precisión
-- [Dermatología Veterinaria](/servicios/dermatologia-veterinaria) - Diagnóstico de alergias atópicas, otitis crónica y enfermedades de la piel
+- [Citopatología Veterinaria](https://unidadveterinaria.pages.dev/servicios/citopatologia-veterinaria) - Análisis celular microscópico inmediato para detección de tumores e infecciones
+- [Cardiología Veterinaria](https://unidadveterinaria.pages.dev/servicios/cardiologia-veterinaria) - Evaluación cardiovascular, ecocardiografía doppler y manejo de arritmias
+- [Nefrología Veterinaria](https://unidadveterinaria.pages.dev/servicios/nefrologia-veterinaria) - Tratamiento de enfermedad renal aguda y crónica y salud de vías urinarias
+- [Gastroenterología Veterinaria](https://unidadveterinaria.pages.dev/servicios/gastroenterologia-veterinaria) - Diagnóstico de patologías digestivas, hepatológicas y pancreáticas
+- [Neurología Veterinaria](https://unidadveterinaria.pages.dev/servicios/neurologia-veterinaria) - Manejo de epilepsia, hernias discales y trastornos neuromusculares
+- [Medicina Interna Veterinaria](https://unidadveterinaria.pages.dev/servicios/medicina-interna-veterinaria) - Abordaje de enfermedades sistémicas, endocrinopatías y patologías complejas
+- [Nutrición Clínica Veterinaria](https://unidadveterinaria.pages.dev/servicios/nutricion-veterinaria) - Formulación de dietas médicas prescriptivas para pacientes con condiciones especiales
+- [Ortopedia y Traumatología](https://unidadveterinaria.pages.dev/servicios/ortopedia-veterinaria) - Evaluación quirúrgica y ortopédica de fracturas y ligamentos
+- [Oncología Veterinaria](https://unidadveterinaria.pages.dev/servicios/oncologia-veterinaria) - Tratamiento médico del cáncer en animales y quimioterapia personalizada
+- [Radiología y Diagnóstico](https://unidadveterinaria.pages.dev/servicios/radiologia-veterinaria) - Estudios radiográficos digitales y ultrasonografía de precisión
+- [Dermatología Veterinaria](https://unidadveterinaria.pages.dev/servicios/dermatologia-veterinaria) - Diagnóstico de alergias atópicas, otitis crónica y enfermedades de la piel
 
 ## Páginas Principales
-- [Inicio](/)
-- [Contacto y Ubicación](/contacto-y-ubicacion)
-- [Preguntas Frecuentes](/preguntas-frecuentes)
-- [Aviso Legal](/aviso-legal)
-- [Política de Privacidad](/politica-de-privacidad)
-- [Política de Cookies](/politica-de-cookies)
+- [Inicio](https://unidadveterinaria.pages.dev/)
+- [Contacto y Ubicación](https://unidadveterinaria.pages.dev/contacto-y-ubicacion)
+- [Preguntas Frecuentes](https://unidadveterinaria.pages.dev/preguntas-frecuentes)
+- [Aviso Legal](https://unidadveterinaria.pages.dev/aviso-legal)
+- [Política de Privacidad](https://unidadveterinaria.pages.dev/politica-de-privacidad)
+- [Política de Cookies](https://unidadveterinaria.pages.dev/politica-de-cookies)
 
 ## Agendar Cita
 [Agendar por WhatsApp](https://wa.me/573219930949?text=Hola,%20quisiera%20agendar%20una%20consulta)
