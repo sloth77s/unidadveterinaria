@@ -246,17 +246,18 @@
   <link rel="manifest" href="/manifest.json">
 
   <style>
-  .google-reviews-badge{display:inline-flex;align-items:center;gap:16px;background:#ffffff;border-radius:14px;padding:14px 24px;box-shadow:0 6px 20px rgba(0,0,0,.28)}
+  .google-reviews-badge{display:inline-flex;align-items:center;gap:16px;background:#0D3880;border-radius:14px;padding:14px 24px;box-shadow:0 6px 20px rgba(0,0,0,.28)}
   .google-logo-area{display:flex;flex-direction:column;align-items:center;line-height:1}
-  .google-title{font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:700;letter-spacing:-1px}
+  .google-title{font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:700;letter-spacing:-1px;white-space:nowrap}
   .google-title span{display:inline-block}
-  .g-blue{color:#4285F4}.g-red{color:#EA4335}.g-yellow{color:#FBBC05}.g-green{color:#34A853}
-  .reviews-sub{margin-top:4px;font-size:11px;font-weight:600;letter-spacing:.5px;color:#5f6368}
+  .g-blue{color:#8AB4F8}.g-red{color:#EA4335}.g-yellow{color:#FBBC05}.g-green{color:#34A853}
+  .reviews-sub{margin-top:4px;font-size:11px;font-weight:600;letter-spacing:.5px;color:#CBD5E1}
   .stars{color:#FBBC05;font-size:20px;letter-spacing:2px}
-  .score-number{font-size:24px;font-weight:700;color:#202124}
-  .reviews-count{display:flex;flex-direction:column;line-height:1.15;border-left:1px solid #e0e0e0;padding-left:16px}
-  .reviews-count .count-number{font-size:18px;font-weight:700;color:#202124}
-  .reviews-count .count-label{font-size:11px;color:#5f6368}
+  .score-number{font-size:24px;font-weight:700;color:#ffffff}
+  .reviews-count{display:flex;flex-direction:column;line-height:1.15;border-left:1px solid rgba(255,255,255,.25);padding-left:16px}
+  .reviews-count .count-number{font-size:18px;font-weight:700;color:#ffffff}
+  .reviews-count .count-label{font-size:11px;color:#CBD5E1}
+  @media (max-width:480px){.google-reviews-badge{gap:12px;padding:12px 18px}.google-title{font-size:20px}.score-number{font-size:20px}.reviews-count{padding-left:12px}.reviews-count .count-number{font-size:16px}}
   </style>
 
 </head>
