@@ -245,6 +245,20 @@
   <script src="js/tailwind-config.js"></script>
   <link rel="manifest" href="/manifest.json">
 
+  <style>
+  .google-reviews-badge{display:inline-flex;align-items:center;gap:16px;background:#ffffff;border-radius:14px;padding:14px 24px;box-shadow:0 6px 20px rgba(0,0,0,.28)}
+  .google-logo-area{display:flex;flex-direction:column;align-items:center;line-height:1}
+  .google-title{font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:700;letter-spacing:-1px}
+  .google-title span{display:inline-block}
+  .g-blue{color:#4285F4}.g-red{color:#EA4335}.g-yellow{color:#FBBC05}.g-green{color:#34A853}
+  .reviews-sub{margin-top:4px;font-size:11px;font-weight:600;letter-spacing:.5px;color:#5f6368}
+  .stars{color:#FBBC05;font-size:20px;letter-spacing:2px}
+  .score-number{font-size:24px;font-weight:700;color:#202124}
+  .reviews-count{display:flex;flex-direction:column;line-height:1.15;border-left:1px solid #e0e0e0;padding-left:16px}
+  .reviews-count .count-number{font-size:18px;font-weight:700;color:#202124}
+  .reviews-count .count-label{font-size:11px;color:#5f6368}
+  </style>
+
 </head>
 
 <body class="bg-brand-deepNavy text-white font-sans antialiased selection:bg-brand-gold selection:text-white flex flex-col min-h-screen">
@@ -557,6 +571,21 @@
         </div>
 
 
+
+        <div class="flex justify-center mb-10">
+          <div class="google-reviews-badge">
+            <div class="google-logo-area">
+              <div class="google-title"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></div>
+              <div class="reviews-sub">Reviews</div>
+            </div>
+            <div class="stars">★★★★★</div>
+            <div class="score-number">4,8</div>
+            <div class="reviews-count">
+              <span class="count-number">+57</span>
+              <span class="count-label">Reseñas</span>
+            </div>
+          </div>
+        </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-5">
 
