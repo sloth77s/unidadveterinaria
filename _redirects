@@ -1,7 +1,9 @@
-# Cloudflare Pages _redirects for clean URLs
-# This file handles clean URL routing for static HTML files
+# 1. REDIRECCIÓN DEL DOMINIO ANTIGUO AL OFICIAL
+https://unidadveterinaria.pages.dev/* https://unidadveterinaria.com.co/:splat 301!
 
-# Root pages
+# 2. REDIRECCIÓN DE URLS .html A URLS LIMPIAS
+
+# PÁGINAS PRINCIPALES
 /index.html / 301
 /contacto-y-ubicacion.html /contacto-y-ubicacion 301
 /preguntas-frecuentes.html /preguntas-frecuentes 301
@@ -9,7 +11,7 @@
 /politica-de-privacidad.html /politica-de-privacidad 301
 /politica-de-cookies.html /politica-de-cookies 301
 
-# Servicios pages
+# 3. ESPECIALIDADES MÉDICAS
 /servicios/cardiologia-veterinaria.html /servicios/cardiologia-veterinaria 301
 /servicios/citopatologia-veterinaria.html /servicios/citopatologia-veterinaria 301
 /servicios/dermatologia-veterinaria.html /servicios/dermatologia-veterinaria 301
@@ -21,6 +23,3 @@
 /servicios/oncologia-veterinaria.html /servicios/oncologia-veterinaria 301
 /servicios/ortopedia-veterinaria.html /servicios/ortopedia-veterinaria 301
 /servicios/radiologia-veterinaria.html /servicios/radiologia-veterinaria 301
-
-# SPA fallback (if needed) - only for paths that don't match
-# Remove the problematic catch-all that might cause loops
