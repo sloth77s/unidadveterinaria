@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://unidadveterinaria.pages.dev/sitemap.xml
+Sitemap: https://unidadveterinaria.com.co/sitemap.xml
